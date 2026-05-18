@@ -1,0 +1,81 @@
+structure_id: L1_WM_CC_ISTHMUS
+names:
+  latin: Isthmus corporis callosi
+  english: Corpus callosum isthmus
+  abbreviations:
+    - CC isthmus
+level: 1
+macroanatomy:
+  category: white matter
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - ependymal or projection-associated support cells
+    inhibitory:
+      - periventricular or tract-associated interneuron interfaces
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical projection and commissural neurons
+  afferent_subcortical:
+    - thalamic and brainstem projection systems
+  afferent_modulatory:
+    - diffuse neuromodulatory fibers
+outputs:
+  efferent_cortical:
+    - homotopic and heterotopic cortical targets
+  efferent_subcortical:
+    - capsular, commissural, and projection pathways
+functions:
+  - claim: Corpus callosum isthmus supports auditory and posterior temporal commissural fibers.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.neuroimage.2006.05.044
+        year: 2006
+        journal: NeuroImage
+        title: Topography of the human corpus callosum revisited
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Corpus callosum isthmus is identifiable as a Level 1 macroanatomical landmark on structural MRI or
+    atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2006.05.044
+    year: 2006
+    journal: NeuroImage
+    title: Topography of the human corpus callosum revisited
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex

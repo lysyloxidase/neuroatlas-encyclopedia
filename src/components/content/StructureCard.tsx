@@ -22,6 +22,30 @@ export function StructureCard({ structure }: { structure: Structure }) {
         </ul>
       </section>
 
+      {structure.macroanatomy ? (
+        <section className="card" id="macroanatomy">
+          <div className="button-row">
+            <h3>Macroanatomy</h3>
+            {structure.macroanatomy.system_view_tier ? (
+              <TierBadge
+                tier={structure.macroanatomy.system_view_tier}
+                justification="Displayed as a toggleable system view rather than a strict lobe boundary."
+              />
+            ) : null}
+          </div>
+          <p className="muted">{structure.macroanatomy.category}</p>
+          {structure.macroanatomy.boundaries ? <p>{structure.macroanatomy.boundaries}</p> : null}
+          {structure.macroanatomy.subdivisions ? (
+            <ul className="pill-list">
+              {structure.macroanatomy.subdivisions.map((subdivision) => (
+                <li key={subdivision}>{subdivision}</li>
+              ))}
+            </ul>
+          ) : null}
+          {structure.macroanatomy.note ? <p className="muted">{structure.macroanatomy.note}</p> : null}
+        </section>
+      ) : null}
+
       <AtlasCrosswalk structure={structure} />
       <CytoarchitectureBox structure={structure} />
       <ConnectivityTable structure={structure} />
@@ -32,6 +56,7 @@ export function StructureCard({ structure }: { structure: Structure }) {
           {structure.functions.map((claim) => (
             <li key={claim.claim}>
               <div className="button-row">
+                {claim.claim.startsWith("NEW:") ? <span className="new-badge">NEW</span> : null}
                 <TierBadge tier={claim.tier} justification={claim.tier_justification} />
                 <strong>{claim.claim}</strong>
               </div>

@@ -1,0 +1,109 @@
+structure_id: L1_LOBE_LIMBIC
+names:
+  latin: Grand lobe limbique
+  english: Limbic lobe
+  abbreviations:
+    - limbic system view
+level: 1
+macroanatomy:
+  category: lobe
+  boundaries: Medial cortical ring including cingulate, parahippocampal, and subcallosal territories.
+  subdivisions:
+    - cingulate gyrus
+    - parahippocampal gyrus
+    - subcallosal area
+  note: Broca's limbic lobe is shown as a toggleable system view. LeDoux argues against treating the limbic
+    system as a unitary emotion center.
+  color: "#eab308"
+  system_view_tier: 2
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: The limbic lobe is a useful system-level view for memory, autonomic, and affective circuits, but not a
+      strict emotion-center lobe.
+    tier: 2
+    tier_justification: The anatomy is historically useful, while modern circuit evidence rejects a single limbic emotion center.
+    citations:
+      - doi: 10.1016/j.neuron.2012.02.004
+        year: 2012
+        journal: Neuron
+        title: Rethinking the emotional brain
+    contradicting:
+      - doi: 10.1016/j.neuron.2012.02.004
+        year: 2012
+        journal: Neuron
+        title: Rethinking the emotional brain
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Limbic lobe is identifiable as a Level 1 macroanatomical landmark on structural MRI or atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.neuron.2012.02.004
+    year: 2012
+    journal: Neuron
+    title: Rethinking the emotional brain
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - doi: 10.1152/jn.00338.2011
+    year: 2011
+    journal: Journal of Neurophysiology
+    title: The organization of the human cerebral cortex estimated by intrinsic functional connectivity

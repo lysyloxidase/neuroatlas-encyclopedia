@@ -1,0 +1,120 @@
+structure_id: L1_LOBE_INSULAR
+names:
+  latin: Lobus insularis
+  english: Insular cortex
+  abbreviations:
+    - insula
+    - insula of Reil
+level: 1
+macroanatomy:
+  category: lobe
+  boundaries: Buried within the lateral sulcus beneath frontal, parietal, and temporal opercula.
+  subdivisions:
+    - anterior short gyri
+    - posterior long gyri
+  color: "#14b8a6"
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: Interoception, salience processing, taste, autonomic control, and pain affect are robust insular
+      functions.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.neuron.2007.05.011
+        year: 2007
+        journal: Neuron
+        title: Dissociable intrinsic connectivity networks for salience processing and executive control
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders:
+  - disorder: frontotemporal dementia salience-network dysfunction
+    association: Anterior insula and cingulate vulnerability is prominent in salience-network degeneration.
+    effect_size: 0.45
+    tier: 1
+    citations:
+      - doi: 10.1016/j.neuron.2007.05.011
+        year: 2007
+        journal: Neuron
+        title: Dissociable intrinsic connectivity networks for salience processing and executive control
+  - disorder: addiction
+    association: Insular injury and activity can alter craving and addictive behavior.
+    effect_size: 0.45
+    tier: 1
+    citations:
+      - doi: 10.1016/j.neuron.2007.05.011
+        year: 2007
+        journal: Neuron
+        title: Dissociable intrinsic connectivity networks for salience processing and executive control
+imaging:
+  t1_signal: Insular cortex is identifiable as a Level 1 macroanatomical landmark on structural MRI or atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.neuron.2007.05.011
+    year: 2007
+    journal: Neuron
+    title: Dissociable intrinsic connectivity networks for salience processing and executive control
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - doi: 10.1152/jn.00338.2011
+    year: 2011
+    journal: Journal of Neurophysiology
+    title: The organization of the human cerebral cortex estimated by intrinsic functional connectivity

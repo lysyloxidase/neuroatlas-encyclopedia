@@ -46,6 +46,15 @@ export interface Structure {
     abbreviations: string[];
   };
   level: 1 | 2 | 3;
+  macroanatomy?: {
+    category: string;
+    boundaries?: string;
+    subdivisions?: string[];
+    phase2_tags?: string[];
+    note?: string;
+    color?: string;
+    system_view_tier?: Tier;
+  };
   atlas_links: {
     hcp_mmp1?: string;
     julich_brain?: string;

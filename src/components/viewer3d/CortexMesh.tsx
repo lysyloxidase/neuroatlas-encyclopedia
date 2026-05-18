@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import type { Group } from "three";
 
-export function CortexMesh({ highlight = "#06b6d4" }: { highlight?: string }) {
+export function CortexMesh({ highlight = "#06b6d4", visible = true }: { highlight?: string; visible?: boolean }) {
   const ref = useRef<Group>(null);
 
   useFrame((_, delta) => {
@@ -12,6 +12,8 @@ export function CortexMesh({ highlight = "#06b6d4" }: { highlight?: string }) {
       ref.current.rotation.y += delta * 0.18;
     }
   });
+
+  if (!visible) return null;
 
   return (
     <group ref={ref} scale={[1.55, 1.08, 1.2]} data-testid="cortex-mesh">

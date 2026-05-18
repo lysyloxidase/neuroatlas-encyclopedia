@@ -17,4 +17,14 @@ describe("AtlasCrosswalk", () => {
     expect(screen.getAllByText(/BA44/)[0]).toBeInTheDocument();
     expect(screen.getAllByText("Area 44")[0]).toBeInTheDocument();
   });
+
+  it("maps the precentral gyrus to BA4 and HCP-MMP1 area 4", () => {
+    const structure = structures.find((item) => item.structure_id === "L1_GYRUS_PRECENTRAL");
+    expect(structure).toBeDefined();
+
+    render(<AtlasCrosswalk structure={structure!} />);
+
+    expect(screen.getAllByText(/BA4/)[0]).toBeInTheDocument();
+    expect(screen.getAllByText(/HCP-MMP1 4/)[0]).toBeInTheDocument();
+  });
 });

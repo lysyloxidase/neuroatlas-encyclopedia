@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "generate:level1": "node scripts/generate-level1.mjs",
+    "verify:dois": "node scripts/verify-dois.mjs",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest"

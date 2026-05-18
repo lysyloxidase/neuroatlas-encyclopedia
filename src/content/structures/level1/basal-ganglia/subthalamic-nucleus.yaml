@@ -1,0 +1,102 @@
+structure_id: L1_BG_STN
+names:
+  latin: Nucleus subthalamicus
+  english: Subthalamic nucleus
+  abbreviations:
+    - STN
+level: 1
+macroanatomy:
+  category: basal ganglia
+  subdivisions:
+    - indirect pathway node
+    - hyperdirect cortical input node
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic neurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: The STN participates in indirect and hyperdirect pathways and is a strong-evidence DBS target for
+      Parkinson disease.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.cub.2024.09.070
+        year: 2024
+        journal: Current Biology
+        title: Striosome circuits in the primate striatum support a striosomal indirect pathway
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders:
+  - disorder: Parkinson disease
+    association: STN deep brain stimulation is an established treatment target for selected Parkinson disease patients.
+    effect_size: 0.45
+    tier: 1
+    citations:
+      - doi: 10.1016/j.cub.2024.09.070
+        year: 2024
+        journal: Current Biology
+        title: Striosome circuits in the primate striatum support a striosomal indirect pathway
+imaging:
+  t1_signal: Subthalamic nucleus is identifiable as a Level 1 macroanatomical landmark on structural MRI or
+    atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.cub.2024.09.070
+    year: 2024
+    journal: Current Biology
+    title: Striosome circuits in the primate striatum support a striosomal indirect pathway
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1016/j.cell.2020.04.007
+    year: 2020
+    journal: Cell
+    title: The Allen Mouse Brain Common Coordinate Framework

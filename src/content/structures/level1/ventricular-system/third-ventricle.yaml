@@ -1,0 +1,80 @@
+structure_id: L1_VENT_THIRD
+names:
+  latin: Ventriculus tertius
+  english: Third ventricle
+  abbreviations:
+    - 3V
+level: 1
+macroanatomy:
+  category: ventricle
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - ependymal or projection-associated support cells
+    inhibitory:
+      - periventricular or tract-associated interneuron interfaces
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical: []
+  afferent_subcortical:
+    - choroid plexus
+    - ependymal lining
+  afferent_modulatory:
+    - autonomic and vascular regulation
+outputs:
+  efferent_cortical: []
+  efferent_subcortical:
+    - CSF pathways
+    - subarachnoid space
+functions:
+  - claim: Third ventricle supports midline diencephalic CSF cavity.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1152/physrev.00004.2013
+        year: 2013
+        journal: Physiological Reviews
+        title: Cerebrospinal fluid secretion by the choroid plexus
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Third ventricle is rendered as part of the cyan ventricular-system volume in the 3D viewer scaffold.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1152/physrev.00004.2013
+    year: 2013
+    journal: Physiological Reviews
+    title: Cerebrospinal fluid secretion by the choroid plexus
+  - doi: 10.1016/j.cell.2011.01.023
+    year: 2011
+    journal: Cell
+    title: The cerebrospinal fluid provides a proliferative niche for neural progenitor cells
+  - doi: 10.1126/scitranslmed.3003748
+    year: 2012
+    journal: Science Translational Medicine
+    title: A paravascular pathway facilitates CSF flow through the brain parenchyma

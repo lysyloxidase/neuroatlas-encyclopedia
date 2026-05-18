@@ -1,0 +1,99 @@
+structure_id: L1_GYRUS_INFERIOR_PARIETAL
+names:
+  latin: Lobulus parietalis inferior
+  english: Inferior parietal lobule
+  abbreviations:
+    - IPL
+    - BA39/40
+level: 1
+macroanatomy:
+  category: gyrus
+atlas_links:
+  brodmann: 40
+  dk: inferior parietal
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: Inferior parietal lobule supports multimodal association, praxis, and attention.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+        title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Inferior parietal lobule is identifiable as a Level 1 macroanatomical landmark on structural MRI or
+    atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"

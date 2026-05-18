@@ -45,6 +45,17 @@ export const structureSchema = z.object({
     abbreviations: z.array(z.string()),
   }),
   level: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+  macroanatomy: z
+    .object({
+      category: z.string(),
+      boundaries: z.string().optional(),
+      subdivisions: z.array(z.string()).optional(),
+      phase2_tags: z.array(z.string()).optional(),
+      note: z.string().optional(),
+      color: z.string().optional(),
+      system_view_tier: tierSchema.optional(),
+    })
+    .optional(),
   atlas_links: z.object({
     hcp_mmp1: z.string().optional(),
     julich_brain: z.string().optional(),

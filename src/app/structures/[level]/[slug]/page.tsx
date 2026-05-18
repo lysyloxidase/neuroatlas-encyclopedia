@@ -20,6 +20,7 @@ export default async function StructurePage({ params }: { params: Promise<{ leve
       <StructureCard structure={structure} />
       <TOC
         items={[
+          { href: "#macroanatomy", label: "Macroanatomy" },
           { href: "#atlas-crosswalk", label: "Atlas crosswalk" },
           { href: "#cytoarchitecture", label: "Cytoarchitecture" },
           { href: "#connectivity", label: "Connectivity" },

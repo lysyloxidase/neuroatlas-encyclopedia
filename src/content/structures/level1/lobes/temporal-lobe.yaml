@@ -1,0 +1,126 @@
+structure_id: L1_LOBE_TEMPORAL
+names:
+  latin: Lobus temporalis
+  english: Temporal lobe
+  abbreviations:
+    - TL
+level: 1
+macroanatomy:
+  category: lobe
+  boundaries: Inferior to the lateral sulcus and extending from the temporal pole to posterior temporal
+    association cortex.
+  subdivisions:
+    - superior temporal gyrus
+    - middle temporal gyrus
+    - inferior temporal gyrus
+    - fusiform gyrus
+    - parahippocampal gyrus
+    - hippocampus
+    - amygdala
+    - entorhinal cortex
+  color: "#f97316"
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: Audition, left language comprehension, declarative memory, object recognition, and face processing are
+      robust temporal lobe functions.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+        title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders:
+  - disorder: Wernicke aphasia
+    association: Left posterior superior temporal injury can impair language comprehension.
+    effect_size: 0.45
+    tier: 1
+    citations:
+      - doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+        title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - disorder: temporal lobe epilepsy
+    association: Medial and lateral temporal structures are common seizure-network nodes.
+    effect_size: 0.45
+    tier: 1
+    citations:
+      - doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+        title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+imaging:
+  t1_signal: Temporal lobe is identifiable as a Level 1 macroanatomical landmark on structural MRI or atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"

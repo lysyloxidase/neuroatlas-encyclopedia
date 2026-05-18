@@ -1,0 +1,96 @@
+structure_id: L1_SULCUS_PARIETO_OCCIPITAL
+names:
+  latin: Sulcus parietooccipitalis
+  english: Parieto-occipital sulcus
+  abbreviations:
+    - POS
+level: 1
+macroanatomy:
+  category: sulcus
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Cortical infolding landmark with adjacent banks carrying region-specific laminar patterns.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: Parieto-occipital sulcus supports Medial boundary between parietal and occipital lobes..
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.neuroimage.2010.06.010
+        year: 2010
+        journal: NeuroImage
+        title: Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Parieto-occipital sulcus is identifiable as a Level 1 macroanatomical landmark on structural MRI or
+    atlas surfaces.
+  fmri_tasks:
+    - anatomical landmarking
+    - surface registration
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2010.06.010
+    year: 2010
+    journal: NeuroImage
+    title: Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex

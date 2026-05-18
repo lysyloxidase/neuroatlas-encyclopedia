@@ -1,0 +1,89 @@
+structure_id: L1_CEREBELLUM_ANTERIOR_LOBE
+names:
+  latin: Lobus anterior cerebelli
+  english: Anterior cerebellar lobe
+  abbreviations:
+    - lobules I-V
+level: 1
+macroanatomy:
+  category: cerebellum
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic neurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: Anterior cerebellar lobe supports vermis I-V, paravermis, and hemispheric motor cerebellar territories.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1093/brain/awx317
+        year: 2018
+        journal: Brain
+        title: The cerebellar cognitive affective/Schmahmann syndrome scale
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Anterior cerebellar lobe is identifiable as a Level 1 macroanatomical landmark on structural MRI or
+    atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1093/brain/awx317
+    year: 2018
+    journal: Brain
+    title: The cerebellar cognitive affective/Schmahmann syndrome scale
+  - doi: 10.1007/s12311-023-01651-0
+    year: 2023
+    journal: The Cerebellum
+    title: Cerebellar cognitive affective syndrome
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"

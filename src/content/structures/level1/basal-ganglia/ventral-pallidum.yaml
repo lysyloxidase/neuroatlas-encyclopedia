@@ -1,0 +1,90 @@
+structure_id: L1_BG_VENTRAL_PALLIDUM
+names:
+  latin: Pallidum ventrale
+  english: Ventral pallidum
+  abbreviations:
+    - VP
+level: 1
+macroanatomy:
+  category: basal ganglia
+  subdivisions:
+    - limbic pallidal output of nucleus accumbens
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Macroanatomical entry; cellular details resolve in Level 2 and Level 3 pages.
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic neurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - association cortex
+    - primary and secondary cortical fields
+  afferent_subcortical:
+    - thalamus
+    - basal ganglia and cerebellar loops
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local cortical and association networks
+  efferent_subcortical:
+    - thalamus
+    - basal ganglia
+    - brainstem
+    - cerebellum
+functions:
+  - claim: Ventral pallidum is a limbic basal-ganglia output structure downstream of nucleus accumbens.
+    tier: 1
+    tier_justification: Robust clinical lesion, stimulation, atlas, and systems-neuroscience evidence converge at
+      the macroanatomical level.
+    citations:
+      - doi: 10.1016/j.cub.2024.09.070
+        year: 2024
+        journal: Current Biology
+        title: Striosome circuits in the primate striatum support a striosomal indirect pathway
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Ventral pallidum is identifiable as a Level 1 macroanatomical landmark on structural MRI or atlas surfaces.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1016/j.cub.2024.09.070
+    year: 2024
+    journal: Current Biology
+    title: Striosome circuits in the primate striatum support a striosomal indirect pathway
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1016/j.cell.2020.04.007
+    year: 2020
+    journal: Cell
+    title: The Allen Mouse Brain Common Coordinate Framework
