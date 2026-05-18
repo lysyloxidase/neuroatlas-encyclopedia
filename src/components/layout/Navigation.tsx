@@ -8,6 +8,7 @@ const links = [
   ["Cellular", "/cellular"],
   ["Networks", "/networks"],
   ["NeuroNT", "/neuromodulators"],
+  ["Disorders", "/disorders"],
   ["Micro", "/microanatomy"],
   ["Cerebellum", "/cerebellum"],
   ["Connectome", "/connectome"],

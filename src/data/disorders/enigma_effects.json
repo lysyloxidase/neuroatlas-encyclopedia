@@ -1,0 +1,164 @@
+[
+  {
+    "disorder": "alzheimers-disease",
+    "region_id": "entorhinal",
+    "measure": "thickness",
+    "cohens_d": -0.62,
+    "n_cases": 900,
+    "n_controls": 1200,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "alzheimers-disease",
+    "region_id": "hippocampus",
+    "measure": "volume",
+    "cohens_d": -0.7,
+    "n_cases": 900,
+    "n_controls": 1200,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "schizophrenia",
+    "region_id": "hippocampus",
+    "measure": "volume",
+    "cohens_d": -0.22,
+    "n_cases": 2833,
+    "n_controls": 3929,
+    "citation": "10.1002/hbm.25625"
+  },
+  {
+    "disorder": "schizophrenia",
+    "region_id": "amygdala",
+    "measure": "volume",
+    "cohens_d": -0.18,
+    "n_cases": 2833,
+    "n_controls": 3929,
+    "citation": "10.1002/hbm.25625"
+  },
+  {
+    "disorder": "schizophrenia",
+    "region_id": "accumbens",
+    "measure": "volume",
+    "cohens_d": -0.16,
+    "n_cases": 2833,
+    "n_controls": 3929,
+    "citation": "10.1002/hbm.25625"
+  },
+  {
+    "disorder": "schizophrenia",
+    "region_id": "thalamus",
+    "measure": "volume",
+    "cohens_d": -0.19,
+    "n_cases": 2833,
+    "n_controls": 3929,
+    "citation": "10.1002/hbm.25625"
+  },
+  {
+    "disorder": "major-depressive-disorder",
+    "region_id": "orbitofrontal",
+    "measure": "thickness",
+    "cohens_d": -0.14,
+    "n_cases": 2148,
+    "n_controls": 7957,
+    "citation": "10.1038/mp.2016.60"
+  },
+  {
+    "disorder": "major-depressive-disorder",
+    "region_id": "anterior-cingulate",
+    "measure": "thickness",
+    "cohens_d": -0.12,
+    "n_cases": 2148,
+    "n_controls": 7957,
+    "citation": "10.1038/mp.2016.60"
+  },
+  {
+    "disorder": "major-depressive-disorder",
+    "region_id": "posterior-cingulate",
+    "measure": "thickness",
+    "cohens_d": -0.1,
+    "n_cases": 2148,
+    "n_controls": 7957,
+    "citation": "10.1038/mp.2016.60"
+  },
+  {
+    "disorder": "major-depressive-disorder",
+    "region_id": "insula",
+    "measure": "thickness",
+    "cohens_d": -0.13,
+    "n_cases": 2148,
+    "n_controls": 7957,
+    "citation": "10.1038/mp.2016.60"
+  },
+  {
+    "disorder": "major-depressive-disorder",
+    "region_id": "temporal",
+    "measure": "thickness",
+    "cohens_d": -0.11,
+    "n_cases": 2148,
+    "n_controls": 7957,
+    "citation": "10.1038/mp.2016.60"
+  },
+  {
+    "disorder": "bipolar-disorder",
+    "region_id": "frontal",
+    "measure": "thickness",
+    "cohens_d": -0.12,
+    "n_cases": 2447,
+    "n_controls": 4056,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "obsessive-compulsive-disorder",
+    "region_id": "ofc",
+    "measure": "thickness",
+    "cohens_d": -0.08,
+    "n_cases": 1905,
+    "n_controls": 1760,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "adhd",
+    "region_id": "accumbens",
+    "measure": "volume",
+    "cohens_d": -0.15,
+    "n_cases": 1713,
+    "n_controls": 1529,
+    "citation": "10.1016/S2215-0366(17)30049-4"
+  },
+  {
+    "disorder": "autism-spectrum",
+    "region_id": "temporal",
+    "measure": "thickness",
+    "cohens_d": -0.09,
+    "n_cases": 1500,
+    "n_controls": 1600,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "parkinsons-disease",
+    "region_id": "substantia-nigra",
+    "measure": "volume",
+    "cohens_d": -0.42,
+    "n_cases": 620,
+    "n_controls": 700,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "mesial-temporal-lobe-epilepsy",
+    "region_id": "hippocampus",
+    "measure": "volume",
+    "cohens_d": -0.85,
+    "n_cases": 1200,
+    "n_controls": 1400,
+    "citation": "10.1038/s41592-021-01186-4"
+  },
+  {
+    "disorder": "22q11-2-deletion-syndrome",
+    "region_id": "parietal",
+    "measure": "surface_area",
+    "cohens_d": -0.18,
+    "n_cases": 900,
+    "n_controls": 1000,
+    "citation": "10.1038/s41592-021-01186-4"
+  }
+]

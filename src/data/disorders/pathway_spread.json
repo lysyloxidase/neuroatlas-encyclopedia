@@ -1,0 +1,208 @@
+{
+  "ad_tau": [
+    [
+      "0",
+      "No cortical tau-PET/Braak signal",
+      []
+    ],
+    [
+      "I",
+      "Transentorhinal cortex",
+      [
+        "transentorhinal cortex"
+      ]
+    ],
+    [
+      "II",
+      "Entorhinal cortex + CA1 hippocampus",
+      [
+        "entorhinal cortex",
+        "CA1 hippocampus"
+      ]
+    ],
+    [
+      "III",
+      "Inferior temporal spread",
+      [
+        "inferior temporal cortex"
+      ]
+    ],
+    [
+      "IV",
+      "Association cortex engagement",
+      [
+        "association cortex"
+      ]
+    ],
+    [
+      "V",
+      "High association cortex burden",
+      [
+        "association cortex",
+        "precuneus",
+        "PCC"
+      ]
+    ],
+    [
+      "VI",
+      "Primary sensory cortex involvement",
+      [
+        "primary sensory cortex"
+      ]
+    ]
+  ],
+  "pd_lewy": [
+    [
+      "0",
+      "No Lewy pathology stage rendered",
+      []
+    ],
+    [
+      "I",
+      "Dorsal motor vagus and olfactory bulb",
+      [
+        "dorsal motor vagus",
+        "olfactory bulb"
+      ]
+    ],
+    [
+      "II",
+      "Lower brainstem and raphe spread",
+      [
+        "raphe",
+        "medulla"
+      ]
+    ],
+    [
+      "III",
+      "Substantia nigra pars compacta",
+      [
+        "SNc"
+      ]
+    ],
+    [
+      "IV",
+      "Mesocortex and limbic cortex",
+      [
+        "limbic cortex"
+      ]
+    ],
+    [
+      "V",
+      "Association neocortex",
+      [
+        "association cortex"
+      ]
+    ],
+    [
+      "VI",
+      "Primary neocortex",
+      [
+        "primary cortex"
+      ]
+    ]
+  ],
+  "hd_striatal": [
+    [
+      "0",
+      "Premanifest carrier risk",
+      []
+    ],
+    [
+      "I",
+      "Caudate head subtle atrophy",
+      [
+        "caudate"
+      ]
+    ],
+    [
+      "II",
+      "Indirect-pathway MSN loss and chorea",
+      [
+        "indirect-pathway MSNs"
+      ]
+    ],
+    [
+      "III",
+      "Putamen and broader striatum",
+      [
+        "putamen",
+        "caudate"
+      ]
+    ],
+    [
+      "IV",
+      "Direct-pathway involvement",
+      [
+        "direct-pathway MSNs"
+      ]
+    ],
+    [
+      "V",
+      "Cortical and white matter spread",
+      [
+        "cortex",
+        "white matter"
+      ]
+    ],
+    [
+      "VI",
+      "Advanced rigid-akinetic network state",
+      [
+        "basal ganglia",
+        "cortex"
+      ]
+    ]
+  ],
+  "als_motor": [
+    [
+      "0",
+      "No motor neuron spread rendered",
+      []
+    ],
+    [
+      "I",
+      "Corticospinal tract / motor cortex",
+      [
+        "M1",
+        "corticospinal tract"
+      ]
+    ],
+    [
+      "II",
+      "Brainstem motor nuclei",
+      [
+        "brainstem motor nuclei"
+      ]
+    ],
+    [
+      "III",
+      "Spinal anterior horn",
+      [
+        "anterior horn"
+      ]
+    ],
+    [
+      "IV",
+      "Frontotemporal network spread",
+      [
+        "frontal cortex",
+        "temporal cortex"
+      ]
+    ],
+    [
+      "V",
+      "Respiratory motor system",
+      [
+        "respiratory motor neurons"
+      ]
+    ],
+    [
+      "VI",
+      "Advanced multisystem motor involvement",
+      [
+        "motor system"
+      ]
+    ]
+  ]
+}

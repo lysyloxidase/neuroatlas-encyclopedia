@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import disorders from "@/data/disorders.json";
+import effects from "@/data/disorders/enigma_effects.json";
 
 export function DisorderToggle() {
   const [selected, setSelected] = useState(disorders[0]?.slug ?? "");
   const disorder = disorders.find((item) => item.slug === selected);
+  const nEffects = effects.filter((effect) => effect.disorder === selected).length;
 
   return (
     <section className="card">
@@ -17,7 +19,7 @@ export function DisorderToggle() {
           </option>
         ))}
       </select>
-      {disorder ? <p className="muted">{disorder.enigma_overlay}</p> : null}
+      {disorder ? <p className="muted">{disorder.enigma_overlay} · {nEffects} ENIGMA effect rows</p> : null}
     </section>
   );
 }

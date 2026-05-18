@@ -1,34 +1,837 @@
 [
   {
-    "slug": "alzheimers-disease",
-    "name": "Alzheimer's disease",
-    "enigma_overlay": "entorhinal-hippocampal atrophy",
+    "enigma_overlay": "Alzheimer's disease ENIGMA structural map",
     "tier": 1,
-    "affected_structures": ["Dentate gyrus", "entorhinal cortex", "posterior cingulate cortex"],
-    "summary": "Phase 1 stores a coarse ENIGMA-style overlay scaffold for hippocampal and association-cortex vulnerability.",
     "citations": [
       {
-        "doi": "10.1038/nature25975",
-        "year": 2018,
-        "journal": "Nature",
-        "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults"
+        "doi": "10.1038/s43587-022-00204-0",
+        "year": 2022,
+        "journal": "Nature Aging",
+        "title": "Biomarker modeling of Alzheimer's disease using PET-based Braak staging"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
       }
-    ]
+    ],
+    "structural_map_regions": [
+      "transentorhinal cortex",
+      "entorhinal cortex",
+      "CA1 hippocampus",
+      "inferior temporal cortex",
+      "association cortex",
+      "primary sensory cortex",
+      "locus coeruleus"
+    ],
+    "biomarkers": [
+      "Tau-PET MK-6240/flortaucipir",
+      "amyloid-PET florbetapir/florbetaben/flutemetamol",
+      "CSF Abeta42/40 ratio",
+      "CSF p-tau181 and p-tau217",
+      "plasma p-tau217",
+      "hippocampal volume MRI"
+    ],
+    "treatments": [
+      "AChE inhibitors targeting basal forebrain cholinergic deficit",
+      "memantine NMDA antagonist",
+      "lecanemab 2023 FDA traditional approval",
+      "donanemab 2024 FDA approval"
+    ],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "alzheimers-disease",
+    "name": "Alzheimer's disease",
+    "affected_structures": [
+      "transentorhinal cortex",
+      "entorhinal cortex",
+      "CA1 hippocampus",
+      "inferior temporal cortex",
+      "association cortex",
+      "primary sensory cortex",
+      "locus coeruleus"
+    ],
+    "summary": "Tau Braak staging, amyloid/tau biomarkers, DMN hyper-to-hypoconnectivity, hippocampal atrophy, and early locus coeruleus vulnerability.",
+    "braak_type": "ad_tau"
   },
   {
-    "slug": "schizophrenia",
-    "name": "Schizophrenia",
-    "enigma_overlay": "fronto-temporal and thalamic dysconnectivity",
-    "tier": 2,
-    "affected_structures": ["Thalamus", "prefrontal cortex", "superior temporal cortex"],
-    "summary": "Atlas-level associations are represented as tiered overlays pending full ENIGMA map ingestion.",
+    "enigma_overlay": "Parkinson's disease ENIGMA structural map",
+    "tier": 1,
     "citations": [
+      {
+        "doi": "10.1038/s41583-022-00669-3",
+        "year": 2023,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "Development, wiring and function of dopamine neuron subtypes"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "SNc A9 Sox6+Aldh1a1 dopamine neurons",
+      "dorsal motor vagus",
+      "olfactory bulb",
+      "STN",
+      "GPi",
+      "cortex"
+    ],
+    "biomarkers": [
+      "neuromelanin-sensitive MRI",
+      "DaT-SPECT ioflupane I-123",
+      "alpha-synuclein RT-QuIC in CSF and skin biopsy"
+    ],
+    "treatments": [
+      "L-DOPA plus carbidopa",
+      "dopamine agonists pramipexole/ropinirole",
+      "MAO-B inhibitors rasagiline/selegiline",
+      "DBS STN best evidence",
+      "DBS GPi"
+    ],
+    "dbs_targets": [
+      "STN",
+      "GPi"
+    ],
+    "mechanism_tier": 1,
+    "slug": "parkinsons-disease",
+    "name": "Parkinson's disease",
+    "affected_structures": [
+      "SNc A9 Sox6+Aldh1a1 dopamine neurons",
+      "dorsal motor vagus",
+      "olfactory bulb",
+      "STN",
+      "GPi",
+      "cortex"
+    ],
+    "summary": "Lewy pathology spread with SNc dopamine neuron loss, neuromelanin/DaT imaging biomarkers, and STN/GPi DBS treatment routes.",
+    "braak_type": "pd_lewy"
+  },
+  {
+    "enigma_overlay": "Huntington's disease ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1016/0092-8674(93)90585-E",
+        "year": 1993,
+        "journal": "Cell",
+        "title": "A novel gene containing a trinucleotide repeat that is expanded and unstable on Huntington's disease chromosomes"
+      }
+    ],
+    "structural_map_regions": [
+      "caudate",
+      "putamen",
+      "indirect-pathway MSNs",
+      "direct-pathway MSNs",
+      "lateral ventricles"
+    ],
+    "biomarkers": [
+      "caudate atrophy and bicaudate ratio",
+      "HTT CAG repeat expansion >=40 full penetrance",
+      "T2 signal change in caudate/putamen",
+      "boxcar ventricles"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "huntingtons-disease",
+    "name": "Huntington's disease",
+    "affected_structures": [
+      "caudate",
+      "putamen",
+      "indirect-pathway MSNs",
+      "direct-pathway MSNs",
+      "lateral ventricles"
+    ],
+    "summary": "Striatal degeneration beginning in caudate and indirect-pathway medium spiny neurons, followed by broader basal ganglia involvement.",
+    "braak_type": "hd_striatal"
+  },
+  {
+    "enigma_overlay": "Multiple sclerosis ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1016/S1474-4422(17)30470-2",
+        "year": 2018,
+        "journal": "Lancet Neurology",
+        "title": "Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria"
+      }
+    ],
+    "structural_map_regions": [
+      "periventricular white matter",
+      "juxtacortical white matter",
+      "infratentorial white matter",
+      "optic nerve",
+      "spinal cord"
+    ],
+    "biomarkers": [
+      "T2/FLAIR lesions",
+      "T1 black holes",
+      "OCT retinal nerve fiber layer thinning",
+      "CSF oligoclonal bands",
+      "plasma neurofilament light"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "multiple-sclerosis",
+    "name": "Multiple sclerosis",
+    "affected_structures": [
+      "periventricular white matter",
+      "juxtacortical white matter",
+      "infratentorial white matter",
+      "optic nerve",
+      "spinal cord"
+    ],
+    "summary": "Disseminated CNS demyelination mapped across periventricular, juxtacortical, infratentorial, optic nerve, and spinal cord territories."
+  },
+  {
+    "enigma_overlay": "Stroke territories ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1161/STR.0000000000000158",
+        "year": 2018,
+        "journal": "Stroke",
+        "title": "2018 Guidelines for the early management of patients with acute ischemic stroke"
+      }
+    ],
+    "structural_map_regions": [
+      "MCA lateral cortex",
+      "ACA medial cortex",
+      "PCA occipital and medial temporal cortex",
+      "vertebrobasilar brainstem/cerebellum",
+      "lacunar deep perforators",
+      "watershed borders"
+    ],
+    "biomarkers": [
+      "DWI/ADC hyperacute mismatch",
+      "CT perfusion core/penumbra",
+      "vascular-territory clinical syndrome"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "stroke-territories",
+    "name": "Stroke territories",
+    "affected_structures": [
+      "MCA lateral cortex",
+      "ACA medial cortex",
+      "PCA occipital and medial temporal cortex",
+      "vertebrobasilar brainstem/cerebellum",
+      "lacunar deep perforators",
+      "watershed borders"
+    ],
+    "summary": "Vascular-territory structural map for cortical, deep perforator, posterior circulation, and watershed syndromes.",
+    "map_type": "vascular"
+  },
+  {
+    "enigma_overlay": "Mesial temporal lobe epilepsy ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "hippocampus",
+      "CA1",
+      "CA4/hilus",
+      "dentate gyrus",
+      "CA2 preserved",
+      "focal cortical dysplasia"
+    ],
+    "biomarkers": [
+      "T2/FLAIR hippocampal atrophy and signal",
+      "FDG-PET interictal hypometabolism",
+      "MEG/EEG spike localization"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "mesial-temporal-lobe-epilepsy",
+    "name": "Mesial temporal lobe epilepsy",
+    "affected_structures": [
+      "hippocampus",
+      "CA1",
+      "CA4/hilus",
+      "dentate gyrus",
+      "CA2 preserved",
+      "focal cortical dysplasia"
+    ],
+    "summary": "Hippocampal sclerosis pattern with CA1+CA4+DG loss and relative CA2 preservation, plus temporal PET/EEG/MEG localization.",
+    "map_type": "hippocampal_sclerosis"
+  },
+  {
+    "enigma_overlay": "Schizophrenia ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1002/hbm.25625",
+        "year": 2022,
+        "journal": "Human Brain Mapping",
+        "title": "A meta-analysis of deep brain structural shape and asymmetry abnormalities in 2,833 individuals with schizophrenia compared with 3,929 healthy volunteers via the ENIGMA Consortium"
+      },
       {
         "doi": "10.1176/appi.ajp.2012.12010056",
         "year": 2012,
         "journal": "American Journal of Psychiatry",
         "title": "Thalamocortical dysconnectivity in schizophrenia"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
       }
-    ]
+    ],
+    "structural_map_regions": [
+      "dlPFC",
+      "striatum",
+      "mediodorsal thalamus",
+      "CA1/subiculum",
+      "hippocampus",
+      "amygdala",
+      "accumbens"
+    ],
+    "biomarkers": [
+      "subtle cortical thinning",
+      "ventricular enlargement",
+      "striatal D2 receptor occupancy PET",
+      "ENIGMA subcortical shape"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 2,
+    "slug": "schizophrenia",
+    "name": "Schizophrenia",
+    "affected_structures": [
+      "dlPFC",
+      "striatum",
+      "mediodorsal thalamus",
+      "CA1/subiculum",
+      "hippocampus",
+      "amygdala",
+      "accumbens"
+    ],
+    "summary": "Structural ENIGMA shape effects, thalamocortical dysconnectivity, hippocampal hyperactivity, and dopaminergic mechanism hypotheses."
+  },
+  {
+    "enigma_overlay": "Major depressive disorder ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/mp.2016.60",
+        "year": 2017,
+        "journal": "Molecular Psychiatry",
+        "title": "Cortical abnormalities in adults and adolescents with major depression based on brain scans from 20 cohorts worldwide"
+      },
+      {
+        "doi": "10.1016/j.neuron.2005.02.014",
+        "year": 2005,
+        "journal": "Neuron",
+        "title": "Deep brain stimulation for treatment-resistant depression"
+      },
+      {
+        "doi": "10.1038/s41586-023-06541-3",
+        "year": 2023,
+        "journal": "Nature",
+        "title": "Cingulate dynamics track depression recovery with deep brain stimulation"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "sgACC BA25",
+      "DMN",
+      "hippocampus",
+      "orbitofrontal cortex",
+      "ACC/PCC",
+      "insula",
+      "temporal cortex",
+      "lateral habenula"
+    ],
+    "biomarkers": [
+      "sgACC FDG-PET",
+      "hippocampal atrophy",
+      "resting fMRI DMN connectivity",
+      "ENIGMA cortical thinning Cohen's d -0.10 to -0.14"
+    ],
+    "treatments": [
+      "sgACC DBS for treatment-resistant depression is investigational/not FDA approved"
+    ],
+    "dbs_targets": [
+      "sgACC/SCC BA25",
+      "ALIC",
+      "MFB",
+      "VC/VS"
+    ],
+    "mechanism_tier": 1,
+    "slug": "major-depressive-disorder",
+    "name": "Major depressive disorder",
+    "affected_structures": [
+      "sgACC BA25",
+      "DMN",
+      "hippocampus",
+      "orbitofrontal cortex",
+      "ACC/PCC",
+      "insula",
+      "temporal cortex",
+      "lateral habenula"
+    ],
+    "summary": "ENIGMA cortical thinning, sgACC hyperactivity, hippocampal volume reduction, DMN hyperconnectivity, and DBS targets for treatment resistance."
+  },
+  {
+    "enigma_overlay": "Anxiety disorders + PTSD ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "BLA amygdala",
+      "anterior insula",
+      "vmPFC",
+      "hippocampus"
+    ],
+    "biomarkers": [
+      "amygdala reactivity",
+      "insula salience activation",
+      "vmPFC extinction signal",
+      "hippocampal volume"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "anxiety-ptsd",
+    "name": "Anxiety disorders + PTSD",
+    "affected_structures": [
+      "BLA amygdala",
+      "anterior insula",
+      "vmPFC",
+      "hippocampus"
+    ],
+    "summary": "Fear/salience circuit map emphasizing amygdala and insula hyperactivity, vmPFC extinction failure, and reduced hippocampal volume in PTSD."
+  },
+  {
+    "enigma_overlay": "Obsessive-compulsive disorder ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "OFC BA11",
+      "caudate head",
+      "ACC",
+      "mediodorsal thalamus",
+      "ALIC",
+      "NAcc",
+      "BNST",
+      "STN"
+    ],
+    "biomarkers": [
+      "CSTC loop hyperactivity",
+      "cortical and subcortical ENIGMA maps"
+    ],
+    "treatments": [],
+    "dbs_targets": [
+      "STN",
+      "ALIC",
+      "NAcc",
+      "BNST"
+    ],
+    "mechanism_tier": 1,
+    "slug": "obsessive-compulsive-disorder",
+    "name": "Obsessive-compulsive disorder",
+    "affected_structures": [
+      "OFC BA11",
+      "caudate head",
+      "ACC",
+      "mediodorsal thalamus",
+      "ALIC",
+      "NAcc",
+      "BNST",
+      "STN"
+    ],
+    "summary": "Cortico-striato-thalamo-cortical loop disorder with DBS targets in STN, ALIC, NAcc, and BNST."
+  },
+  {
+    "enigma_overlay": "Autism spectrum ENIGMA structural map",
+    "tier": 2,
+    "citations": [
+      {
+        "doi": "10.1038/s41467-019-08944-1",
+        "year": 2019,
+        "journal": "Nature Communications",
+        "title": "Atypical functional connectome hierarchy in autism"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "DMN hierarchy",
+      "long-range connectivity",
+      "local connectivity",
+      "cerebellar Crus I/II",
+      "cortical/subcortical ENIGMA maps"
+    ],
+    "biomarkers": [
+      "heterogeneous; no single biomarker",
+      "atypical functional connectome hierarchy"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 2,
+    "slug": "autism-spectrum",
+    "name": "Autism spectrum",
+    "affected_structures": [
+      "DMN hierarchy",
+      "long-range connectivity",
+      "local connectivity",
+      "cerebellar Crus I/II",
+      "cortical/subcortical ENIGMA maps"
+    ],
+    "summary": "Heterogeneous, contested connectivity and structural patterns including atypical DMN hierarchy and cerebellar Crus I/II findings."
+  },
+  {
+    "enigma_overlay": "ADHD ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1016/S2215-0366(17)30049-4",
+        "year": 2017,
+        "journal": "Lancet Psychiatry",
+        "title": "Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and adults"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "striatum",
+      "frontostriatal circuits",
+      "cerebellar vermis VIII-IX",
+      "cortical maturation maps"
+    ],
+    "biomarkers": [
+      "ENIGMA subcortical volume reductions",
+      "delayed cortical maturation",
+      "frontostriatal hypoactivity"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 2,
+    "slug": "adhd",
+    "name": "ADHD",
+    "affected_structures": [
+      "striatum",
+      "frontostriatal circuits",
+      "cerebellar vermis VIII-IX",
+      "cortical maturation maps"
+    ],
+    "summary": "Robust structural signal in subcortical volumes with debated mechanisms involving frontostriatal hypoactivity and delayed cortical maturation."
+  },
+  {
+    "enigma_overlay": "Tourette's syndrome ENIGMA structural map",
+    "tier": 2,
+    "citations": [
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "basal ganglia matrix/striosome compartments",
+      "frontostriatal circuit",
+      "SMA",
+      "CM thalamus",
+      "GPi"
+    ],
+    "biomarkers": [
+      "clinical tic phenomenology",
+      "frontostriatal circuit imaging"
+    ],
+    "treatments": [],
+    "dbs_targets": [
+      "CM thalamus",
+      "GPi"
+    ],
+    "mechanism_tier": 2,
+    "slug": "tourettes-syndrome",
+    "name": "Tourette's syndrome",
+    "affected_structures": [
+      "basal ganglia matrix/striosome compartments",
+      "frontostriatal circuit",
+      "SMA",
+      "CM thalamus",
+      "GPi"
+    ],
+    "summary": "Tic network map centered on basal ganglia/frontostriatal circuits and SMA, with off-label DBS targets in CM thalamus and GPi."
+  },
+  {
+    "enigma_overlay": "Aphasias ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "BA44/45",
+      "posterior BA22",
+      "arcuate fasciculus",
+      "large MCA territory",
+      "BA6 MCA-ACA watershed",
+      "MCA-PCA watershed",
+      "temporal lobe"
+    ],
+    "biomarkers": [
+      "lesion localization",
+      "language phenotype",
+      "arcuate tract integrity"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "aphasias",
+    "name": "Aphasias",
+    "affected_structures": [
+      "BA44/45",
+      "posterior BA22",
+      "arcuate fasciculus",
+      "large MCA territory",
+      "BA6 MCA-ACA watershed",
+      "MCA-PCA watershed",
+      "temporal lobe"
+    ],
+    "summary": "Language syndrome map spanning Broca, Wernicke, conduction, global, transcortical, and anomic aphasias.",
+    "map_type": "aphasia"
+  },
+  {
+    "enigma_overlay": "Cerebellar ataxia ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1093/brain/awx317",
+        "year": 2018,
+        "journal": "Brain",
+        "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+      },
+      {
+        "doi": "10.1007/s12311-023-01651-0",
+        "year": 2023,
+        "journal": "Cerebellum",
+        "title": "The Cerebellar Cognitive Affective/Schmahmann Syndrome Scale in spinocerebellar ataxias"
+      }
+    ],
+    "structural_map_regions": [
+      "dentate nucleus",
+      "vermis",
+      "Purkinje cell layer",
+      "cerebellar hemispheres"
+    ],
+    "biomarkers": [
+      "genetic testing",
+      "cerebellar atrophy on MRI",
+      "CCAS-S scale"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "cerebellar-ataxia",
+    "name": "Cerebellar ataxia",
+    "affected_structures": [
+      "dentate nucleus",
+      "vermis",
+      "Purkinje cell layer",
+      "cerebellar hemispheres"
+    ],
+    "summary": "Ataxia map for SCA1-48+, Friedreich's ataxia, and MSA-C, linked to cerebellar atrophy and CCAS-S assessment."
+  },
+  {
+    "enigma_overlay": "Locked-in syndrome ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1161/STR.0000000000000158",
+        "year": 2018,
+        "journal": "Stroke",
+        "title": "2018 Guidelines for the early management of patients with acute ischemic stroke"
+      }
+    ],
+    "structural_map_regions": [
+      "ventral pons",
+      "basilar artery territory",
+      "corticospinal tracts",
+      "corticobulbar tracts",
+      "tectum/RAS spared"
+    ],
+    "biomarkers": [
+      "pontine T2 hyperintensity",
+      "preserved vertical eye movements and blinking",
+      "consciousness preserved"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "locked-in-syndrome",
+    "name": "Locked-in syndrome",
+    "affected_structures": [
+      "ventral pons",
+      "basilar artery territory",
+      "corticospinal tracts",
+      "corticobulbar tracts",
+      "tectum/RAS spared"
+    ],
+    "summary": "Ventral pontine syndrome with preserved consciousness because tectum and ascending reticular activating system are spared."
+  },
+  {
+    "enigma_overlay": "Coma / disorders of consciousness ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "bilateral intralaminar thalamus",
+      "mesopontine tegmentum ARAS",
+      "bilateral hemispheres"
+    ],
+    "biomarkers": [
+      "brainstem ARAS lesion",
+      "bilateral thalamic injury",
+      "bilateral hemispheric dysfunction"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "coma-disorders-consciousness",
+    "name": "Coma / disorders of consciousness",
+    "affected_structures": [
+      "bilateral intralaminar thalamus",
+      "mesopontine tegmentum ARAS",
+      "bilateral hemispheres"
+    ],
+    "summary": "Consciousness-disorder map distinguishing coma, unresponsive wakefulness, minimally conscious state, and locked-in syndrome."
+  },
+  {
+    "enigma_overlay": "Frontotemporal dementia ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1002/hbm.24856",
+        "year": 2020,
+        "journal": "Human Brain Mapping",
+        "title": "Thalamic nuclei in frontotemporal dementia: Mediodorsal nucleus involvement is universal but pulvinar atrophy is C9orf72-specific"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "frontal cortex",
+      "anterior temporal cortex",
+      "mediodorsal thalamus",
+      "pulvinar",
+      "insula"
+    ],
+    "biomarkers": [
+      "bvFTD/svPPA/nfvPPA atrophy patterns",
+      "CSF/plasma neurofilament light",
+      "MAPT/GRN/C9orf72 genetics",
+      "C9orf72-specific pulvinar atrophy"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "frontotemporal-dementia",
+    "name": "Frontotemporal dementia",
+    "affected_structures": [
+      "frontal cortex",
+      "anterior temporal cortex",
+      "mediodorsal thalamus",
+      "pulvinar",
+      "insula"
+    ],
+    "summary": "bvFTD/PPA atrophy map with universal mediodorsal thalamic involvement and C9orf72-specific pulvinar atrophy."
+  },
+  {
+    "enigma_overlay": "Lewy body dementia ENIGMA structural map",
+    "tier": 1,
+    "citations": [
+      {
+        "doi": "10.1038/s41583-022-00669-3",
+        "year": 2023,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "Development, wiring and function of dopamine neuron subtypes"
+      },
+      {
+        "doi": "10.1038/s41592-021-01186-4",
+        "year": 2021,
+        "journal": "Nature Methods",
+        "title": "The ENIGMA Toolbox: multiscale neural contextualization of multisite neuroimaging datasets"
+      }
+    ],
+    "structural_map_regions": [
+      "diffuse cortex",
+      "NBM cholinergic system",
+      "PPN",
+      "dopaminergic striatum"
+    ],
+    "biomarkers": [
+      "abnormal DaT-SPECT",
+      "MIBG cardiac scintigraphy",
+      "alpha-synuclein RT-QuIC"
+    ],
+    "treatments": [],
+    "dbs_targets": [],
+    "mechanism_tier": 1,
+    "slug": "lewy-body-dementia",
+    "name": "Lewy body dementia",
+    "affected_structures": [
+      "diffuse cortex",
+      "NBM cholinergic system",
+      "PPN",
+      "dopaminergic striatum"
+    ],
+    "summary": "Diffuse cortical alpha-synuclein disease with prominent cholinergic vulnerability, fluctuating cognition, and REM sleep behavior disorder route."
   }
 ]

@@ -1,0 +1,50 @@
+[
+  {
+    "indication": "PD motor",
+    "target": "STN, GPi",
+    "fda_approval": "FDA approval 2002 for STN/GPi advanced PD motor symptoms",
+    "evidence_tier": 1
+  },
+  {
+    "indication": "Essential tremor",
+    "target": "VIM thalamus",
+    "fda_approval": "FDA approval 1997",
+    "evidence_tier": 1
+  },
+  {
+    "indication": "Dystonia",
+    "target": "GPi",
+    "fda_approval": "2003 humanitarian device exemption",
+    "evidence_tier": 1
+  },
+  {
+    "indication": "Epilepsy refractory",
+    "target": "Anterior thalamus",
+    "fda_approval": "FDA approval 2018",
+    "evidence_tier": 1
+  },
+  {
+    "indication": "Epilepsy responsive",
+    "target": "RNS multi-target",
+    "fda_approval": "FDA approval 2013",
+    "evidence_tier": 1
+  },
+  {
+    "indication": "OCD refractory",
+    "target": "ALIC, STN, NAcc",
+    "fda_approval": "2009 humanitarian device exemption",
+    "evidence_tier": 1
+  },
+  {
+    "indication": "MDD refractory",
+    "target": "sgACC, ALIC, MFB, VC/VS",
+    "fda_approval": "Not FDA approved",
+    "evidence_tier": 2
+  },
+  {
+    "indication": "Tourette's",
+    "target": "CM thalamus, GPi",
+    "fda_approval": "Off-label",
+    "evidence_tier": 2
+  }
+]
