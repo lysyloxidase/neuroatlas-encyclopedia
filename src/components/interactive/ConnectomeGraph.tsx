@@ -296,8 +296,8 @@ export function ConnectomeGraph() {
       </div>
       <p className="muted">
         Deterministic HCP-MMP1 scaffold: nodes split across the two hemispheres
-        with curved edges; rich-club hubs are highlighted with a glow. Click a
-        network to highlight its nodes.
+        with curved edges; hubs are highlighted with a glow. Click a network to
+        highlight its nodes.
       </p>
       <Citation
         citation={{
