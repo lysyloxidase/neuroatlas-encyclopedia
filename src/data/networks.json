@@ -5,8 +5,1310 @@
     "system": "Yeo 7-network",
     "color": "#e11d48",
     "tier": 1,
-    "description": "Medial prefrontal, posterior cingulate, angular, and medial temporal regions with high intrinsic coupling.",
-    "key_regions": ["posterior cingulate cortex", "medial prefrontal cortex", "angular gyrus"],
+    "description": "Medial prefrontal, posterior cingulate, angular, precuneus, and medial temporal nodes with high intrinsic coupling.",
+    "key_regions": [
+      "mPFC",
+      "PCC",
+      "angular gyrus",
+      "precuneus",
+      "hippocampus"
+    ],
+    "core_nodes": [
+      {
+        "name": "medial prefrontal cortex",
+        "hcp_mmp1": [
+          "10mp",
+          "10v",
+          "10r"
+        ],
+        "julich": [
+          "Fp1/Fp2 proxy"
+        ],
+        "role": "self-reference and valuation",
+        "xyz": [
+          -0.02,
+          0.62,
+          0.28
+        ]
+      },
+      {
+        "name": "posterior cingulate cortex",
+        "hcp_mmp1": [
+          "23d",
+          "31a",
+          "31pd"
+        ],
+        "julich": [
+          "Area 23/31 proxy"
+        ],
+        "role": "autobiographical integration",
+        "xyz": [
+          0,
+          -0.48,
+          0.42
+        ]
+      },
+      {
+        "name": "angular gyrus",
+        "hcp_mmp1": [
+          "PGi",
+          "PGs"
+        ],
+        "julich": [
+          "PGa/PGp proxy"
+        ],
+        "role": "semantic and ToM integration",
+        "xyz": [
+          -0.52,
+          -0.52,
+          0.34
+        ]
+      },
+      {
+        "name": "precuneus",
+        "hcp_mmp1": [
+          "7m"
+        ],
+        "julich": [
+          "Area 7m proxy"
+        ],
+        "role": "scene/self model",
+        "xyz": [
+          0,
+          -0.62,
+          0.62
+        ]
+      },
+      {
+        "name": "hippocampus",
+        "hcp_mmp1": [
+          "HCPex hippocampus"
+        ],
+        "julich": [
+          "Hippocampal formation"
+        ],
+        "role": "episodic recall",
+        "xyz": [
+          -0.28,
+          -0.28,
+          -0.18
+        ]
+      }
+    ],
+    "function_claims": [
+      "self-reference",
+      "mind-wandering",
+      "episodic recall",
+      "theory of mind"
+    ],
+    "connectivity": "High resting-state coupling along the transmodal apex of the Margulies principal gradient; anti-correlated with externally oriented attention/control states in many task contexts.",
+    "disorders": [
+      "Alzheimer disease hyper- to hypoconnectivity trajectory",
+      "major depression hyperconnectivity",
+      "autism atypical hierarchy"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1038/s41467-019-08944-1",
+        "year": 2019,
+        "journal": "Nature Communications",
+        "title": "Atypical functional connectome hierarchy in autism"
+      },
+      {
+        "doi": "10.1016/j.tics.2011.08.003",
+        "year": 2011,
+        "journal": "Trends in Cognitive Sciences",
+        "title": "Large-scale brain networks and psychopathology: a unifying triple network model"
+      }
+    ]
+  },
+  {
+    "slug": "salience",
+    "name": "Salience network",
+    "system": "Yeo 7-network / triple network",
+    "color": "#f97316",
+    "tier": 1,
+    "description": "Anterior insula, dorsal anterior cingulate, and amygdala-centered network for salience detection and control switching.",
+    "key_regions": [
+      "anterior insula",
+      "dACC",
+      "amygdala"
+    ],
+    "core_nodes": [
+      {
+        "name": "anterior insula",
+        "hcp_mmp1": [
+          "AVI",
+          "MI"
+        ],
+        "julich": [
+          "Ig1/Ig2 proxy"
+        ],
+        "role": "interoceptive salience",
+        "xyz": [
+          -0.52,
+          0.12,
+          0.12
+        ]
+      },
+      {
+        "name": "dorsal anterior cingulate",
+        "hcp_mmp1": [
+          "24dd",
+          "32"
+        ],
+        "julich": [
+          "Area 24/32 proxy"
+        ],
+        "role": "control mobilization",
+        "xyz": [
+          0,
+          0.24,
+          0.54
+        ]
+      },
+      {
+        "name": "amygdala",
+        "hcp_mmp1": [
+          "HCPex amygdala"
+        ],
+        "julich": [
+          "Amygdaloid complex"
+        ],
+        "role": "affective salience",
+        "xyz": [
+          -0.31,
+          -0.1,
+          -0.2
+        ]
+      }
+    ],
+    "function_claims": [
+      "switching between DMN and CEN",
+      "salience detection",
+      "autonomic control"
+    ],
+    "connectivity": "Anterior insula and dACC couple with limbic/subcortical nodes and engage frontoparietal control during salient events.",
+    "disorders": [
+      "frontotemporal dementia",
+      "addiction"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1007/s00429-010-0262-0",
+        "year": 2010,
+        "journal": "Brain Structure and Function",
+        "title": "Saliency, switching, attention and control: a network model of insula function"
+      },
+      {
+        "doi": "10.1523/JNEUROSCI.5587-06.2007",
+        "year": 2007,
+        "journal": "Journal of Neuroscience",
+        "title": "Dissociable intrinsic connectivity networks for salience processing and executive control"
+      }
+    ]
+  },
+  {
+    "slug": "frontoparietal-control",
+    "name": "Central executive / frontoparietal control network",
+    "system": "Yeo 7-network / triple network",
+    "color": "#0ea5e9",
+    "tier": 1,
+    "description": "Dorsolateral prefrontal and posterior parietal control network supporting working memory and flexible task control.",
+    "key_regions": [
+      "dlPFC",
+      "IPS",
+      "posterior parietal cortex"
+    ],
+    "core_nodes": [
+      {
+        "name": "dorsolateral prefrontal cortex",
+        "hcp_mmp1": [
+          "46",
+          "9-46d",
+          "9-46v"
+        ],
+        "julich": [
+          "Area 46 proxy"
+        ],
+        "role": "working memory",
+        "xyz": [
+          -0.38,
+          0.42,
+          0.38
+        ]
+      },
+      {
+        "name": "intraparietal sulcus",
+        "hcp_mmp1": [
+          "IP0",
+          "IP1",
+          "IP2"
+        ],
+        "julich": [
+          "hIP1/hIP2/hIP3 proxy"
+        ],
+        "role": "task-rule attention",
+        "xyz": [
+          -0.44,
+          -0.42,
+          0.48
+        ]
+      }
+    ],
+    "function_claims": [
+      "working memory",
+      "cognitive control",
+      "goal maintenance"
+    ],
+    "connectivity": "Flexible frontoparietal coupling with task-relevant sensory and association systems.",
+    "disorders": [
+      "schizophrenia working-memory deficits"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1016/j.tics.2011.08.003",
+        "year": 2011,
+        "journal": "Trends in Cognitive Sciences",
+        "title": "Large-scale brain networks and psychopathology: a unifying triple network model"
+      },
+      {
+        "doi": "10.1523/JNEUROSCI.5587-06.2007",
+        "year": 2007,
+        "journal": "Journal of Neuroscience",
+        "title": "Dissociable intrinsic connectivity networks for salience processing and executive control"
+      }
+    ]
+  },
+  {
+    "slug": "dorsal-attention",
+    "name": "Dorsal attention network",
+    "system": "Yeo 7-network",
+    "color": "#22c55e",
+    "tier": 1,
+    "description": "Frontal eye fields, intraparietal sulcus, and MT+ nodes for top-down spatial attention.",
+    "key_regions": [
+      "FEF",
+      "IPS",
+      "MT+"
+    ],
+    "core_nodes": [
+      {
+        "name": "frontal eye field",
+        "hcp_mmp1": [
+          "FEF"
+        ],
+        "julich": [
+          "FEF proxy"
+        ],
+        "role": "top-down gaze and attention",
+        "xyz": [
+          -0.32,
+          -0.04,
+          0.58
+        ]
+      },
+      {
+        "name": "intraparietal sulcus",
+        "hcp_mmp1": [
+          "IP0",
+          "IP1",
+          "IP2"
+        ],
+        "julich": [
+          "hIP proxy"
+        ],
+        "role": "priority maps",
+        "xyz": [
+          -0.42,
+          -0.46,
+          0.52
+        ]
+      },
+      {
+        "name": "MT+",
+        "hcp_mmp1": [
+          "MT",
+          "MST"
+        ],
+        "julich": [
+          "hOc5/MT proxy"
+        ],
+        "role": "motion attention",
+        "xyz": [
+          -0.48,
+          -0.68,
+          0.08
+        ]
+      }
+    ],
+    "function_claims": [
+      "top-down spatial attention",
+      "visuomotor orienting"
+    ],
+    "connectivity": "Couples frontal eye fields and parietal priority maps with motion-sensitive visual cortex.",
+    "disorders": [
+      "spatial attention impairment after dorsal frontoparietal lesions"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1016/0166-2236(92)90344-8",
+        "year": 1992,
+        "journal": "Trends in Neurosciences",
+        "title": "Separate visual pathways for perception and action"
+      }
+    ]
+  },
+  {
+    "slug": "ventral-attention",
+    "name": "Ventral attention network",
+    "system": "Yeo 7-network",
+    "color": "#f59e0b",
+    "tier": 1,
+    "description": "Right-lateralized temporoparietal and ventral frontal network for stimulus-driven reorienting.",
+    "key_regions": [
+      "right TPJ",
+      "ventral frontal cortex"
+    ],
+    "core_nodes": [
+      {
+        "name": "temporoparietal junction",
+        "hcp_mmp1": [
+          "TPOJ1",
+          "TPOJ2",
+          "TPOJ3"
+        ],
+        "julich": [
+          "TPJ proxy"
+        ],
+        "role": "bottom-up reorienting",
+        "xyz": [
+          0.54,
+          -0.42,
+          0.3
+        ]
+      },
+      {
+        "name": "ventral frontal cortex",
+        "hcp_mmp1": [
+          "44",
+          "45",
+          "IFJa"
+        ],
+        "julich": [
+          "Area 44/45 proxy"
+        ],
+        "role": "interrupt/reorient",
+        "xyz": [
+          0.42,
+          0.18,
+          0.22
+        ]
+      }
+    ],
+    "function_claims": [
+      "bottom-up reorienting",
+      "unexpected-event detection"
+    ],
+    "connectivity": "Right-biased TPJ and ventral frontal nodes interrupt ongoing dorsal-attention states.",
+    "disorders": [
+      "right hemisphere stroke hemineglect"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1007/s00429-010-0262-0",
+        "year": 2010,
+        "journal": "Brain Structure and Function",
+        "title": "Saliency, switching, attention and control: a network model of insula function"
+      }
+    ]
+  },
+  {
+    "slug": "somatomotor",
+    "name": "Somatomotor network",
+    "system": "Yeo 7-network",
+    "color": "#06b6d4",
+    "tier": 1,
+    "description": "Precentral, postcentral, supplementary motor, and auditory-adjacent sensorimotor cortex.",
+    "key_regions": [
+      "M1",
+      "S1",
+      "SMA",
+      "A1"
+    ],
+    "core_nodes": [
+      {
+        "name": "primary motor cortex",
+        "hcp_mmp1": [
+          "4"
+        ],
+        "julich": [
+          "Area 4a/4p"
+        ],
+        "role": "descending motor output",
+        "xyz": [
+          -0.38,
+          -0.22,
+          0.64
+        ]
+      },
+      {
+        "name": "primary somatosensory cortex",
+        "hcp_mmp1": [
+          "3a",
+          "3b",
+          "1",
+          "2"
+        ],
+        "julich": [
+          "Areas 3a/3b/1/2"
+        ],
+        "role": "body surface input",
+        "xyz": [
+          -0.42,
+          -0.32,
+          0.64
+        ]
+      },
+      {
+        "name": "supplementary motor area",
+        "hcp_mmp1": [
+          "6mp",
+          "SCEF"
+        ],
+        "julich": [
+          "SMA proxy"
+        ],
+        "role": "sequence initiation",
+        "xyz": [
+          0,
+          -0.05,
+          0.68
+        ]
+      },
+      {
+        "name": "primary auditory cortex",
+        "hcp_mmp1": [
+          "A1",
+          "Te1.0"
+        ],
+        "julich": [
+          "Te1.0"
+        ],
+        "role": "auditory sensorimotor coupling",
+        "xyz": [
+          -0.48,
+          -0.22,
+          0.04
+        ]
+      }
+    ],
+    "function_claims": [
+      "sensorimotor control",
+      "somatotopy",
+      "motor-auditory coupling"
+    ],
+    "connectivity": "Perirolandic homotopic connectivity with cerebellar, thalamic, and corticospinal/corticobulbar routes.",
+    "disorders": [
+      "motor stroke",
+      "dystonia",
+      "sensorimotor integration disorders"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      }
+    ]
+  },
+  {
+    "slug": "visual",
+    "name": "Visual network",
+    "system": "Yeo 7-network",
+    "color": "#8b5cf6",
+    "tier": 1,
+    "description": "Occipital visual cortex spanning V1/V2/V3/V4/MT+ and downstream dorsal/ventral visual streams.",
+    "key_regions": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "MT+"
+    ],
+    "core_nodes": [
+      {
+        "name": "primary visual cortex",
+        "hcp_mmp1": [
+          "V1"
+        ],
+        "julich": [
+          "hOc1"
+        ],
+        "role": "retinotopic input",
+        "xyz": [
+          0,
+          -0.86,
+          0.18
+        ]
+      },
+      {
+        "name": "extrastriate cortex",
+        "hcp_mmp1": [
+          "V2",
+          "V3",
+          "V4"
+        ],
+        "julich": [
+          "hOc2/hOc3/hOc4"
+        ],
+        "role": "feature extraction",
+        "xyz": [
+          -0.22,
+          -0.78,
+          0.18
+        ]
+      },
+      {
+        "name": "MT+",
+        "hcp_mmp1": [
+          "MT",
+          "MST"
+        ],
+        "julich": [
+          "hOc5/MT"
+        ],
+        "role": "motion processing",
+        "xyz": [
+          -0.48,
+          -0.68,
+          0.06
+        ]
+      }
+    ],
+    "function_claims": [
+      "vision",
+      "motion processing",
+      "object and spatial stream routing"
+    ],
+    "connectivity": "Retinotopic visual cortex routes dorsal where/how and ventral what-stream projections.",
+    "disorders": [
+      "cortical blindness",
+      "achromatopsia",
+      "prosopagnosia"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1016/0166-2236(92)90344-8",
+        "year": 1992,
+        "journal": "Trends in Neurosciences",
+        "title": "Separate visual pathways for perception and action"
+      },
+      {
+        "doi": "10.1523/JNEUROSCI.17-11-04302.1997",
+        "year": 1997,
+        "journal": "Journal of Neuroscience",
+        "title": "The fusiform face area: a module in human extrastriate cortex specialized for face perception"
+      }
+    ]
+  },
+  {
+    "slug": "limbic",
+    "name": "Limbic network",
+    "system": "Yeo 7-network",
+    "color": "#ec4899",
+    "tier": 2,
+    "description": "Temporal pole, orbitofrontal, and subgenual network with lower fMRI reliability because of susceptibility signal drop-out.",
+    "key_regions": [
+      "temporal pole",
+      "OFC",
+      "subgenual cortex"
+    ],
+    "core_nodes": [
+      {
+        "name": "temporal pole",
+        "hcp_mmp1": [
+          "TGd",
+          "TGv"
+        ],
+        "julich": [
+          "Temporal pole proxy"
+        ],
+        "role": "semantic-affective memory",
+        "xyz": [
+          -0.52,
+          0.18,
+          -0.24
+        ]
+      },
+      {
+        "name": "orbitofrontal cortex",
+        "hcp_mmp1": [
+          "11l",
+          "13l",
+          "OFC"
+        ],
+        "julich": [
+          "Fo1/Fo2 proxy"
+        ],
+        "role": "reward valuation",
+        "xyz": [
+          -0.24,
+          0.5,
+          -0.24
+        ]
+      },
+      {
+        "name": "subgenual cortex",
+        "hcp_mmp1": [
+          "25"
+        ],
+        "julich": [
+          "Area 25 proxy"
+        ],
+        "role": "mood regulation",
+        "xyz": [
+          0,
+          0.22,
+          -0.18
+        ]
+      }
+    ],
+    "function_claims": [
+      "reward and emotion mapping"
+    ],
+    "connectivity": "Orbitofrontal and temporal-pole coupling is biologically plausible but fMRI signal loss lowers confidence.",
+    "disorders": [
+      "depression",
+      "addiction"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1016/j.tics.2011.08.003",
+        "year": 2011,
+        "journal": "Trends in Cognitive Sciences",
+        "title": "Large-scale brain networks and psychopathology: a unifying triple network model"
+      }
+    ]
+  },
+  {
+    "slug": "triple-network",
+    "name": "Triple-network switching model",
+    "system": "Control model",
+    "color": "#f97316",
+    "tier": 1,
+    "description": "Salience network switching between the default-mode and central executive networks in cognition and psychopathology.",
+    "key_regions": [
+      "SN",
+      "DMN",
+      "CEN"
+    ],
+    "core_nodes": [],
+    "function_claims": [
+      "SN switches DMN and CEN modes",
+      "large-scale psychiatric network model"
+    ],
+    "connectivity": "Anterior insula/dACC gate transitions between internally directed DMN states and externally directed CEN control.",
+    "disorders": [
+      "mood disorders",
+      "anxiety",
+      "psychosis",
+      "addiction"
+    ],
+    "overlay": {
+      "kind": "switch",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1016/j.tics.2011.08.003",
+        "year": 2011,
+        "journal": "Trends in Cognitive Sciences",
+        "title": "Large-scale brain networks and psychopathology: a unifying triple network model"
+      },
+      {
+        "doi": "10.1007/s00429-010-0262-0",
+        "year": 2010,
+        "journal": "Brain Structure and Function",
+        "title": "Saliency, switching, attention and control: a network model of insula function"
+      },
+      {
+        "doi": "10.1523/JNEUROSCI.5587-06.2007",
+        "year": 2007,
+        "journal": "Journal of Neuroscience",
+        "title": "Dissociable intrinsic connectivity networks for salience processing and executive control"
+      }
+    ]
+  },
+  {
+    "slug": "language",
+    "name": "Dual-stream language network",
+    "system": "Task-defined association network",
+    "color": "#14b8a6",
+    "tier": 1,
+    "description": "Dorsal sound-to-articulation and ventral sound-to-meaning streams linking temporal and inferior frontal cortex.",
+    "key_regions": [
+      "superior temporal cortex",
+      "arcuate fasciculus",
+      "Broca 44/45",
+      "IFG"
+    ],
+    "core_nodes": [
+      {
+        "name": "posterior superior temporal cortex",
+        "hcp_mmp1": [
+          "STSdp",
+          "A5"
+        ],
+        "julich": [
+          "Te3/STG proxy"
+        ],
+        "role": "phonological analysis",
+        "xyz": [
+          -0.52,
+          -0.26,
+          0.12
+        ]
+      },
+      {
+        "name": "Broca complex",
+        "hcp_mmp1": [
+          "44",
+          "45"
+        ],
+        "julich": [
+          "Area 44/45"
+        ],
+        "role": "speech production and syntax",
+        "xyz": [
+          -0.45,
+          0.18,
+          0.22
+        ]
+      },
+      {
+        "name": "middle temporal cortex",
+        "hcp_mmp1": [
+          "TE1m",
+          "TE2"
+        ],
+        "julich": [
+          "MTG proxy"
+        ],
+        "role": "lexical-semantic mapping",
+        "xyz": [
+          -0.58,
+          -0.34,
+          0.02
+        ]
+      }
+    ],
+    "function_claims": [
+      "dorsal sound-to-articulation stream",
+      "ventral sound-to-meaning stream",
+      "conduction aphasia after arcuate disruption"
+    ],
+    "connectivity": "Dorsal stream routes superior temporal cortex through SLF/arcuate to premotor/Broca; ventral stream routes superior/middle temporal cortex through ILF/IFOF to IFG.",
+    "disorders": [
+      "conduction aphasia",
+      "semantic aphasia"
+    ],
+    "streams": [
+      {
+        "name": "Dorsal stream",
+        "route": [
+          "superior temporal",
+          "SLF/arcuate",
+          "premotor",
+          "Broca 44/45"
+        ],
+        "function": "sound -> articulation"
+      },
+      {
+        "name": "Ventral stream",
+        "route": [
+          "superior/middle temporal",
+          "ILF/IFOF",
+          "inferior frontal"
+        ],
+        "function": "sound -> meaning"
+      }
+    ],
+    "lateralization": {
+      "rightHandersLeftPercent": 96,
+      "leftHandersLeftPercent": 76,
+      "bilateralPercent": 14,
+      "rightHemispherePercent": 10
+    },
+    "overlay": {
+      "kind": "streams",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1038/nrn2113",
+        "year": 2007,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "The cortical organization of speech processing"
+      },
+      {
+        "doi": "10.1212/WNL.52.5.1038",
+        "year": 1999,
+        "journal": "Neurology",
+        "title": "Cerebral lateralization of language in normal left-handed people studied by functional MRI"
+      },
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      }
+    ]
+  },
+  {
+    "slug": "vision-dorsal-stream",
+    "name": "Dorsal visual where/how stream",
+    "system": "Vision stream",
+    "color": "#22c55e",
+    "tier": 1,
+    "description": "Occipital-to-parietal/premotor visual stream for spatial action and motion-guided behavior.",
+    "key_regions": [
+      "V1",
+      "V2",
+      "V3",
+      "V3A",
+      "MT+",
+      "IPS",
+      "PMd"
+    ],
+    "core_nodes": [],
+    "function_claims": [
+      "spatial localization",
+      "visuomotor action guidance"
+    ],
+    "connectivity": "V1 -> V2 -> V3 -> V3A -> MT+ -> IPS -> PMd.",
+    "disorders": [
+      "optic ataxia",
+      "dorsal simultanagnosia"
+    ],
+    "streams": [
+      {
+        "name": "Dorsal where/how",
+        "route": [
+          "V1",
+          "V2",
+          "V3",
+          "V3A",
+          "MT+",
+          "IPS",
+          "PMd"
+        ],
+        "function": "vision for action"
+      }
+    ],
+    "overlay": {
+      "kind": "streams",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1016/0166-2236(92)90344-8",
+        "year": 1992,
+        "journal": "Trends in Neurosciences",
+        "title": "Separate visual pathways for perception and action"
+      },
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      }
+    ]
+  },
+  {
+    "slug": "vision-ventral-stream",
+    "name": "Ventral visual what stream",
+    "system": "Vision stream",
+    "color": "#8b5cf6",
+    "tier": 1,
+    "description": "Occipital-to-temporal visual stream for object, face, place, and word-form recognition.",
+    "key_regions": [
+      "V1",
+      "V2",
+      "V4",
+      "fusiform",
+      "anterior temporal"
+    ],
+    "core_nodes": [],
+    "function_claims": [
+      "object recognition",
+      "face processing",
+      "visual word form processing",
+      "place processing"
+    ],
+    "connectivity": "V1 -> V2 -> V4 -> fusiform -> anterior temporal cortex, including FFA, VWFA, and PPA nodes.",
+    "disorders": [
+      "prosopagnosia",
+      "pure alexia",
+      "topographic disorientation"
+    ],
+    "streams": [
+      {
+        "name": "Ventral what",
+        "route": [
+          "V1",
+          "V2",
+          "V4",
+          "fusiform",
+          "anterior temporal"
+        ],
+        "function": "object identity"
+      }
+    ],
+    "overlay": {
+      "kind": "streams",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1016/0166-2236(92)90344-8",
+        "year": 1992,
+        "journal": "Trends in Neurosciences",
+        "title": "Separate visual pathways for perception and action"
+      },
+      {
+        "doi": "10.1523/JNEUROSCI.17-11-04302.1997",
+        "year": 1997,
+        "journal": "Journal of Neuroscience",
+        "title": "The fusiform face area: a module in human extrastriate cortex specialized for face perception"
+      },
+      {
+        "doi": "10.1093/brain/awf094",
+        "year": 2002,
+        "journal": "Brain",
+        "title": "Language-specific tuning of visual cortex? Functional properties of the Visual Word Form Area"
+      },
+      {
+        "doi": "10.1038/33402",
+        "year": 1998,
+        "journal": "Nature",
+        "title": "A cortical representation of the local visual environment"
+      }
+    ]
+  },
+  {
+    "slug": "motor-network",
+    "name": "Motor network",
+    "system": "Effector network",
+    "color": "#06b6d4",
+    "tier": 1,
+    "description": "M1, premotor, SMA, pre-SMA, and cingulate motor nodes linked to pyramidal and extrapyramidal output systems.",
+    "key_regions": [
+      "M1",
+      "PMd",
+      "PMv",
+      "SMA",
+      "pre-SMA",
+      "CMA"
+    ],
+    "core_nodes": [
+      {
+        "name": "M1",
+        "hcp_mmp1": [
+          "4"
+        ],
+        "julich": [
+          "Area 4a/4p"
+        ],
+        "role": "corticospinal output",
+        "xyz": [
+          -0.42,
+          -0.2,
+          0.64
+        ]
+      },
+      {
+        "name": "PMd",
+        "hcp_mmp1": [
+          "6d"
+        ],
+        "julich": [
+          "Area 6d proxy"
+        ],
+        "role": "reach planning",
+        "xyz": [
+          -0.34,
+          0.02,
+          0.58
+        ]
+      },
+      {
+        "name": "PMv",
+        "hcp_mmp1": [
+          "6v"
+        ],
+        "julich": [
+          "Area 6v proxy"
+        ],
+        "role": "grasp/orofacial premotor",
+        "xyz": [
+          -0.48,
+          0.04,
+          0.22
+        ]
+      },
+      {
+        "name": "SMA",
+        "hcp_mmp1": [
+          "6mp",
+          "SCEF"
+        ],
+        "julich": [
+          "SMA proxy"
+        ],
+        "role": "sequence initiation",
+        "xyz": [
+          0,
+          -0.04,
+          0.68
+        ]
+      },
+      {
+        "name": "pre-SMA",
+        "hcp_mmp1": [
+          "SFL"
+        ],
+        "julich": [
+          "pre-SMA proxy"
+        ],
+        "role": "action selection",
+        "xyz": [
+          0,
+          0.18,
+          0.66
+        ]
+      },
+      {
+        "name": "cingulate motor area",
+        "hcp_mmp1": [
+          "24c"
+        ],
+        "julich": [
+          "Area 24c proxy"
+        ],
+        "role": "motivated action",
+        "xyz": [
+          0,
+          0.02,
+          0.48
+        ]
+      }
+    ],
+    "function_claims": [
+      "voluntary movement",
+      "motor planning",
+      "corticospinal and corticobulbar output"
+    ],
+    "connectivity": "Pyramidal tracts include corticospinal and corticobulbar outputs; extrapyramidal routes include rubrospinal, reticulospinal, vestibulospinal, and tectospinal systems.",
+    "disorders": [
+      "stroke",
+      "Parkinson disease motor circuit dysfunction",
+      "dystonia"
+    ],
+    "homunculus": [
+      "foot medial",
+      "leg",
+      "trunk",
+      "hand",
+      "face lateral"
+    ],
+    "overlay": {
+      "kind": "homunculus",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      },
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      }
+    ]
+  },
+  {
+    "slug": "somatosensory-network",
+    "name": "Somatosensory network",
+    "system": "Sensory network",
+    "color": "#38bdf8",
+    "tier": 1,
+    "description": "S1, S2, and posterior parietal integration network organized around somatotopic body maps.",
+    "key_regions": [
+      "S1",
+      "S2",
+      "PPC"
+    ],
+    "core_nodes": [
+      {
+        "name": "S1",
+        "hcp_mmp1": [
+          "3a",
+          "3b",
+          "1",
+          "2"
+        ],
+        "julich": [
+          "Areas 3a/3b/1/2"
+        ],
+        "role": "primary tactile/proprioceptive map",
+        "xyz": [
+          -0.44,
+          -0.34,
+          0.62
+        ]
+      },
+      {
+        "name": "S2",
+        "hcp_mmp1": [
+          "OP1",
+          "OP4"
+        ],
+        "julich": [
+          "Parietal operculum proxy"
+        ],
+        "role": "bilateral tactile integration",
+        "xyz": [
+          -0.52,
+          -0.22,
+          0.02
+        ]
+      },
+      {
+        "name": "posterior parietal cortex",
+        "hcp_mmp1": [
+          "5L",
+          "7AL",
+          "7PC"
+        ],
+        "julich": [
+          "Area 5/7 proxy"
+        ],
+        "role": "multisensory body schema",
+        "xyz": [
+          -0.36,
+          -0.48,
+          0.58
+        ]
+      }
+    ],
+    "function_claims": [
+      "somatosensation",
+      "homunculus mapping",
+      "body-schema integration"
+    ],
+    "connectivity": "Thalamocortical input to S1 is relayed to S2 and posterior parietal association cortex.",
+    "disorders": [
+      "cortical sensory loss",
+      "astereognosis",
+      "body-schema disorders"
+    ],
+    "homunculus": [
+      "foot medial",
+      "leg",
+      "trunk",
+      "hand",
+      "face lateral"
+    ],
+    "overlay": {
+      "kind": "homunculus",
+      "visible": true
+    },
     "citations": [
       {
         "doi": "10.1152/jn.00338.2011",
@@ -17,36 +1319,295 @@
     ]
   },
   {
-    "slug": "salience",
-    "name": "Salience network",
-    "system": "Triple network",
-    "color": "#f97316",
+    "slug": "auditory-network",
+    "name": "Auditory core-belt-parabelt network",
+    "system": "Sensory network",
+    "color": "#facc15",
     "tier": 1,
-    "description": "Anterior insula and dorsal anterior cingulate network involved in salience detection and control switching.",
-    "key_regions": ["anterior insula", "dorsal anterior cingulate"],
+    "description": "Hackett core/belt/parabelt auditory hierarchy centered on Heschl and superior temporal cortex.",
+    "key_regions": [
+      "A1 / Te1.0",
+      "belt",
+      "parabelt"
+    ],
+    "core_nodes": [
+      {
+        "name": "auditory core",
+        "hcp_mmp1": [
+          "A1",
+          "Te1.0"
+        ],
+        "julich": [
+          "Te1.0"
+        ],
+        "role": "tonotopic core",
+        "xyz": [
+          -0.46,
+          -0.22,
+          0.06
+        ]
+      },
+      {
+        "name": "belt",
+        "hcp_mmp1": [
+          "MBelt",
+          "LBelt"
+        ],
+        "julich": [
+          "Belt proxy"
+        ],
+        "role": "spectrotemporal features",
+        "xyz": [
+          -0.54,
+          -0.24,
+          0.02
+        ]
+      },
+      {
+        "name": "parabelt",
+        "hcp_mmp1": [
+          "PBelt"
+        ],
+        "julich": [
+          "Parabelt proxy"
+        ],
+        "role": "auditory association",
+        "xyz": [
+          -0.58,
+          -0.28,
+          0
+        ]
+      }
+    ],
+    "function_claims": [
+      "audition",
+      "core-belt-parabelt processing"
+    ],
+    "connectivity": "Hierarchical auditory information flow from A1 core through belt to parabelt association cortex.",
+    "disorders": [
+      "cortical deafness",
+      "auditory agnosia"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
     "citations": [
       {
-        "doi": "10.1016/j.neuron.2007.05.011",
-        "year": 2007,
-        "journal": "Neuron",
-        "title": "Dissociable intrinsic connectivity networks for salience processing and executive control"
+        "doi": "10.1016/j.heares.2010.01.011",
+        "year": 2011,
+        "journal": "Hearing Research",
+        "title": "Information flow in the auditory cortical network"
+      },
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
       }
     ]
   },
   {
-    "slug": "language",
-    "name": "Language network",
-    "system": "Task-defined association network",
-    "color": "#06b6d4",
-    "tier": 2,
-    "description": "Left-lateralized inferior frontal and temporal-parietal regions engaged by sentence and discourse processing.",
-    "key_regions": ["inferior frontal area 44", "posterior superior temporal cortex"],
+    "slug": "theory-of-mind",
+    "name": "Theory of mind network",
+    "system": "Social cognition network",
+    "color": "#a78bfa",
+    "tier": 1,
+    "description": "TPJ, mPFC, precuneus, and pSTS network for reasoning about beliefs, intentions, and social agents.",
+    "key_regions": [
+      "TPJ",
+      "mPFC",
+      "precuneus",
+      "pSTS"
+    ],
+    "core_nodes": [
+      {
+        "name": "TPJ",
+        "hcp_mmp1": [
+          "TPOJ1",
+          "TPOJ2",
+          "TPOJ3"
+        ],
+        "julich": [
+          "TPJ proxy"
+        ],
+        "role": "belief reasoning",
+        "xyz": [
+          0.52,
+          -0.45,
+          0.34
+        ]
+      },
+      {
+        "name": "mPFC",
+        "hcp_mmp1": [
+          "9m",
+          "10v"
+        ],
+        "julich": [
+          "mPFC proxy"
+        ],
+        "role": "social self/other model",
+        "xyz": [
+          0,
+          0.54,
+          0.34
+        ]
+      },
+      {
+        "name": "precuneus",
+        "hcp_mmp1": [
+          "PCV",
+          "7m"
+        ],
+        "julich": [
+          "Precuneus proxy"
+        ],
+        "role": "scene and agent context",
+        "xyz": [
+          0,
+          -0.58,
+          0.54
+        ]
+      },
+      {
+        "name": "pSTS",
+        "hcp_mmp1": [
+          "STSdp",
+          "TPOJ"
+        ],
+        "julich": [
+          "pSTS proxy"
+        ],
+        "role": "biological motion and agency",
+        "xyz": [
+          0.55,
+          -0.42,
+          0.08
+        ]
+      }
+    ],
+    "function_claims": [
+      "belief attribution",
+      "mental-state reasoning",
+      "social prediction"
+    ],
+    "connectivity": "Overlaps the transmodal DMN apex but emphasizes TPJ/pSTS social-inference nodes.",
+    "disorders": [
+      "autism spectrum social-cognition differences"
+    ],
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
     "citations": [
       {
-        "doi": "10.1016/j.neuron.2012.06.036",
-        "year": 2012,
-        "journal": "Neuron",
-        "title": "Broca's area and language processing"
+        "doi": "10.1016/j.neubiorev.2014.01.009",
+        "year": 2014,
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "title": "Fractionating theory of mind: a meta-analysis of functional brain imaging studies"
+      },
+      {
+        "doi": "10.1038/s41467-019-08944-1",
+        "year": 2019,
+        "journal": "Nature Communications",
+        "title": "Atypical functional connectome hierarchy in autism"
+      },
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      }
+    ]
+  },
+  {
+    "slug": "mirror-neuron-system",
+    "name": "Mirror neuron system",
+    "system": "Action-observation network",
+    "color": "#f59e0b",
+    "tier": 2,
+    "description": "Inferior parietal, ventral premotor/F5-like, and STS action-observation scaffold; human single-unit confirmation remains limited.",
+    "key_regions": [
+      "inferior parietal",
+      "ventral premotor F5-like",
+      "STS"
+    ],
+    "core_nodes": [
+      {
+        "name": "inferior parietal",
+        "hcp_mmp1": [
+          "PFt",
+          "PF",
+          "PFcm"
+        ],
+        "julich": [
+          "PF proxy"
+        ],
+        "role": "observed-action mapping",
+        "xyz": [
+          -0.48,
+          -0.4,
+          0.44
+        ]
+      },
+      {
+        "name": "ventral premotor",
+        "hcp_mmp1": [
+          "6v",
+          "44"
+        ],
+        "julich": [
+          "Area 6v/44 proxy"
+        ],
+        "role": "action repertoire",
+        "xyz": [
+          -0.46,
+          0.02,
+          0.22
+        ]
+      },
+      {
+        "name": "STS",
+        "hcp_mmp1": [
+          "STSdp",
+          "STSvp"
+        ],
+        "julich": [
+          "STS proxy"
+        ],
+        "role": "visual action input",
+        "xyz": [
+          -0.54,
+          -0.36,
+          0.08
+        ]
+      }
+    ],
+    "function_claims": [
+      "action observation to execution mapping"
+    ],
+    "connectivity": "STS visual action input converges with inferior parietal and ventral premotor action representations.",
+    "disorders": [
+      "social cognition hypotheses remain debated"
+    ],
+    "note": "Marked plausible because human direct single-unit evidence is limited compared with macaque data.",
+    "overlay": {
+      "kind": "cortex",
+      "visible": true
+    },
+    "citations": [
+      {
+        "doi": "10.1016/j.cub.2010.02.045",
+        "year": 2010,
+        "journal": "Current Biology",
+        "title": "Single-neuron responses in humans during execution and observation of actions"
+      },
+      {
+        "doi": "10.1016/j.neubiorev.2014.01.009",
+        "year": 2014,
+        "journal": "Neuroscience & Biobehavioral Reviews",
+        "title": "Fractionating theory of mind: a meta-analysis of functional brain imaging studies"
       }
     ]
   }

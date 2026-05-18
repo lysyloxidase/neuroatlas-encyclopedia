@@ -3,7 +3,7 @@ import { join } from "node:path";
 import YAML from "yaml";
 
 const ROOT = process.cwd();
-const CONTENT_ROOT = join(ROOT, "src/content/structures");
+const SCAN_ROOTS = [join(ROOT, "src/content/structures"), join(ROOT, "src/data")];
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -12,7 +12,7 @@ async function walk(dir) {
     const path = join(dir, entry.name);
     if (entry.isDirectory()) {
       files.push(...(await walk(path)));
-    } else if (entry.name.endsWith(".yaml")) {
+    } else if (entry.name.endsWith(".yaml") || entry.name.endsWith(".json")) {
       files.push(path);
     }
   }
@@ -36,10 +36,11 @@ function collectDoiValues(value, output = new Set()) {
   return output;
 }
 
-const files = await walk(CONTENT_ROOT);
+const files = (await Promise.all(SCAN_ROOTS.map((root) => walk(root)))).flat();
 const dois = new Set();
 for (const file of files) {
-  const parsed = YAML.parse(await readFile(file, "utf8"));
+  const content = await readFile(file, "utf8");
+  const parsed = file.endsWith(".json") ? JSON.parse(content) : YAML.parse(content);
   for (const doi of collectDoiValues(parsed)) {
     dois.add(doi);
   }

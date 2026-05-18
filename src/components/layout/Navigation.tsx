@@ -6,6 +6,8 @@ const links = [
   ["Atlas", "/atlas"],
   ["Viewer", "/viewer"],
   ["Cellular", "/cellular"],
+  ["Networks", "/networks"],
+  ["NeuroNT", "/neuromodulators"],
   ["Micro", "/microanatomy"],
   ["Cerebellum", "/cerebellum"],
   ["Connectome", "/connectome"],

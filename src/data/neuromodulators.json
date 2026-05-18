@@ -3,15 +3,94 @@
     "slug": "dopamine",
     "name": "Dopamine",
     "abbreviation": "DA",
-    "nuclei": ["ventral tegmental area", "substantia nigra pars compacta"],
+    "color": "#22c55e",
     "tier": 1,
-    "projections": ["striatum", "prefrontal cortex", "limbic cortex"],
+    "nuclei": [
+      "substantia nigra pars compacta A9",
+      "ventral tegmental area A10",
+      "arcuate A12",
+      "incertohypothalamic A13"
+    ],
+    "projections": [
+      "dorsal striatum",
+      "nucleus accumbens",
+      "amygdala",
+      "hippocampus",
+      "prefrontal cortex",
+      "ACC",
+      "median eminence"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "SNc A9",
+        "xyz": [
+          -0.16,
+          -0.34,
+          -0.42
+        ]
+      },
+      {
+        "name": "VTA A10",
+        "xyz": [
+          0,
+          -0.32,
+          -0.4
+        ]
+      },
+      {
+        "name": "arcuate A12",
+        "xyz": [
+          0,
+          -0.08,
+          -0.35
+        ]
+      }
+    ],
+    "projection_fields": [
+      "nigrostriatal",
+      "mesolimbic",
+      "mesocortical",
+      "tuberoinfundibular",
+      "incertohypothalamic"
+    ],
+    "pathways": [
+      "nigrostriatal A9 -> dorsal striatum; motor; depleted in Parkinson disease",
+      "mesolimbic A10 -> nucleus accumbens, amygdala, hippocampus; reward and motivation",
+      "mesocortical A10 -> PFC/ACC; cognition and working memory",
+      "tuberoinfundibular A12 -> median eminence; prolactin inhibition",
+      "incertohypothalamic A13"
+    ],
+    "receptors": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "taxonomy": [
+      "Poulin 2020: single-cell gene-expression classification of midbrain DA neurons",
+      "Garritsen 2023: development, wiring, and function of DA neuron subtypes",
+      "A10 VTA Calb1+ subgroup relatively less vulnerable",
+      "SNc Sox6+Aldh1a1+ subtype vulnerable in PD"
+    ],
+    "clinical_notes": [
+      "Parkinson disease",
+      "addiction",
+      "psychosis pharmacology",
+      "prolactin regulation"
+    ],
     "citations": [
       {
-        "doi": "10.1038/nrn.2016.18",
-        "year": 2016,
+        "doi": "10.1016/j.tins.2020.01.004",
+        "year": 2020,
+        "journal": "Trends in Neurosciences",
+        "title": "Classification of midbrain dopamine neurons using single-cell gene expression profiling approaches"
+      },
+      {
+        "doi": "10.1038/s41583-022-00669-3",
+        "year": 2023,
         "journal": "Nature Reviews Neuroscience",
-        "title": "The thalamus and cortical function"
+        "title": "Development, wiring and function of dopamine neuron subtypes"
       }
     ]
   },
@@ -19,15 +98,146 @@
     "slug": "serotonin",
     "name": "Serotonin",
     "abbreviation": "5-HT",
-    "nuclei": ["dorsal raphe", "median raphe"],
+    "color": "#ef4444",
     "tier": 1,
-    "projections": ["cortex", "hippocampus", "basal ganglia"],
+    "nuclei": [
+      "dorsal raphe",
+      "median raphe",
+      "caudal raphe"
+    ],
+    "projections": [
+      "cortex",
+      "amygdala",
+      "striatum",
+      "hippocampus",
+      "septum",
+      "spinal cord"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "dorsal raphe",
+        "xyz": [
+          0,
+          -0.45,
+          -0.18
+        ]
+      },
+      {
+        "name": "median raphe",
+        "xyz": [
+          0,
+          -0.5,
+          -0.24
+        ]
+      }
+    ],
+    "projection_fields": [
+      "DR -> cortex/amygdala/striatum",
+      "MR -> hippocampus/septum",
+      "caudal raphe -> spinal cord"
+    ],
+    "pathways": [
+      "11 transcriptomic 5-HT clusters from Ren 2019",
+      "amygdala-projecting DR 5-HT anxiety-related",
+      "frontal-cortex-projecting DR 5-HT active coping-related"
+    ],
+    "receptors": [
+      "5-HT1A",
+      "5-HT1B",
+      "5-HT1D",
+      "5-HT2A",
+      "5-HT2C",
+      "5-HT3",
+      "5-HT4",
+      "5-HT5",
+      "5-HT6",
+      "5-HT7"
+    ],
+    "taxonomy": [
+      "5-HT2A psychedelic target",
+      "5-HT3 ionotropic antiemetic target"
+    ],
+    "clinical_notes": [
+      "depression",
+      "anxiety",
+      "psychedelic pharmacology",
+      "antiemesis"
+    ],
     "citations": [
       {
-        "doi": "10.1038/nrn.2016.18",
-        "year": 2016,
+        "doi": "10.1038/s41583-019-0151-3",
+        "year": 2019,
         "journal": "Nature Reviews Neuroscience",
-        "title": "The thalamus and cortical function"
+        "title": "Embracing diversity in the 5-HT neuronal system"
+      },
+      {
+        "doi": "10.7554/eLife.49424",
+        "year": 2019,
+        "journal": "eLife",
+        "title": "Single-cell transcriptomes and whole-brain projections of serotonin neurons in the mouse dorsal and median raphe nuclei"
+      }
+    ]
+  },
+  {
+    "slug": "norepinephrine",
+    "name": "Norepinephrine",
+    "abbreviation": "NE",
+    "color": "#06b6d4",
+    "tier": 1,
+    "nuclei": [
+      "locus coeruleus A6",
+      "lateral tegmental A1/A2/A5/A7"
+    ],
+    "projections": [
+      "entire cerebral cortex",
+      "hippocampus",
+      "cerebellum",
+      "hypothalamus",
+      "spinal cord"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "LC A6",
+        "xyz": [
+          0,
+          -0.55,
+          -0.12
+        ]
+      }
+    ],
+    "projection_fields": [
+      "LC -> cortex",
+      "LC -> hippocampus",
+      "lateral tegmental NE -> hypothalamus/spinal cord"
+    ],
+    "pathways": [
+      "LC is the sole cortical NE source",
+      "22,000-51,000 bilateral pigmented neurons in adult human stereological estimates",
+      "early Alzheimer vulnerability"
+    ],
+    "receptors": [
+      "alpha1",
+      "alpha2",
+      "beta1",
+      "beta2",
+      "beta3"
+    ],
+    "taxonomy": [
+      "LC stress/arousal ensembles",
+      "lateral tegmental autonomic NE groups"
+    ],
+    "clinical_notes": [
+      "arousal",
+      "attention",
+      "stress",
+      "Alzheimer disease vulnerability"
+    ],
+    "citations": [
+      {
+        "doi": "10.1111/ejn.70111",
+        "year": 2025,
+        "journal": "European Journal of Neuroscience",
+        "title": "The Locus Coeruleus: Anatomy, Physiology, and Stress-Related Neuropsychiatric Disorders"
       }
     ]
   },
@@ -35,15 +245,393 @@
     "slug": "acetylcholine",
     "name": "Acetylcholine",
     "abbreviation": "ACh",
-    "nuclei": ["basal forebrain", "pedunculopontine nucleus"],
+    "color": "#facc15",
     "tier": 1,
-    "projections": ["cortex", "hippocampus", "thalamus"],
+    "nuclei": [
+      "medial septal nucleus Ch1",
+      "diagonal band Ch2/Ch3",
+      "nucleus basalis of Meynert Ch4",
+      "PPN Ch5",
+      "LDT Ch6",
+      "striatal TANs"
+    ],
+    "projections": [
+      "hippocampus",
+      "cortex",
+      "thalamus",
+      "reticular formation",
+      "striatum"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "NBM Ch4",
+        "xyz": [
+          0,
+          0.05,
+          -0.22
+        ]
+      },
+      {
+        "name": "PPN/LDT",
+        "xyz": [
+          0,
+          -0.48,
+          -0.24
+        ]
+      }
+    ],
+    "projection_fields": [
+      "basal forebrain -> cortex/hippocampus",
+      "PPN/LDT -> thalamus/reticular formation",
+      "striatal TAN local modulation"
+    ],
+    "pathways": [
+      "NBM/Ch4 degenerates early in Alzheimer disease",
+      "AChE inhibitor drug rationale: donepezil, rivastigmine, galantamine",
+      "brainstem cholinergic REM and arousal"
+    ],
+    "receptors": [
+      "muscarinic M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "nicotinic alpha2-alpha10",
+      "nicotinic beta2-beta4",
+      "alpha7"
+    ],
+    "taxonomy": [
+      "basal forebrain Ch1-Ch4",
+      "brainstem Ch5-Ch6",
+      "striatal cholinergic interneurons"
+    ],
+    "clinical_notes": [
+      "Alzheimer disease",
+      "REM sleep",
+      "arousal",
+      "attention"
+    ],
     "citations": [
       {
-        "doi": "10.1038/nrn.2016.18",
-        "year": 2016,
-        "journal": "Nature Reviews Neuroscience",
-        "title": "The thalamus and cortical function"
+        "doi": "10.1007/s00429-010-0262-0",
+        "year": 2010,
+        "journal": "Brain Structure and Function",
+        "title": "Saliency, switching, attention and control: a network model of insula function"
+      },
+      {
+        "doi": "10.1111/ejn.70111",
+        "year": 2025,
+        "journal": "European Journal of Neuroscience",
+        "title": "The Locus Coeruleus: Anatomy, Physiology, and Stress-Related Neuropsychiatric Disorders"
+      }
+    ]
+  },
+  {
+    "slug": "glutamate",
+    "name": "Glutamate",
+    "abbreviation": "Glu",
+    "color": "#a3e635",
+    "tier": 1,
+    "nuclei": [
+      "cortical pyramidal neurons",
+      "thalamocortical relay neurons",
+      "cerebellar granule cells"
+    ],
+    "projections": [
+      "cortico-cortical",
+      "thalamocortical",
+      "corticostriatal",
+      "parallel fibers"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "cortex",
+        "xyz": [
+          0,
+          0,
+          0.72
+        ]
+      },
+      {
+        "name": "thalamus",
+        "xyz": [
+          0,
+          -0.12,
+          0.02
+        ]
+      }
+    ],
+    "projection_fields": [
+      "principal excitatory transmission",
+      "feedforward thalamocortical drive",
+      "cerebellar parallel fibers"
+    ],
+    "pathways": [
+      "AMPA fast EPSCs",
+      "NMDA coincidence/plasticity receptor",
+      "kainate modulation",
+      "mGluR group I/II/III"
+    ],
+    "receptors": [
+      "AMPA GluA1-4",
+      "NMDA GluN1/GluN2A-D/GluN3A-B",
+      "Kainate GluK1-5",
+      "mGluR1-8"
+    ],
+    "taxonomy": [
+      "cortical IT/ET/NP/CT/L6b excitatory classes"
+    ],
+    "clinical_notes": [
+      "plasticity",
+      "excitotoxicity",
+      "epilepsy pharmacology"
+    ],
+    "citations": [
+      {
+        "doi": "10.1124/pr.109.002451",
+        "year": 2010,
+        "journal": "Pharmacological Reviews",
+        "title": "Glutamate receptor ion channels: structure, regulation, and function"
+      }
+    ]
+  },
+  {
+    "slug": "gaba",
+    "name": "GABA",
+    "abbreviation": "GABA",
+    "color": "#60a5fa",
+    "tier": 1,
+    "nuclei": [
+      "cortical interneurons",
+      "Purkinje cells",
+      "striatal SPNs",
+      "GPe",
+      "GPi",
+      "SNr"
+    ],
+    "projections": [
+      "local cortical inhibition",
+      "cerebellar output inhibition",
+      "basal ganglia inhibitory pathways"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "interneurons",
+        "xyz": [
+          0,
+          0,
+          0.64
+        ]
+      },
+      {
+        "name": "basal ganglia",
+        "xyz": [
+          0.22,
+          0.02,
+          -0.06
+        ]
+      }
+    ],
+    "projection_fields": [
+      "PV/SST/VIP/LAMP5/SNCG interneuron classes",
+      "Purkinje -> deep cerebellar nuclei",
+      "GPe/GPi/SNr basal ganglia output"
+    ],
+    "pathways": [
+      "principal inhibitory neurotransmitter",
+      "benzodiazepine/ethanol/anesthetic modulation at GABA-A",
+      "baclofen target at GABA-B"
+    ],
+    "receptors": [
+      "GABA-A",
+      "GABA-B"
+    ],
+    "taxonomy": [
+      "PV basket/chandelier",
+      "SST Martinotti/non-Martinotti",
+      "VIP disinhibitory",
+      "LAMP5 neurogliaform",
+      "SNCG/CCK basket"
+    ],
+    "clinical_notes": [
+      "anxiety pharmacology",
+      "epilepsy",
+      "spasticity"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuropharm.2008.07.045",
+        "year": 2008,
+        "journal": "Neuropharmacology",
+        "title": "GABAA receptors: subtypes provide diversity of function and pharmacology"
+      }
+    ]
+  },
+  {
+    "slug": "histamine",
+    "name": "Histamine",
+    "abbreviation": "His",
+    "color": "#a855f7",
+    "tier": 1,
+    "nuclei": [
+      "tuberomammillary nucleus"
+    ],
+    "projections": [
+      "cortex",
+      "thalamus",
+      "basal forebrain",
+      "hypothalamus"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "TMN",
+        "xyz": [
+          0,
+          -0.2,
+          -0.28
+        ]
+      }
+    ],
+    "projection_fields": [
+      "TMN -> cortex",
+      "TMN -> thalamus",
+      "TMN -> hypothalamus"
+    ],
+    "pathways": [
+      "TMN is the sole histaminergic source",
+      "wakefulness promotion",
+      "H1 antagonists cause sedation"
+    ],
+    "receptors": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "taxonomy": [
+      "posterior hypothalamic histaminergic neurons"
+    ],
+    "clinical_notes": [
+      "wakefulness",
+      "sedation from H1 antagonists"
+    ],
+    "citations": [
+      {
+        "doi": "10.1152/physrev.00043.2007",
+        "year": 2008,
+        "journal": "Physiological Reviews",
+        "title": "Histamine in the nervous system"
+      }
+    ]
+  },
+  {
+    "slug": "orexin-hypocretin",
+    "name": "Orexin / hypocretin",
+    "abbreviation": "Hcrt",
+    "color": "#fb923c",
+    "tier": 1,
+    "nuclei": [
+      "lateral hypothalamic area"
+    ],
+    "projections": [
+      "LC",
+      "raphe",
+      "TMN",
+      "VTA",
+      "basal forebrain",
+      "cortex"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "lateral hypothalamus",
+        "xyz": [
+          0.18,
+          -0.16,
+          -0.28
+        ]
+      }
+    ],
+    "projection_fields": [
+      "LH orexin -> arousal nuclei",
+      "LH orexin -> cortex through ascending arousal systems"
+    ],
+    "pathways": [
+      "51,000-83,000 Hcrt-immunoreactive neurons in normal humans",
+      "narcolepsy with cataplexy destroys roughly 90% of this population",
+      "DORA insomnia drugs block OX1R/OX2R"
+    ],
+    "receptors": [
+      "OX1R",
+      "OX2R"
+    ],
+    "taxonomy": [
+      "orexin-A/hypocretin-1",
+      "orexin-B/hypocretin-2"
+    ],
+    "clinical_notes": [
+      "narcolepsy with cataplexy",
+      "insomnia DORA class"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/s0896-6273(00)00058-1",
+        "year": 2000,
+        "journal": "Neuron",
+        "title": "Reduced number of hypocretin neurons in human narcolepsy"
+      }
+    ]
+  },
+  {
+    "slug": "endocannabinoids",
+    "name": "Endocannabinoids",
+    "abbreviation": "eCB",
+    "color": "#f472b6",
+    "tier": 2,
+    "nuclei": [
+      "widespread postsynaptic synthesis sites"
+    ],
+    "projections": [
+      "retrograde presynaptic signaling throughout cortex, basal ganglia, hippocampus, and cerebellum"
+    ],
+    "cell_body_locations": [
+      {
+        "name": "distributed",
+        "xyz": [
+          0,
+          0,
+          0.4
+        ]
+      }
+    ],
+    "projection_fields": [
+      "CB1 presynaptic retrograde signaling",
+      "CB2 immune/microglial emphasis"
+    ],
+    "pathways": [
+      "2-AG",
+      "anandamide",
+      "circuit-specific mechanisms remain debated"
+    ],
+    "receptors": [
+      "CB1",
+      "CB2"
+    ],
+    "taxonomy": [
+      "retrograde lipid signaling",
+      "microglial/immune CB2 emphasis"
+    ],
+    "clinical_notes": [
+      "pain",
+      "appetite",
+      "memory modulation",
+      "psychiatric circuit hypotheses"
+    ],
+    "citations": [
+      {
+        "doi": "10.1152/physrev.00019.2008",
+        "year": 2009,
+        "journal": "Physiological Reviews",
+        "title": "Endocannabinoid-mediated control of synaptic transmission"
       }
     ]
   }
