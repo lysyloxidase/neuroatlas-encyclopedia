@@ -1,0 +1,20 @@
+[
+  {
+    "cluster_id": "PFC_IT_019",
+    "class": "excitatory",
+    "family": "IT",
+    "region_hint": "frontal association cortex"
+  },
+  {
+    "cluster_id": "PFC_PV_011",
+    "class": "inhibitory",
+    "family": "PV",
+    "region_hint": "frontal association cortex"
+  },
+  {
+    "cluster_id": "HIP_DG_GRANULE_001",
+    "class": "excitatory",
+    "family": "dentate granule",
+    "region_hint": "hippocampal formation"
+  }
+]

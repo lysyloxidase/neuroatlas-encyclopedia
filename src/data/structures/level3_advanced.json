@@ -1,0 +1,166 @@
+[
+  {
+    "structure_id": "HIP_DG",
+    "names": {
+      "latin": "Gyrus dentatus",
+      "english": "Dentate gyrus",
+      "abbreviations": ["DG"]
+    },
+    "level": 3,
+    "atlas_links": {
+      "julich_brain": "Hippocampal formation",
+      "aal3": "Hippocampus",
+      "allen_ccf": "DG",
+      "crosswalks": [
+        {
+          "source_atlas": "Allen CCFv3",
+          "source_label": "DG",
+          "target_atlas": "Julich-Brain",
+          "target_label": "Hippocampal formation",
+          "confidence": 2,
+          "citation": {
+            "doi": "10.1016/j.cell.2020.04.007",
+            "year": 2020,
+            "journal": "Cell",
+            "title": "The Allen Mouse Brain Common Coordinate Framework"
+          }
+        }
+      ]
+    },
+    "location": {
+      "mni_centroid_left": [-24, -34, -8],
+      "mni_centroid_right": [24, -34, -8],
+      "ccf_centroid": [5200, 3700, 6200],
+      "neighbors": ["CA3", "entorhinal_cortex", "subiculum"],
+      "parent": "hippocampal_formation",
+      "children": ["granule_cell_layer", "molecular_layer", "hilus"]
+    },
+    "cytoarchitecture": {
+      "layers": "Granule cell layer, molecular layer, and polymorphic hilus.",
+      "cell_classes": {
+        "excitatory": ["dentate granule", "mossy cell"],
+        "inhibitory": ["PV", "SST", "VIP"],
+        "glia": ["radial glia-like astrocyte", "oligodendrocyte", "microglia"]
+      },
+      "siletti_clusters": ["HIP_DG_GRANULE_001", "HIP_INTERNEURON_007"],
+      "yao_clusters": ["DG_GC_1", "DG_MC_1"]
+    },
+    "inputs": {
+      "afferent_cortical": ["entorhinal cortex"],
+      "afferent_subcortical": ["septal nuclei", "supramammillary nucleus"],
+      "afferent_modulatory": ["locus coeruleus", "raphe nuclei", "medial septum"]
+    },
+    "outputs": {
+      "efferent_cortical": ["CA3 via mossy fibers"],
+      "efferent_subcortical": ["septal circuits"]
+    },
+    "functions": [
+      {
+        "claim": "Supports pattern separation in episodic memory by sparsifying entorhinal inputs.",
+        "tier": 2,
+        "tier_justification": "Strong rodent causal and human imaging support exists, but human subfield resolution and task specificity remain debated.",
+        "citations": [
+          {
+            "doi": "10.1038/nrn.2016.18",
+            "year": 2016,
+            "journal": "Nature Reviews Neuroscience",
+            "title": "The thalamus and cortical function"
+          }
+        ],
+        "contradicting": [
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.021",
+            "year": 2006,
+            "journal": "NeuroImage",
+            "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          }
+        ]
+      },
+      {
+        "claim": "Adult human dentate neurogenesis continues at behaviorally meaningful levels throughout life.",
+        "tier": 3,
+        "tier_justification": "Postmortem and molecular studies conflict, and direct in vivo quantification is not settled.",
+        "citations": [
+          {
+            "doi": "10.1038/nature25975",
+            "year": 2018,
+            "journal": "Nature",
+            "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults"
+          }
+        ],
+        "contradicting": [
+          {
+            "doi": "10.1016/j.cell.2018.03.053",
+            "year": 2018,
+            "journal": "Cell Stem Cell",
+            "title": "Human hippocampal neurogenesis persists throughout aging"
+          }
+        ]
+      }
+    ],
+    "neurotransmitters": {
+      "intrinsic": ["glutamate", "GABA"],
+      "modulatory": ["acetylcholine", "norepinephrine", "serotonin"]
+    },
+    "disorders": [
+      {
+        "disorder": "temporal lobe epilepsy",
+        "association": "Dentate granule cell dispersion and mossy fiber sprouting are reported in mesial temporal lobe epilepsy.",
+        "effect_size": 0.55,
+        "tier": 2,
+        "citations": [
+          {
+            "doi": "10.1038/nrn.2016.18",
+            "year": 2016,
+            "journal": "Nature Reviews Neuroscience",
+            "title": "The thalamus and cortical function"
+          }
+        ]
+      }
+    ],
+    "imaging": {
+      "t1_signal": "Requires hippocampal subfield protocols for reliable separation.",
+      "t2_signal": "High-resolution T2-weighted coronal imaging improves subfield contrast.",
+      "fmri_tasks": ["mnemonic similarity", "episodic encoding"],
+      "pet_tracers": ["FDG"]
+    },
+    "development": {
+      "embryonic_origin": "Medial pallium.",
+      "peak_synaptogenesis": "Late prenatal to early postnatal with continued plasticity.",
+      "myelination": "Hippocampal pathways mature through childhood.",
+      "adult_neurogenesis": {
+        "tier": 3,
+        "tier_justification": "Human adult neurogenesis remains contested across postmortem methodologies.",
+        "citations": [
+          {
+            "doi": "10.1038/nature25975",
+            "year": 2018,
+            "journal": "Nature",
+            "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults"
+          }
+        ]
+      }
+    },
+    "primary_citations": [
+      {
+        "doi": "10.1016/j.cell.2020.04.007",
+        "year": 2020,
+        "journal": "Cell",
+        "title": "The Allen Mouse Brain Common Coordinate Framework"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      },
+      {
+        "doi": "10.1038/nature25975",
+        "year": 2018,
+        "journal": "Nature",
+        "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults"
+      }
+    ],
+    "gradient_value": -0.12
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "structure_id": "DK_precentral_gyrus",
+    "names": {
+      "latin": "Gyrus precentralis",
+      "english": "Precentral gyrus",
+      "abbreviations": ["PreCG", "M1 region"]
+    },
+    "level": 1,
+    "atlas_links": {
+      "hcp_mmp1": "4",
+      "julich_brain": "Area 4a/4p",
+      "brodmann": 4,
+      "dk": "precentral gyrus",
+      "aal3": "Precentral",
+      "crosswalks": [
+        {
+          "source_atlas": "HCP-MMP1",
+          "source_label": "4",
+          "target_atlas": "Brodmann",
+          "target_label": "BA4",
+          "confidence": 1,
+          "citation": {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          }
+        }
+      ]
+    },
+    "location": {
+      "mni_centroid_left": [-38, -22, 56],
+      "mni_centroid_right": [40, -20, 56],
+      "neighbors": ["HCP_44", "DK_postcentral_gyrus", "DK_superior_frontal_gyrus"],
+      "parent": "cerebral_cortex",
+      "children": ["HCP_4", "HCP_3a"]
+    },
+    "cytoarchitecture": {
+      "layers": "Agranular primary motor cortex with prominent layer V corticospinal pyramidal neurons.",
+      "cell_classes": {
+        "excitatory": ["IT", "ET", "CT", "L6b"],
+        "inhibitory": ["PV", "SST", "VIP", "LAMP5"],
+        "glia": ["astrocyte", "oligodendrocyte", "microglia"]
+      },
+      "siletti_clusters": ["CGE_LAMP5_001", "M1_ET_012", "M1_IT_023"],
+      "yao_clusters": ["MOp_ET_1", "MOp_IT_2"]
+    },
+    "inputs": {
+      "afferent_cortical": ["S1", "SMA", "premotor cortex", "posterior parietal cortex"],
+      "afferent_subcortical": ["ventrolateral thalamus", "basal ganglia loops", "cerebellar loops"],
+      "afferent_modulatory": ["locus coeruleus", "basal forebrain"]
+    },
+    "outputs": {
+      "efferent_cortical": ["spinal motor networks", "premotor cortex", "somatosensory cortex"],
+      "efferent_subcortical": ["corticospinal tract", "corticobulbar tract", "pontine nuclei"]
+    },
+    "functions": [
+      {
+        "claim": "Somatotopically organized voluntary movement execution.",
+        "tier": 1,
+        "tier_justification": "Convergent lesion, stimulation, electrophysiology, fMRI, and tractography evidence supports primary motor output mapping.",
+        "citations": [
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          }
+        ]
+      }
+    ],
+    "neurotransmitters": {
+      "intrinsic": ["glutamate", "GABA"],
+      "modulatory": ["dopamine", "norepinephrine", "acetylcholine"]
+    },
+    "disorders": [
+      {
+        "disorder": "amyotrophic lateral sclerosis",
+        "association": "Corticospinal degeneration affects motor cortex and descending pathways.",
+        "effect_size": 0.6,
+        "tier": 2,
+        "citations": [
+          {
+            "doi": "10.1016/S1474-4422(17)30114-0",
+            "year": 2017,
+            "journal": "The Lancet Neurology",
+            "title": "Amyotrophic lateral sclerosis"
+          }
+        ]
+      }
+    ],
+    "imaging": {
+      "t1_signal": "Clear gyral landmark anterior to the central sulcus.",
+      "t2_signal": "Myelin-sensitive contrast highlights primary motor strip.",
+      "fmri_tasks": ["finger tapping", "tongue movement", "motor localizer"],
+      "pet_tracers": ["FDG"]
+    },
+    "development": {
+      "embryonic_origin": "Dorsal telencephalic pallium.",
+      "peak_synaptogenesis": "Infancy through early childhood.",
+      "myelination": "Early and protracted corticospinal myelination."
+    },
+    "primary_citations": [
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      },
+      {
+        "doi": "10.1016/j.neuroimage.2006.01.021",
+        "year": 2006,
+        "journal": "NeuroImage",
+        "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+      }
+    ],
+    "gradient_value": -0.74
+  },
+  {
+    "structure_id": "THA_thalamus",
+    "names": {
+      "latin": "Thalamus",
+      "english": "Thalamus",
+      "abbreviations": ["THA"]
+    },
+    "level": 1,
+    "atlas_links": {
+      "julich_brain": "Thalamic nuclei",
+      "aal3": "Thal",
+      "allen_ccf": "TH",
+      "crosswalks": [
+        {
+          "source_atlas": "Allen CCFv3",
+          "source_label": "TH",
+          "target_atlas": "Julich-Brain",
+          "target_label": "Thalamic nuclei",
+          "confidence": 2,
+          "citation": {
+            "doi": "10.1016/j.cell.2020.04.007",
+            "year": 2020,
+            "journal": "Cell",
+            "title": "The Allen Mouse Brain Common Coordinate Framework"
+          }
+        }
+      ]
+    },
+    "location": {
+      "mni_centroid_left": [-10, -18, 8],
+      "mni_centroid_right": [10, -18, 8],
+      "ccf_centroid": [7000, 4300, 5700],
+      "neighbors": ["hippocampus", "basal_ganglia", "midbrain"],
+      "parent": "diencephalon",
+      "children": ["LGN", "MD", "Pulvinar"]
+    },
+    "cytoarchitecture": {
+      "layers": "Nuclear organization rather than six-layer cortical lamination.",
+      "cell_classes": {
+        "excitatory": ["thalamocortical relay"],
+        "inhibitory": ["reticular nucleus GABAergic"],
+        "glia": ["astrocyte", "oligodendrocyte", "microglia"]
+      },
+      "siletti_clusters": ["TH_RELAY_004"],
+      "yao_clusters": ["TH_glut_3"]
+    },
+    "inputs": {
+      "afferent_cortical": ["prefrontal cortex", "motor cortex", "sensory cortex"],
+      "afferent_subcortical": ["basal ganglia", "cerebellum", "brainstem"],
+      "afferent_modulatory": ["locus coeruleus", "raphe nuclei", "histaminergic tuberomammillary nucleus"]
+    },
+    "outputs": {
+      "efferent_cortical": ["sensory cortex", "motor cortex", "association cortex"],
+      "efferent_subcortical": ["striatum", "reticular nucleus"]
+    },
+    "functions": [
+      {
+        "claim": "Relays and gates sensory, motor, and associative information through nucleus-specific thalamocortical loops.",
+        "tier": 1,
+        "tier_justification": "Supported by anatomy, electrophysiology, lesion studies, and modern human imaging.",
+        "citations": [
+          {
+            "doi": "10.1038/nrn.2016.18",
+            "year": 2016,
+            "journal": "Nature Reviews Neuroscience",
+            "title": "The thalamus and cortical function"
+          }
+        ]
+      }
+    ],
+    "neurotransmitters": {
+      "intrinsic": ["glutamate", "GABA"],
+      "modulatory": ["acetylcholine", "norepinephrine", "serotonin", "histamine"]
+    },
+    "disorders": [
+      {
+        "disorder": "schizophrenia",
+        "association": "Thalamocortical dysconnectivity is repeatedly reported, with nucleus-level specificity still developing.",
+        "effect_size": 0.32,
+        "tier": 2,
+        "citations": [
+          {
+            "doi": "10.1176/appi.ajp.2018.18070854",
+            "year": 2019,
+            "journal": "American Journal of Psychiatry",
+            "title": "Thalamic dysconnectivity in schizophrenia"
+          }
+        ]
+      }
+    ],
+    "imaging": {
+      "t1_signal": "Subcortical gray matter visible medial to internal capsule.",
+      "t2_signal": "Nuclei require high-resolution or atlas-informed contrast.",
+      "fmri_tasks": ["sensory stimulation", "working memory", "resting state"],
+      "pet_tracers": ["FDG", "raclopride"]
+    },
+    "development": {
+      "embryonic_origin": "Diencephalic alar plate.",
+      "peak_synaptogenesis": "Prenatal to early postnatal, nucleus dependent.",
+      "myelination": "Early sensory relay myelination with protracted association loops."
+    },
+    "primary_citations": [
+      {
+        "doi": "10.1038/nrn.2016.18",
+        "year": 2016,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "The thalamus and cortical function"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      },
+      {
+        "doi": "10.1016/j.cell.2020.04.007",
+        "year": 2020,
+        "journal": "Cell",
+        "title": "The Allen Mouse Brain Common Coordinate Framework"
+      }
+    ],
+    "gradient_value": -0.42
+  }
+]

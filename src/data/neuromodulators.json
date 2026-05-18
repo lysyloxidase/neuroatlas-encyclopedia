@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "dopamine",
+    "name": "Dopamine",
+    "abbreviation": "DA",
+    "nuclei": ["ventral tegmental area", "substantia nigra pars compacta"],
+    "tier": 1,
+    "projections": ["striatum", "prefrontal cortex", "limbic cortex"],
+    "citations": [
+      {
+        "doi": "10.1038/nrn.2016.18",
+        "year": 2016,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "The thalamus and cortical function"
+      }
+    ]
+  },
+  {
+    "slug": "serotonin",
+    "name": "Serotonin",
+    "abbreviation": "5-HT",
+    "nuclei": ["dorsal raphe", "median raphe"],
+    "tier": 1,
+    "projections": ["cortex", "hippocampus", "basal ganglia"],
+    "citations": [
+      {
+        "doi": "10.1038/nrn.2016.18",
+        "year": 2016,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "The thalamus and cortical function"
+      }
+    ]
+  },
+  {
+    "slug": "acetylcholine",
+    "name": "Acetylcholine",
+    "abbreviation": "ACh",
+    "nuclei": ["basal forebrain", "pedunculopontine nucleus"],
+    "tier": 1,
+    "projections": ["cortex", "hippocampus", "thalamus"],
+    "citations": [
+      {
+        "doi": "10.1038/nrn.2016.18",
+        "year": 2016,
+        "journal": "Nature Reviews Neuroscience",
+        "title": "The thalamus and cortical function"
+      }
+    ]
+  }
+]

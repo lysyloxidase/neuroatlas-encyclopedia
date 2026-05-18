@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "yeo-default-mode",
+    "name": "Default mode network",
+    "system": "Yeo 7-network",
+    "color": "#e11d48",
+    "tier": 1,
+    "description": "Medial prefrontal, posterior cingulate, angular, and medial temporal regions with high intrinsic coupling.",
+    "key_regions": ["posterior cingulate cortex", "medial prefrontal cortex", "angular gyrus"],
+    "citations": [
+      {
+        "doi": "10.1152/jn.00338.2011",
+        "year": 2011,
+        "journal": "Journal of Neurophysiology",
+        "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+      }
+    ]
+  },
+  {
+    "slug": "salience",
+    "name": "Salience network",
+    "system": "Triple network",
+    "color": "#f97316",
+    "tier": 1,
+    "description": "Anterior insula and dorsal anterior cingulate network involved in salience detection and control switching.",
+    "key_regions": ["anterior insula", "dorsal anterior cingulate"],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuron.2007.05.011",
+        "year": 2007,
+        "journal": "Neuron",
+        "title": "Dissociable intrinsic connectivity networks for salience processing and executive control"
+      }
+    ]
+  },
+  {
+    "slug": "language",
+    "name": "Language network",
+    "system": "Task-defined association network",
+    "color": "#06b6d4",
+    "tier": 2,
+    "description": "Left-lateralized inferior frontal and temporal-parietal regions engaged by sentence and discourse processing.",
+    "key_regions": ["inferior frontal area 44", "posterior superior temporal cortex"],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuron.2012.06.036",
+        "year": 2012,
+        "journal": "Neuron",
+        "title": "Broca's area and language processing"
+      }
+    ]
+  }
+]

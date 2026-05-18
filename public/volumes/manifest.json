@@ -1,0 +1,10 @@
+{
+  "note": "Large atlas volumes are intentionally external in Phase 1. This manifest defines the required filenames, citations, and public paths used by the loader.",
+  "volumes": [
+    "MNI152_2009c_asym.nii.gz",
+    "HCP-MMP1.nii.gz",
+    "julich-brain-v3.1.nii.gz",
+    "allen-ccf-v3.nii.gz",
+    "aparc.DKTatlas.annot"
+  ]
+}

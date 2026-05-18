@@ -1,0 +1,12 @@
+[
+  {
+    "hcp_area": "44",
+    "dk": "pars opercularis",
+    "confidence": "plausible"
+  },
+  {
+    "hcp_area": "4",
+    "dk": "precentral gyrus",
+    "confidence": "robust"
+  }
+]

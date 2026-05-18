@@ -1,0 +1,18 @@
+[
+  {
+    "term": "Afferent",
+    "definition": "Input projection arriving at a structure."
+  },
+  {
+    "term": "Cytoarchitecture",
+    "definition": "Tissue organization defined by cellular density, laminar pattern, and cell-class composition."
+  },
+  {
+    "term": "Dlabel",
+    "definition": "CIFTI dense label file used for surface or grayordinate parcellation maps."
+  },
+  {
+    "term": "Principal gradient",
+    "definition": "A low-dimensional axis describing cortical organization from sensorimotor to transmodal association cortex."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "human_cluster": "PFC_IT_019",
+    "mouse_cluster": "FRP_IT_2",
+    "confidence": "plausible"
+  },
+  {
+    "human_cluster": "HIP_DG_GRANULE_001",
+    "mouse_cluster": "DG_GC_1",
+    "confidence": "robust"
+  }
+]

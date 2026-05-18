@@ -1,0 +1,20 @@
+[
+  {
+    "cluster_id": "MOp_ET_1",
+    "class": "excitatory",
+    "family": "ET",
+    "species": "mouse"
+  },
+  {
+    "cluster_id": "FRP_IT_2",
+    "class": "excitatory",
+    "family": "IT",
+    "species": "mouse"
+  },
+  {
+    "cluster_id": "DG_GC_1",
+    "class": "excitatory",
+    "family": "dentate granule",
+    "species": "mouse"
+  }
+]

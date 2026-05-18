@@ -1,0 +1,12 @@
+[
+  {
+    "hcp_area": "44",
+    "julich_brain": "Area 44",
+    "confidence": "robust"
+  },
+  {
+    "hcp_area": "4",
+    "julich_brain": "Area 4p/4a",
+    "confidence": "plausible"
+  }
+]

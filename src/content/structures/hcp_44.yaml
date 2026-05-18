@@ -1,0 +1,93 @@
+structure_id: HCP_44
+names:
+  latin: Area 44
+  english: Inferior frontal area 44
+  abbreviations:
+    - A44
+    - BA44
+level: 2
+atlas_links:
+  hcp_mmp1: "44"
+  julich_brain: Area 44
+  brodmann: 44
+  dk: pars opercularis
+  crosswalks:
+    - source_atlas: HCP-MMP1
+      source_label: "44"
+      target_atlas: Brodmann
+      target_label: BA44
+      confidence: 1
+      citation:
+        doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+location:
+  mni_centroid_left: [-50, 14, 18]
+  mni_centroid_right: [52, 16, 18]
+  neighbors:
+    - HCP_45
+  parent: inferior_frontal_gyrus
+  children: []
+cytoarchitecture:
+  layers: Dysgranular frontal cortex.
+  cell_classes:
+    excitatory:
+      - IT
+      - CT
+    inhibitory:
+      - PV
+      - SST
+inputs:
+  afferent_cortical:
+    - posterior superior temporal cortex
+  afferent_subcortical:
+    - mediodorsal thalamus
+  afferent_modulatory:
+    - locus coeruleus
+outputs:
+  efferent_cortical:
+    - premotor cortex
+  efferent_subcortical:
+    - striatum
+functions:
+  - claim: Participates in speech production and phonological-articulatory control.
+    tier: 1
+    tier_justification: Supported by stimulation, lesion, task fMRI, and atlas-convergent language mapping.
+    citations:
+      - doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+disorders:
+  - disorder: post-stroke aphasia
+    association: Left inferior frontal injury can impair fluent speech production.
+    effect_size: 0.72
+    tier: 1
+    citations:
+      - doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+imaging:
+  t1_signal: Pars opercularis at the posterior inferior frontal gyrus.
+  fmri_tasks:
+    - verb generation
+development:
+  embryonic_origin: Dorsal telencephalic pallium.
+  peak_synaptogenesis: Early childhood with protracted language-network refinement.
+  myelination: Association-fiber myelination continues into adolescence.
+primary_citations:
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+gradient_value: 0.18

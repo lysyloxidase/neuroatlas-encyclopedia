@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "arcuate-fasciculus",
+    "name": "Arcuate fasciculus",
+    "tractseg_label": "AF",
+    "tier": 1,
+    "endpoints": ["inferior frontal cortex", "posterior temporal cortex"],
+    "functions": ["speech repetition", "phonological working memory"],
+    "citations": [
+      {
+        "doi": "10.1093/brain/awh622",
+        "year": 2005,
+        "journal": "Brain",
+        "title": "Connectivity-based parcellation of Broca's area"
+      }
+    ]
+  },
+  {
+    "slug": "corticospinal-tract",
+    "name": "Corticospinal tract",
+    "tractseg_label": "CST",
+    "tier": 1,
+    "endpoints": ["precentral gyrus", "spinal cord"],
+    "functions": ["voluntary movement", "motor output"],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2006.01.021",
+        "year": 2006,
+        "journal": "NeuroImage",
+        "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+      }
+    ]
+  },
+  {
+    "slug": "uncinate-fasciculus",
+    "name": "Uncinate fasciculus",
+    "tractseg_label": "UF",
+    "tier": 2,
+    "endpoints": ["orbitofrontal cortex", "anterior temporal lobe"],
+    "functions": ["semantic retrieval", "affective memory"],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2006.01.021",
+        "year": 2006,
+        "journal": "NeuroImage",
+        "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+      }
+    ]
+  }
+]

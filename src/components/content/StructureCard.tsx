@@ -1,0 +1,78 @@
+import type { Structure } from "@/lib/types";
+import { AtlasCrosswalk } from "./AtlasCrosswalk";
+import { Citation } from "./Citation";
+import { ConnectivityTable } from "./ConnectivityTable";
+import { CytoarchitectureBox } from "./CytoarchitectureBox";
+import { DevelopmentTrajectory } from "./DevelopmentTrajectory";
+import { DisorderLink } from "./DisorderLink";
+import { ImagingProfile } from "./ImagingProfile";
+import { TierBadge } from "./TierBadge";
+
+export function StructureCard({ structure }: { structure: Structure }) {
+  return (
+    <article className="list">
+      <section className="card">
+        <p className="eyebrow">Level {structure.level}</p>
+        <h1>{structure.names.english}</h1>
+        <p className="lead mono">{structure.names.latin}</p>
+        <ul className="pill-list">
+          {structure.names.abbreviations.map((abbr) => (
+            <li key={abbr}>{abbr}</li>
+          ))}
+        </ul>
+      </section>
+
+      <AtlasCrosswalk structure={structure} />
+      <CytoarchitectureBox structure={structure} />
+      <ConnectivityTable structure={structure} />
+
+      <section className="card" id="functions">
+        <h3>Tiered Functional Claims</h3>
+        <ul className="list">
+          {structure.functions.map((claim) => (
+            <li key={claim.claim}>
+              <div className="button-row">
+                <TierBadge tier={claim.tier} justification={claim.tier_justification} />
+                <strong>{claim.claim}</strong>
+              </div>
+              <p className="muted">{claim.tier_justification}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="card" id="neurotransmitters">
+        <h3>Neurotransmitters</h3>
+        <p>
+          <strong>Intrinsic:</strong> {structure.neurotransmitters.intrinsic.join(", ")}
+        </p>
+        <p>
+          <strong>Modulatory:</strong> {structure.neurotransmitters.modulatory.join(", ")}
+        </p>
+      </section>
+
+      <section className="card" id="disorders">
+        <h3>Disorder Links</h3>
+        <ul className="list">
+          {structure.disorders.map((disorder) => (
+            <DisorderLink key={disorder.disorder} disorder={disorder} />
+          ))}
+        </ul>
+      </section>
+
+      <ImagingProfile structure={structure} />
+      <DevelopmentTrajectory structure={structure} />
+
+      <section className="card" id="citations">
+        <h3>Primary Citations</h3>
+        <ul className="list">
+          {structure.primary_citations.map((citation) => (
+            <li key={citation.doi}>
+              <Citation citation={citation} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    </article>
+  );
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "alzheimers-disease",
+    "name": "Alzheimer's disease",
+    "enigma_overlay": "entorhinal-hippocampal atrophy",
+    "tier": 1,
+    "affected_structures": ["Dentate gyrus", "entorhinal cortex", "posterior cingulate cortex"],
+    "summary": "Phase 1 stores a coarse ENIGMA-style overlay scaffold for hippocampal and association-cortex vulnerability.",
+    "citations": [
+      {
+        "doi": "10.1038/nature25975",
+        "year": 2018,
+        "journal": "Nature",
+        "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults"
+      }
+    ]
+  },
+  {
+    "slug": "schizophrenia",
+    "name": "Schizophrenia",
+    "enigma_overlay": "fronto-temporal and thalamic dysconnectivity",
+    "tier": 2,
+    "affected_structures": ["Thalamus", "prefrontal cortex", "superior temporal cortex"],
+    "summary": "Atlas-level associations are represented as tiered overlays pending full ENIGMA map ingestion.",
+    "citations": [
+      {
+        "doi": "10.1176/appi.ajp.2018.18070854",
+        "year": 2019,
+        "journal": "American Journal of Psychiatry",
+        "title": "Thalamic dysconnectivity in schizophrenia"
+      }
+    ]
+  }
+]
