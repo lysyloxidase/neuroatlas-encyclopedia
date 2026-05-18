@@ -1,0 +1,104 @@
+structure_id: L2_LAYER_III
+names:
+  latin: Lamina pyramidalis externa
+  english: Layer III medium pyramidal layer
+  abbreviations:
+    - L3
+level: 2
+microanatomy:
+  category: cortical layer
+  laminar_profile: IT-L2/3 continuation with larger pyramidal neurons supporting long-range cortico-cortical projections.
+  compartments:
+    - IT-L2/3
+    - long-range corticocortical
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: IT-L2/3 continuation with larger pyramidal neurons supporting long-range cortico-cortical projections.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - NP
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Layer III medium pyramidal layer supports long-range cortico-cortical communication.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1038/s41586-018-0654-5
+        year: 2018
+        journal: Nature
+        title: Shared and distinct transcriptomic cell types across neocortical areas
+  - claim: State modulation varies along a single transcriptomic axis across cortical interneurons.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1038/s41586-022-04915-7
+        year: 2022
+        journal: Nature
+        title: A transcriptomic axis predicts state modulation of cortical interneurons
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Layer III medium pyramidal layer is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1038/s41586-018-0654-5
+    year: 2018
+    journal: Nature
+    title: Shared and distinct transcriptomic cell types across neocortical areas
+  - doi: 10.1038/s41586-021-03465-8
+    year: 2021
+    journal: Nature
+    title: Comparative cellular analysis of motor cortex in human, marmoset and mouse
+  - doi: 10.1038/s41586-022-04915-7
+    year: 2022
+    journal: Nature
+    title: A transcriptomic axis predicts state modulation of cortical interneurons

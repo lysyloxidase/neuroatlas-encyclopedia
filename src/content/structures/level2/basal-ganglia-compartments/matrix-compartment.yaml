@@ -1,0 +1,95 @@
+structure_id: L2_BG_MATRIX
+names:
+  latin: Matrix compartment
+  english: Matrix compartment
+  abbreviations:
+    - matrix
+    - calbindin+
+level: 2
+microanatomy:
+  category: basal ganglia compartment
+  compartments:
+    - calbindin positive
+    - calretinin positive
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Level 2 microanatomical unit with atlas-defined cellular composition.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - NP
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: The striatal matrix is calbindin-positive and forms the complementary major striatal compartment.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1016/j.cub.2024.09.070
+        year: 2024
+        journal: Current Biology
+        title: Striosomes control dopamine via dual pathways paralleling canonical basal ganglia circuits
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Matrix compartment is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1016/j.cub.2024.09.070
+    year: 2024
+    journal: Current Biology
+    title: Striosomes control dopamine via dual pathways paralleling canonical basal ganglia circuits
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1038/s41586-021-03465-8
+    year: 2021
+    journal: Nature
+    title: Comparative cellular analysis of motor cortex in human, marmoset and mouse

@@ -1,0 +1,122 @@
+structure_id: L2_HIP_DG_GCL
+names:
+  latin: Stratum granulare gyri dentati
+  english: Dentate gyrus granule cell layer
+  abbreviations:
+    - DG-GCL
+level: 2
+microanatomy:
+  category: hippocampal subfield
+  laminar_profile: dentate granule cells
+  compartments:
+    - Adult human dentate neurogenesis is contested and flagged plausible.
+  phase3_tags:
+    - adult neurogenesis
+  color: hsl(29 80% 58%)
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: dentate granule cells
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic interneurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Adult human dentate granule-cell neurogenesis remains contested.
+    tier: 2
+    tier_justification: Sorrells 2018 reported minimal adult neurogenesis, Boldrini 2018 reported persistence, and
+      Tosoni 2023 reconciled cell-state interpretation with a plausible tier.
+    citations:
+      - doi: 10.1038/nature25975
+        year: 2018
+        journal: Nature
+        title: Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults
+      - doi: 10.1016/j.stem.2018.03.015
+        year: 2018
+        journal: Cell Stem Cell
+        title: Human Hippocampal Neurogenesis Persists throughout Aging
+      - doi: 10.1016/j.neuron.2023.03.010
+        year: 2023
+        journal: Neuron
+        title: Mapping human adult hippocampal neurogenesis with single-cell transcriptomics
+    contradicting:
+      - doi: 10.1038/nature25975
+        year: 2018
+        journal: Nature
+        title: Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults
+      - doi: 10.1016/j.stem.2018.03.015
+        year: 2018
+        journal: Cell Stem Cell
+        title: Human Hippocampal Neurogenesis Persists throughout Aging
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Dentate gyrus granule cell layer is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+  adult_neurogenesis:
+    tier: 2
+    tier_justification: Adult human dentate neurogenesis has conflicting postmortem and single-cell evidence.
+    citations:
+      - doi: 10.1038/nature25975
+        year: 2018
+        journal: Nature
+        title: Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults
+      - doi: 10.1016/j.stem.2018.03.015
+        year: 2018
+        journal: Cell Stem Cell
+        title: Human Hippocampal Neurogenesis Persists throughout Aging
+      - doi: 10.1016/j.neuron.2023.03.010
+        year: 2023
+        journal: Neuron
+        title: Mapping human adult hippocampal neurogenesis with single-cell transcriptomics
+primary_citations:
+  - doi: 10.1038/nature25975
+    year: 2018
+    journal: Nature
+    title: Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults
+  - doi: 10.1016/j.stem.2018.03.015
+    year: 2018
+    journal: Cell Stem Cell
+    title: Human Hippocampal Neurogenesis Persists throughout Aging
+  - doi: 10.1016/j.neuron.2023.03.010
+    year: 2023
+    journal: Neuron
+    title: Mapping human adult hippocampal neurogenesis with single-cell transcriptomics

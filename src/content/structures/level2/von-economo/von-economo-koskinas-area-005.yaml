@@ -1,0 +1,95 @@
+structure_id: L2_VEK_005
+names:
+  latin: Area von Economo-Koskinas 005
+  english: von Economo-Koskinas area 005
+  abbreviations:
+    - VEK-005
+level: 2
+microanatomy:
+  category: von economo area
+  von_economo_class: frontal subdivision
+  compartments:
+    - frontal cytoarchitectonic subdivision
+  phase3_tags: []
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Level 2 microanatomical unit with atlas-defined cellular composition.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - NP
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: This frontal von Economo-Koskinas subdivision refines Brodmann-scale cytoarchitecture.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1126/science.abb4588
+        year: 2020
+        journal: Science
+        title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: von Economo-Koskinas area 005 is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans

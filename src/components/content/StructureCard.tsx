@@ -46,6 +46,32 @@ export function StructureCard({ structure }: { structure: Structure }) {
         </section>
       ) : null}
 
+      {structure.microanatomy ? (
+        <section className="card" id="microanatomy">
+          <h3>Microanatomy</h3>
+          <p className="muted">{structure.microanatomy.category}</p>
+          {structure.microanatomy.laminar_profile ? <p>{structure.microanatomy.laminar_profile}</p> : null}
+          {structure.microanatomy.hcp_correspondence ? (
+            <p>
+              <strong>HCP-MMP1:</strong> {structure.microanatomy.hcp_correspondence.join(", ")}
+            </p>
+          ) : null}
+          {structure.microanatomy.julich_correspondence ? (
+            <p>
+              <strong>Julich-Brain:</strong> {structure.microanatomy.julich_correspondence.join(", ")}
+            </p>
+          ) : null}
+          {structure.microanatomy.compartments ? (
+            <ul className="pill-list">
+              {structure.microanatomy.compartments.map((compartment) => (
+                <li key={compartment}>{compartment}</li>
+              ))}
+            </ul>
+          ) : null}
+          {structure.microanatomy.phase3_tags?.includes("NEW") ? <span className="new-badge">NEW</span> : null}
+        </section>
+      ) : null}
+
       <AtlasCrosswalk structure={structure} />
       <CytoarchitectureBox structure={structure} />
       <ConnectivityTable structure={structure} />

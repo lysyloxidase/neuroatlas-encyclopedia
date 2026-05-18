@@ -472,6 +472,13 @@ select {
   padding-top: 0.75rem;
 }
 
+.micro-tile {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 8px;
+  min-height: 3rem;
+  padding: 0.7rem;
+}
+
 @media (max-width: 780px) {
   .nav-inner,
   .hero,

@@ -1,0 +1,87 @@
+structure_id: L2_THAL_11
+names:
+  latin: Central medial nucleus
+  english: Central medial nucleus
+  abbreviations:
+    - Central
+level: 2
+microanatomy:
+  category: thalamic nucleus
+  julich_correspondence:
+    - Central medial nucleus
+  compartments:
+    - Central medial
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Level 2 microanatomical unit with atlas-defined cellular composition.
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic interneurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Central medial nucleus participates in nucleus-specific thalamocortical relay or modulation.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1016/j.neuroimage.2018.08.012
+        year: 2018
+        journal: NeuroImage
+        title: A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Central medial nucleus is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2018.08.012
+    year: 2018
+    journal: NeuroImage
+    title: A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex

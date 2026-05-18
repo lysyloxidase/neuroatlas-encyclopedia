@@ -56,6 +56,21 @@ export const structureSchema = z.object({
       system_view_tier: tierSchema.optional(),
     })
     .optional(),
+  microanatomy: z
+    .object({
+      category: z.string(),
+      laminar_profile: z.string().optional(),
+      hcp_correspondence: z.array(z.string()).optional(),
+      julich_correspondence: z.array(z.string()).optional(),
+      brodmann_status: z.string().optional(),
+      von_economo_class: z.string().optional(),
+      compartments: z.array(z.string()).optional(),
+      neurotransmitter_markers: z.array(z.string()).optional(),
+      species_note: z.string().optional(),
+      phase3_tags: z.array(z.string()).optional(),
+      color: z.string().optional(),
+    })
+    .optional(),
   atlas_links: z.object({
     hcp_mmp1: z.string().optional(),
     julich_brain: z.string().optional(),

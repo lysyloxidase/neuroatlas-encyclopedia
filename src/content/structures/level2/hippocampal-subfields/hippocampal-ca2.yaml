@@ -1,0 +1,101 @@
+structure_id: L2_HIP_CA2
+names:
+  latin: Cornu Ammonis 2
+  english: Hippocampal CA2
+  abbreviations:
+    - CA2
+level: 2
+microanatomy:
+  category: hippocampal subfield
+  laminar_profile: social-memory sensitive field with species evidence strongest in mouse
+  compartments:
+    - social memory
+  phase3_tags: []
+  color: hsl(145 80% 58%)
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: social-memory sensitive field with species evidence strongest in mouse
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic interneurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Mouse CA2 is essential for social memory.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1038/nature13028
+        year: 2014
+        journal: Nature
+        title: The hippocampal CA2 region is essential for social memory
+  - claim: Human CA2 social-memory specialization is plausible but less directly causal than mouse evidence.
+    tier: 2
+    tier_justification: Human CA2 evidence is atlas and translational rather than direct causal evidence.
+    citations:
+      - doi: 10.1038/nature13028
+        year: 2014
+        journal: Nature
+        title: The hippocampal CA2 region is essential for social memory
+    contradicting:
+      - doi: 10.1016/j.neuroimage.2015.04.042
+        year: 2015
+        journal: NeuroImage
+        title: A computational atlas of the hippocampal formation using ex vivo, ultra-high resolution MRI
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Hippocampal CA2 is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2015.04.042
+    year: 2015
+    journal: NeuroImage
+    title: A computational atlas of the hippocampal formation using ex vivo, ultra-high resolution MRI
+  - doi: 10.1038/nature13028
+    year: 2014
+    journal: Nature
+    title: The hippocampal CA2 region is essential for social memory
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"

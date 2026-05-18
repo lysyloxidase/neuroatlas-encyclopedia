@@ -55,6 +55,19 @@ export interface Structure {
     color?: string;
     system_view_tier?: Tier;
   };
+  microanatomy?: {
+    category: string;
+    laminar_profile?: string;
+    hcp_correspondence?: string[];
+    julich_correspondence?: string[];
+    brodmann_status?: string;
+    von_economo_class?: string;
+    compartments?: string[];
+    neurotransmitter_markers?: string[];
+    species_note?: string;
+    phase3_tags?: string[];
+    color?: string;
+  };
   atlas_links: {
     hcp_mmp1?: string;
     julich_brain?: string;

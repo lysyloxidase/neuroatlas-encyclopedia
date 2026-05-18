@@ -3,7 +3,7 @@ import { join } from "node:path";
 import YAML from "yaml";
 
 const ROOT = process.cwd();
-const CONTENT_ROOT = join(ROOT, "src/content/structures/level1");
+const CONTENT_ROOT = join(ROOT, "src/content/structures");
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });

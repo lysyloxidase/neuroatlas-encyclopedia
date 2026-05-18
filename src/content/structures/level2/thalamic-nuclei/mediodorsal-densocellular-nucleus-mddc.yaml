@@ -1,0 +1,97 @@
+structure_id: L2_THAL_06
+names:
+  latin: Mediodorsal densocellular nucleus MDdc
+  english: Mediodorsal densocellular nucleus MDdc
+  abbreviations:
+    - Mediodorsal
+    - MDdc
+level: 2
+microanatomy:
+  category: thalamic nucleus
+  julich_correspondence:
+    - Mediodorsal densocellular nucleus MDdc
+  compartments:
+    - Mediodorsal densocellular
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Level 2 microanatomical unit with atlas-defined cellular composition.
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic interneurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Mediodorsal thalamic nuclei are association thalamus nodes for prefrontal and limbic loops.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1016/j.neuroimage.2018.08.012
+        year: 2018
+        journal: NeuroImage
+        title: A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology
+  - claim: Mediodorsal thalamic atrophy is universally reported across FTD subtypes in Bocchetta 2019.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1002/hbm.24856
+        year: 2019
+        journal: Human Brain Mapping
+        title: "Thalamic nuclei in frontotemporal dementia: Mediodorsal nucleus involvement is universal"
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Mediodorsal densocellular nucleus MDdc is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1016/j.neuroimage.2018.08.012
+    year: 2018
+    journal: NeuroImage
+    title: A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology
+  - doi: 10.1002/hbm.24856
+    year: 2019
+    journal: Human Brain Mapping
+    title: "Thalamic nuclei in frontotemporal dementia: Mediodorsal nucleus involvement is universal"
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"

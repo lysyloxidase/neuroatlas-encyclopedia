@@ -1,0 +1,126 @@
+structure_id: HCP_44
+names:
+  latin: Area 44
+  english: Inferior frontal area 44
+  abbreviations:
+    - A44
+    - BA44
+    - IFGop
+level: 2
+microanatomy:
+  category: hcp-mmp1 area
+  laminar_profile: Dysgranular inferior frontal cortex corresponding to HCP-MMP1 area 44, Brodmann 44, and
+    Julich-Brain Area 44.
+  hcp_correspondence:
+    - "44"
+  julich_correspondence:
+    - Area 44
+  brodmann_status: Preserved Phase 1 HCP-MMP1 area entry for Broca pars opercularis crosswalk continuity.
+atlas_links:
+  hcp_mmp1: "44"
+  brodmann: 44
+  julich_brain: Area 44
+  dk: pars opercularis
+  crosswalks:
+    - source_atlas: HCP-MMP1
+      source_label: "44"
+      target_atlas: Brodmann
+      target_label: BA44
+      confidence: 1
+      citation:
+        doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+        title: A multi-modal parcellation of human cerebral cortex
+    - source_atlas: HCP-MMP1
+      source_label: "44"
+      target_atlas: Julich-Brain
+      target_label: Area 44
+      confidence: 1
+      citation:
+        doi: 10.1126/science.abb4588
+        year: 2020
+        journal: Science
+        title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Dysgranular inferior frontal cortex corresponding to HCP-MMP1 area 44, Brodmann 44, and Julich-Brain
+    Area 44.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - NP
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Inferior frontal area 44 participates in left-lateralized speech production and
+      phonological-articulatory control.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+        title: A multi-modal parcellation of human cerebral cortex
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Inferior frontal area 44 is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1016/j.neuroimage.2006.01.021
+    year: 2006
+    journal: NeuroImage
+    title: An automated labeling system for subdividing the human cerebral cortex on MRI scans

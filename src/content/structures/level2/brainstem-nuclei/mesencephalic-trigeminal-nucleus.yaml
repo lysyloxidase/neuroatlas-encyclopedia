@@ -1,0 +1,88 @@
+structure_id: L2_BS_05
+names:
+  latin: Mesencephalic trigeminal nucleus
+  english: Mesencephalic trigeminal nucleus
+  abbreviations:
+    - MeV
+level: 2
+microanatomy:
+  category: brainstem nucleus
+  compartments:
+    - CNS-located primary sensory proprioceptive neurons
+  neurotransmitter_markers:
+    - MeV
+atlas_links:
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Level 2 microanatomical unit with atlas-defined cellular composition.
+  cell_classes:
+    excitatory:
+      - projection neurons
+    inhibitory:
+      - GABAergic interneurons
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - cortical association and local circuit inputs
+  afferent_subcortical:
+    - thalamic, basal ganglia, cerebellar, or brainstem inputs as appropriate
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range target fields
+  efferent_subcortical:
+    - nucleus-specific downstream targets
+functions:
+  - claim: Mesencephalic trigeminal nucleus supports CNS-located primary sensory proprioceptive neurons.
+    tier: 1
+    tier_justification: Convergent anatomical, atlas, lesion, stimulation, and systems-neuroscience evidence
+      supports this Level 2 claim.
+    citations:
+      - doi: 10.1038/nature17996
+        year: 2016
+        journal: Nature
+        title: Midbrain circuits for defensive behaviour
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Mesencephalic trigeminal nucleus is represented as a Level 2 microanatomical or atlas-defined entity.
+  fmri_tasks:
+    - resting state
+    - task localizer
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and projection development.
+primary_citations:
+  - doi: 10.1038/nature17996
+    year: 2016
+    journal: Nature
+    title: Midbrain circuits for defensive behaviour
+  - doi: 10.1016/j.cell.2018.07.043
+    year: 2018
+    journal: Cell
+    title: Anatomically Defined and Functionally Distinct Dorsal Raphe Serotonin Sub-systems
+  - doi: 10.7554/eLife.49424
+    year: 2019
+    journal: eLife
+    title: Single-cell transcriptomes and whole-brain projections of serotonin neurons in the mouse dorsal and
+      median raphe nuclei
