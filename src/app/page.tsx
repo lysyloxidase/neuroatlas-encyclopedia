@@ -27,163 +27,164 @@ interface SectionEntry {
   accent: "cyan" | "violet" | "amber" | "emerald" | "rose";
 }
 
-const sectionGroups: { id: string; title: string; entries: SectionEntry[] }[] = [
-  {
-    id: "anatomy",
-    title: "Anatomy",
-    entries: [
-      {
-        href: "/atlas",
-        title: "Reference atlases",
-        description:
-          "HCP-MMP1, Julich, Allen CCFv3, and Desikan-Killiany as a shared backbone.",
-        meta: "4 atlases",
-        icon: <Layers3 size={20} />,
-        accent: "cyan",
-      },
-      {
-        href: "/viewer",
-        title: "3D viewer",
-        description:
-          "Interactive cortex with gyri/sulci, deep structures, ventricles, and tractography.",
-        meta: "Full screen",
-        icon: <Brain size={20} />,
-        accent: "cyan",
-      },
-      {
-        href: "/microanatomy",
-        title: "Microanatomy",
-        description:
-          "Cortical layers, hippocampal subfields, thalamic nuclei, PAG columns.",
-        meta: "Level 5",
-        icon: <Atom size={20} />,
-        accent: "violet",
-      },
-      {
-        href: "/cerebellum",
-        title: "Cerebellum",
-        description: "HOA lobules, cerebellar cortex, pontine connections.",
-        meta: "Posterior fossa",
-        icon: <Compass size={20} />,
-        accent: "emerald",
-      },
-      {
-        href: "/cellular",
-        title: "Cell types",
-        description:
-          "Siletti and Yao taxonomies — excitatory, inhibitory, and glial classes.",
-        meta: "Cross-species",
-        icon: <Sparkles size={20} />,
-        accent: "violet",
-      },
-    ],
-  },
-  {
-    id: "function",
-    title: "Function",
-    entries: [
-      {
-        href: "/networks",
-        title: "Large-scale networks",
-        description:
-          "DMN, salience, CEN, dual-stream language, dorsal/ventral visual streams.",
-        meta: "Yeo / Glasser",
-        icon: <Network size={20} />,
-        accent: "cyan",
-      },
-      {
-        href: "/neuromodulators",
-        title: "Neuromodulators",
-        description:
-          "DA, 5-HT, NA, ACh, and histamine pathways with receptor mapping.",
-        meta: "5 systems",
-        icon: <Workflow size={20} />,
-        accent: "amber",
-      },
-      {
-        href: "/connectome",
-        title: "Connectome",
-        description: "360-node HCP-MMP1 graph with rich-club hubs.",
-        meta: "Structural",
-        icon: <Network size={20} />,
-        accent: "cyan",
-      },
-      {
-        href: "/gradient",
-        title: "Principal gradient",
-        description:
-          "Sensory-to-transmodal cortical hierarchy (Margulies 2016).",
-        meta: "G1",
-        icon: <Activity size={20} />,
-        accent: "violet",
-      },
-    ],
-  },
-  {
-    id: "pathology",
-    title: "Pathology",
-    entries: [
-      {
-        href: "/disorders",
-        title: "Disorders",
-        description:
-          "ENIGMA structural maps, biomarkers, pathology propagation, tiered evidence.",
-        meta: "Cohen's d",
-        icon: <Heart size={20} />,
-        accent: "rose",
-      },
-      {
-        href: "/disorders/dbs",
-        title: "DBS targets",
-        description:
-          "Indications, target nuclei, FDA status, and evidence levels.",
-        meta: "Clinical",
-        icon: <Activity size={20} />,
-        accent: "rose",
-      },
-    ],
-  },
-  {
-    id: "learn",
-    title: "Learn",
-    entries: [
-      {
-        href: "/explainers/principal-gradient",
-        title: "Explainers",
-        description:
-          "Short walk-throughs of key concepts with interactive widgets.",
-        meta: "~5 min",
-        icon: <BookOpen size={20} />,
-        accent: "amber",
-      },
-      {
-        href: "/quiz/cortical-anatomy",
-        title: "Quizzes",
-        description: "Test your knowledge of cortical and subcortical anatomy.",
-        meta: "Multiple choice",
-        icon: <GraduationCap size={20} />,
-        accent: "emerald",
-      },
-      {
-        href: "/development",
-        title: "Development",
-        description:
-          "Brain-development timeline from embryo to adulthood.",
-        meta: "Timeline",
-        icon: <Activity size={20} />,
-        accent: "amber",
-      },
-      {
-        href: "/decisive-studies",
-        title: "Decisive studies",
-        description: "Landmark papers that shaped modern neuroanatomy.",
-        meta: "Citations",
-        icon: <ScrollText size={20} />,
-        accent: "violet",
-      },
-    ],
-  },
-];
+const sectionGroups: { id: string; title: string; entries: SectionEntry[] }[] =
+  [
+    {
+      id: "anatomy",
+      title: "Anatomy",
+      entries: [
+        {
+          href: "/atlas",
+          title: "Reference atlases",
+          description:
+            "HCP-MMP1, Julich, Allen CCFv3, and Desikan-Killiany as a shared backbone.",
+          meta: "4 atlases",
+          icon: <Layers3 size={20} />,
+          accent: "cyan",
+        },
+        {
+          href: "/viewer",
+          title: "3D viewer",
+          description:
+            "Interactive cortex with gyri/sulci, deep structures, ventricles, and tractography.",
+          meta: "Full screen",
+          icon: <Brain size={20} />,
+          accent: "cyan",
+        },
+        {
+          href: "/microanatomy",
+          title: "Microanatomy",
+          description:
+            "Cortical layers, hippocampal subfields, thalamic nuclei, PAG columns.",
+          meta: "Level 5",
+          icon: <Atom size={20} />,
+          accent: "violet",
+        },
+        {
+          href: "/cerebellum",
+          title: "Cerebellum",
+          description: "HOA lobules, cerebellar cortex, pontine connections.",
+          meta: "Posterior fossa",
+          icon: <Compass size={20} />,
+          accent: "emerald",
+        },
+        {
+          href: "/cellular",
+          title: "Cell types",
+          description:
+            "Siletti and Yao taxonomies — excitatory, inhibitory, and glial classes.",
+          meta: "Cross-species",
+          icon: <Sparkles size={20} />,
+          accent: "violet",
+        },
+      ],
+    },
+    {
+      id: "function",
+      title: "Function",
+      entries: [
+        {
+          href: "/networks",
+          title: "Large-scale networks",
+          description:
+            "DMN, salience, CEN, dual-stream language, dorsal/ventral visual streams.",
+          meta: "Yeo / Glasser",
+          icon: <Network size={20} />,
+          accent: "cyan",
+        },
+        {
+          href: "/neuromodulators",
+          title: "Neuromodulators",
+          description:
+            "DA, 5-HT, NA, ACh, and histamine pathways with receptor mapping.",
+          meta: "5 systems",
+          icon: <Workflow size={20} />,
+          accent: "amber",
+        },
+        {
+          href: "/connectome",
+          title: "Connectome",
+          description: "360-node HCP-MMP1 graph with rich-club hubs.",
+          meta: "Structural",
+          icon: <Network size={20} />,
+          accent: "cyan",
+        },
+        {
+          href: "/gradient",
+          title: "Principal gradient",
+          description:
+            "Sensory-to-transmodal cortical hierarchy (Margulies 2016).",
+          meta: "G1",
+          icon: <Activity size={20} />,
+          accent: "violet",
+        },
+      ],
+    },
+    {
+      id: "pathology",
+      title: "Pathology",
+      entries: [
+        {
+          href: "/disorders",
+          title: "Disorders",
+          description:
+            "ENIGMA structural maps, biomarkers, pathology propagation, tiered evidence.",
+          meta: "Cohen's d",
+          icon: <Heart size={20} />,
+          accent: "rose",
+        },
+        {
+          href: "/disorders/dbs",
+          title: "DBS targets",
+          description:
+            "Indications, target nuclei, FDA status, and evidence levels.",
+          meta: "Clinical",
+          icon: <Activity size={20} />,
+          accent: "rose",
+        },
+      ],
+    },
+    {
+      id: "learn",
+      title: "Learn",
+      entries: [
+        {
+          href: "/explainers/principal-gradient",
+          title: "Explainers",
+          description:
+            "Short walk-throughs of key concepts with interactive widgets.",
+          meta: "~5 min",
+          icon: <BookOpen size={20} />,
+          accent: "amber",
+        },
+        {
+          href: "/quiz/cortical-anatomy",
+          title: "Quizzes",
+          description:
+            "Test your knowledge of cortical and subcortical anatomy.",
+          meta: "Multiple choice",
+          icon: <GraduationCap size={20} />,
+          accent: "emerald",
+        },
+        {
+          href: "/development",
+          title: "Development",
+          description: "Brain-development timeline from embryo to adulthood.",
+          meta: "Timeline",
+          icon: <Activity size={20} />,
+          accent: "amber",
+        },
+        {
+          href: "/decisive-studies",
+          title: "Decisive studies",
+          description: "Landmark papers that shaped modern neuroanatomy.",
+          meta: "Citations",
+          icon: <ScrollText size={20} />,
+          accent: "violet",
+        },
+      ],
+    },
+  ];
 
 export default function Home() {
   const filterItems = structures.map((structure) => ({
@@ -222,8 +223,8 @@ export default function Home() {
         <p className="eyebrow">Section map</p>
         <h2>Where to start</h2>
         <p className="lead muted">
-          Each group is a focused exploration path — pick a domain
-          (anatomy, function, pathology) or follow the learning track.
+          Each group is a focused exploration path — pick a domain (anatomy,
+          function, pathology) or follow the learning track.
         </p>
         <div className="section-map">
           {sectionGroups.map((group) => (

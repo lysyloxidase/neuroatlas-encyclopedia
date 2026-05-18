@@ -152,23 +152,21 @@ export function ConnectomeGraph() {
       <div className="section-heading-row">
         <h3>HCP 360-Node Structural Connectome</h3>
         <div className="filter-bar">
-          {(["communities", "lobes", "hemispheres"] as ColorMode[]).map(
-            (m) => (
-              <button
-                aria-pressed={mode === m}
-                className="filter-button"
-                key={m}
-                onClick={() => setMode(m)}
-                type="button"
-              >
-                {m === "communities"
-                  ? "Yeo networks"
-                  : m === "lobes"
-                    ? "Lobes"
-                    : "Hemispheres"}
-              </button>
-            ),
-          )}
+          {(["communities", "lobes", "hemispheres"] as ColorMode[]).map((m) => (
+            <button
+              aria-pressed={mode === m}
+              className="filter-button"
+              key={m}
+              onClick={() => setMode(m)}
+              type="button"
+            >
+              {m === "communities"
+                ? "Yeo networks"
+                : m === "lobes"
+                  ? "Lobes"
+                  : "Hemispheres"}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -195,10 +193,22 @@ export function ConnectomeGraph() {
         <rect width="350" height="330" fill="url(#cg-bg)" />
 
         {/* Hemisphere labels */}
-        <text x="58" y="22" fill="rgba(148, 163, 184, 0.55)" fontSize="10" fontFamily="JetBrains Mono, monospace">
+        <text
+          x="58"
+          y="22"
+          fill="rgba(148, 163, 184, 0.55)"
+          fontSize="10"
+          fontFamily="JetBrains Mono, monospace"
+        >
           L hemisphere
         </text>
-        <text x="232" y="22" fill="rgba(148, 163, 184, 0.55)" fontSize="10" fontFamily="JetBrains Mono, monospace">
+        <text
+          x="232"
+          y="22"
+          fill="rgba(148, 163, 184, 0.55)"
+          fontSize="10"
+          fontFamily="JetBrains Mono, monospace"
+        >
           R hemisphere
         </text>
 
@@ -226,7 +236,9 @@ export function ConnectomeGraph() {
               key={idx}
               d={`M ${source.x} ${source.y} Q ${cx} ${cy} ${target.x} ${target.y}`}
               fill="none"
-              stroke={dim ? "rgba(148, 163, 184, 0.05)" : "rgba(148, 163, 184, 0.22)"}
+              stroke={
+                dim ? "rgba(148, 163, 184, 0.05)" : "rgba(148, 163, 184, 0.22)"
+              }
               strokeWidth={isHubEdge ? 0.9 : 0.4}
               opacity={dim ? 0.3 : strength}
             />

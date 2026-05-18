@@ -126,7 +126,10 @@ export function BrainViewer({
         </div>
       )}
       <Canvas
-        camera={{ position: [0, 0, minimal ? 4.6 : 3.8], fov: minimal ? 44 : 40 }}
+        camera={{
+          position: [0, 0, minimal ? 4.6 : 3.8],
+          fov: minimal ? 44 : 40,
+        }}
         dpr={[1, 1.6]}
         gl={{ antialias: true }}
       >
@@ -138,9 +141,7 @@ export function BrainViewer({
         />
         <color attach="background" args={["#020617"]} />
         <ambientLight intensity={0.35} />
-        <hemisphereLight
-          args={["#7dd3fc", "#1e1b4b", 0.45]}
-        />
+        <hemisphereLight args={["#7dd3fc", "#1e1b4b", 0.45]} />
         <directionalLight
           castShadow={false}
           intensity={1.4}

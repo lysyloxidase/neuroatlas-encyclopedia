@@ -115,10 +115,14 @@ const tractTemplates: Array<(idx: number) => Vector3[]> = [
   (i) => makeFornix(i % 2 === 0 ? -1 : 1),
 ];
 
-function jitterPoints(points: Vector3[], seed: number, amount: number): Vector3[] {
+function jitterPoints(
+  points: Vector3[],
+  seed: number,
+  amount: number,
+): Vector3[] {
   return points.map((p, idx) => {
     const r = Math.sin(seed * 12.9898 + idx * 78.233) * 43758.5453;
-    const j = (r - Math.floor(r)) - 0.5;
+    const j = r - Math.floor(r) - 0.5;
     return new Vector3(
       p.x + j * amount,
       p.y + j * amount * 0.6,

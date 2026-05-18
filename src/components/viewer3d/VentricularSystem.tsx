@@ -8,7 +8,9 @@ import {
   Vector3,
 } from "three";
 
-function createLateralVentricleGeometry(side: "left" | "right"): BufferGeometry {
+function createLateralVentricleGeometry(
+  side: "left" | "right",
+): BufferGeometry {
   const s = side === "left" ? -1 : 1;
   // Anterior horn → body → atrium → inferior (temporal) horn — classic C-shape
   const points = [

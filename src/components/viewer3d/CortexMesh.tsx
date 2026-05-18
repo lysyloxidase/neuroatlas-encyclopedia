@@ -61,8 +61,7 @@ function fbm(x: number, y: number, z: number, octaves: number): number {
   let amp = 0.5;
   let freq = 1;
   for (let i = 0; i < octaves; i++) {
-    value +=
-      amp * (valueNoise3D(x * freq, y * freq, z * freq) * 2 - 1);
+    value += amp * (valueNoise3D(x * freq, y * freq, z * freq) * 2 - 1);
     amp *= 0.5;
     freq *= 2;
   }
@@ -101,29 +100,13 @@ function createHemisphereGeometry(side: "left" | "right"): BufferGeometry {
     dir.set(x, y, z).normalize();
 
     // Multi-octave noise gives the gyral/sulcal surface pattern
-    const coarse = fbm(
-      dir.x * 4.2 + seed,
-      dir.y * 4.2,
-      dir.z * 4.2,
-      3,
-    );
-    const mid = fbm(
-      dir.x * 9.3,
-      dir.y * 9.3 + seed,
-      dir.z * 9.3,
-      3,
-    );
-    const fine = fbm(
-      dir.x * 18.5,
-      dir.y * 18.5,
-      dir.z * 18.5 + seed,
-      2,
-    );
+    const coarse = fbm(dir.x * 4.2 + seed, dir.y * 4.2, dir.z * 4.2, 3);
+    const mid = fbm(dir.x * 9.3, dir.y * 9.3 + seed, dir.z * 9.3, 3);
+    const fine = fbm(dir.x * 18.5, dir.y * 18.5, dir.z * 18.5 + seed, 2);
 
     // Ridge term emphasises deeper sulci
-    const ridge = 1 - Math.abs(
-      fbm(dir.x * 6.2 + seed, dir.y * 6.2, dir.z * 6.2, 2),
-    );
+    const ridge =
+      1 - Math.abs(fbm(dir.x * 6.2 + seed, dir.y * 6.2, dir.z * 6.2, 2));
 
     const disp =
       coarse * 0.078 + mid * 0.034 + fine * 0.016 + (ridge - 0.5) * 0.024;

@@ -24,39 +24,99 @@ const navGroups: NavGroup[] = [
     id: "anatomy",
     label: "Anatomy",
     links: [
-      { label: "Atlases", href: "/atlas", blurb: "HCP-MMP1, Julich, Allen CCF, Desikan-Killiany" },
-      { label: "3D viewer", href: "/viewer", blurb: "Interactive exploration of cortex and deep structures" },
-      { label: "Microanatomy", href: "/microanatomy", blurb: "Cortical layers, hippocampal subfields, thalamic nuclei" },
-      { label: "Cerebellum", href: "/cerebellum", blurb: "Lobules and cerebellar cortex" },
-      { label: "Cellular", href: "/cellular", blurb: "Cell types, Siletti and Yao taxonomies" },
+      {
+        label: "Atlases",
+        href: "/atlas",
+        blurb: "HCP-MMP1, Julich, Allen CCF, Desikan-Killiany",
+      },
+      {
+        label: "3D viewer",
+        href: "/viewer",
+        blurb: "Interactive exploration of cortex and deep structures",
+      },
+      {
+        label: "Microanatomy",
+        href: "/microanatomy",
+        blurb: "Cortical layers, hippocampal subfields, thalamic nuclei",
+      },
+      {
+        label: "Cerebellum",
+        href: "/cerebellum",
+        blurb: "Lobules and cerebellar cortex",
+      },
+      {
+        label: "Cellular",
+        href: "/cellular",
+        blurb: "Cell types, Siletti and Yao taxonomies",
+      },
     ],
   },
   {
     id: "function",
     label: "Function",
     links: [
-      { label: "Networks", href: "/networks", blurb: "DMN, salience, CEN, language, visual" },
-      { label: "Neuromodulators", href: "/neuromodulators", blurb: "Dopamine, serotonin, NA, ACh, histamine" },
-      { label: "Connectome", href: "/connectome", blurb: "HCP-MMP1 360-node graph with edges" },
-      { label: "Gradient", href: "/gradient", blurb: "Margulies principal gradient" },
+      {
+        label: "Networks",
+        href: "/networks",
+        blurb: "DMN, salience, CEN, language, visual",
+      },
+      {
+        label: "Neuromodulators",
+        href: "/neuromodulators",
+        blurb: "Dopamine, serotonin, NA, ACh, histamine",
+      },
+      {
+        label: "Connectome",
+        href: "/connectome",
+        blurb: "HCP-MMP1 360-node graph with edges",
+      },
+      {
+        label: "Gradient",
+        href: "/gradient",
+        blurb: "Margulies principal gradient",
+      },
     ],
   },
   {
     id: "pathology",
     label: "Pathology",
     links: [
-      { label: "Disorders", href: "/disorders", blurb: "ENIGMA maps, biomarkers, tiered evidence" },
-      { label: "DBS", href: "/disorders/dbs", blurb: "DBS targets, indications, FDA status" },
+      {
+        label: "Disorders",
+        href: "/disorders",
+        blurb: "ENIGMA maps, biomarkers, tiered evidence",
+      },
+      {
+        label: "DBS",
+        href: "/disorders/dbs",
+        blurb: "DBS targets, indications, FDA status",
+      },
     ],
   },
   {
     id: "learn",
     label: "Learn",
     links: [
-      { label: "Explainers", href: "/explainers/principal-gradient", blurb: "Short walk-throughs of key concepts" },
-      { label: "Quiz", href: "/quiz/cortical-anatomy", blurb: "Test your anatomical knowledge" },
-      { label: "Development", href: "/development", blurb: "Brain-development timeline" },
-      { label: "Decisive studies", href: "/decisive-studies", blurb: "Landmark papers" },
+      {
+        label: "Explainers",
+        href: "/explainers/principal-gradient",
+        blurb: "Short walk-throughs of key concepts",
+      },
+      {
+        label: "Quiz",
+        href: "/quiz/cortical-anatomy",
+        blurb: "Test your anatomical knowledge",
+      },
+      {
+        label: "Development",
+        href: "/development",
+        blurb: "Brain-development timeline",
+      },
+      {
+        label: "Decisive studies",
+        href: "/decisive-studies",
+        blurb: "Landmark papers",
+      },
     ],
   },
   {
@@ -120,16 +180,16 @@ export function Navigation() {
   return (
     <header className="nav">
       <div className="nav-inner">
-        <Link className="brand" href="/" aria-label="NeuroAtlas Encyclopedia home">
+        <Link
+          className="brand"
+          href="/"
+          aria-label="NeuroAtlas Encyclopedia home"
+        >
           <span>NeuroAtlas</span>
           <span>Encyclopedia</span>
         </Link>
 
-        <nav
-          className="nav-groups"
-          aria-label="Main navigation"
-          ref={groupRef}
-        >
+        <nav className="nav-groups" aria-label="Main navigation" ref={groupRef}>
           {navGroups.map((group) => {
             const isOpen = openGroup === group.id;
             const active = isActiveGroup(pathname, group);
@@ -165,7 +225,9 @@ export function Navigation() {
                       >
                         <span className="nav-dropdown-label">{link.label}</span>
                         {link.blurb ? (
-                          <span className="nav-dropdown-blurb">{link.blurb}</span>
+                          <span className="nav-dropdown-blurb">
+                            {link.blurb}
+                          </span>
                         ) : null}
                       </Link>
                     ))}

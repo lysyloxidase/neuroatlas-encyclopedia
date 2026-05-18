@@ -24,7 +24,10 @@ function effectColor(value: number): string {
 
 // Anatomical positions on a stylised lateral hemisphere (viewBox 600x340).
 // x: anterior(left) ↔ posterior(right). y: superior(top) ↔ inferior(bottom).
-const regionPositions: Record<string, { x: number; y: number; cluster: string }> = {
+const regionPositions: Record<
+  string,
+  { x: number; y: number; cluster: string }
+> = {
   hippocampus: { x: 360, y: 230, cluster: "temporal" },
   amygdala: { x: 320, y: 245, cluster: "temporal" },
   thalamus: { x: 290, y: 170, cluster: "subcortical" },
@@ -111,7 +114,13 @@ export function ENIGMAOverlay({
               <stop offset="0%" stopColor="#334155" />
               <stop offset="100%" stopColor="#1e293b" />
             </linearGradient>
-            <filter id="enigma-glow" x="-50%" y="-50%" width="200%" height="200%">
+            <filter
+              id="enigma-glow"
+              x="-50%"
+              y="-50%"
+              width="200%"
+              height="200%"
+            >
               <feGaussianBlur stdDeviation="6" />
               <feMerge>
                 <feMergeNode />
@@ -179,16 +188,40 @@ export function ENIGMAOverlay({
           />
 
           {/* Region labels for major lobes (faint) */}
-          <text x="140" y="115" fill="rgba(148, 163, 184, 0.45)" fontSize="10" fontFamily="JetBrains Mono, monospace">
+          <text
+            x="140"
+            y="115"
+            fill="rgba(148, 163, 184, 0.45)"
+            fontSize="10"
+            fontFamily="JetBrains Mono, monospace"
+          >
             FRONTAL
           </text>
-          <text x="340" y="80" fill="rgba(148, 163, 184, 0.45)" fontSize="10" fontFamily="JetBrains Mono, monospace">
+          <text
+            x="340"
+            y="80"
+            fill="rgba(148, 163, 184, 0.45)"
+            fontSize="10"
+            fontFamily="JetBrains Mono, monospace"
+          >
             PARIETAL
           </text>
-          <text x="350" y="250" fill="rgba(148, 163, 184, 0.45)" fontSize="10" fontFamily="JetBrains Mono, monospace">
+          <text
+            x="350"
+            y="250"
+            fill="rgba(148, 163, 184, 0.45)"
+            fontSize="10"
+            fontFamily="JetBrains Mono, monospace"
+          >
             TEMPORAL
           </text>
-          <text x="450" y="105" fill="rgba(148, 163, 184, 0.45)" fontSize="10" fontFamily="JetBrains Mono, monospace">
+          <text
+            x="450"
+            y="105"
+            fill="rgba(148, 163, 184, 0.45)"
+            fontSize="10"
+            fontFamily="JetBrains Mono, monospace"
+          >
             OCCIPITAL
           </text>
 
@@ -232,11 +265,17 @@ export function ENIGMAOverlay({
 
         <div className="enigma-legend">
           <div>
-            <span className="enigma-swatch" style={{ background: "rgba(59,130,246,0.85)" }} />
+            <span
+              className="enigma-swatch"
+              style={{ background: "rgba(59,130,246,0.85)" }}
+            />
             <span>Atrophy / thinning (d &lt; 0)</span>
           </div>
           <div>
-            <span className="enigma-swatch" style={{ background: "rgba(239,68,68,0.85)" }} />
+            <span
+              className="enigma-swatch"
+              style={{ background: "rgba(239,68,68,0.85)" }}
+            />
             <span>Enlargement (d &gt; 0)</span>
           </div>
           <div className="muted mono">N = {selectedRows.length} regions</div>

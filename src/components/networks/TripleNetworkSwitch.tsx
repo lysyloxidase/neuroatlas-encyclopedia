@@ -93,14 +93,31 @@ export function TripleNetworkSwitch() {
             cx="100"
             cy="110"
             r="55"
-            fill={mode === "dmn" ? "rgba(6, 182, 212, 0.28)" : "rgba(15, 23, 42, 0.85)"}
+            fill={
+              mode === "dmn"
+                ? "rgba(6, 182, 212, 0.28)"
+                : "rgba(15, 23, 42, 0.85)"
+            }
             stroke={mode === "dmn" ? "#06b6d4" : "rgba(148, 163, 184, 0.35)"}
             strokeWidth={mode === "dmn" ? 2.5 : 1.2}
           />
-          <text x="100" y="105" textAnchor="middle" fill="#e5e7eb" fontSize="20" fontWeight="700">
+          <text
+            x="100"
+            y="105"
+            textAnchor="middle"
+            fill="#e5e7eb"
+            fontSize="20"
+            fontWeight="700"
+          >
             DMN
           </text>
-          <text x="100" y="128" textAnchor="middle" fill="#cbd5e1" fontSize="10">
+          <text
+            x="100"
+            y="128"
+            textAnchor="middle"
+            fill="#cbd5e1"
+            fontSize="10"
+          >
             internal
           </text>
         </g>
@@ -111,14 +128,31 @@ export function TripleNetworkSwitch() {
             cx="420"
             cy="110"
             r="55"
-            fill={mode === "cen" ? "rgba(168, 85, 247, 0.28)" : "rgba(15, 23, 42, 0.85)"}
+            fill={
+              mode === "cen"
+                ? "rgba(168, 85, 247, 0.28)"
+                : "rgba(15, 23, 42, 0.85)"
+            }
             stroke={mode === "cen" ? "#a855f7" : "rgba(148, 163, 184, 0.35)"}
             strokeWidth={mode === "cen" ? 2.5 : 1.2}
           />
-          <text x="420" y="105" textAnchor="middle" fill="#e5e7eb" fontSize="20" fontWeight="700">
+          <text
+            x="420"
+            y="105"
+            textAnchor="middle"
+            fill="#e5e7eb"
+            fontSize="20"
+            fontWeight="700"
+          >
             CEN
           </text>
-          <text x="420" y="128" textAnchor="middle" fill="#cbd5e1" fontSize="10">
+          <text
+            x="420"
+            y="128"
+            textAnchor="middle"
+            fill="#cbd5e1"
+            fontSize="10"
+          >
             external
           </text>
         </g>
@@ -133,7 +167,14 @@ export function TripleNetworkSwitch() {
             stroke="#fb923c"
             strokeWidth="2"
           />
-          <text x="260" y="106" textAnchor="middle" fill="#fed7aa" fontSize="16" fontWeight="700">
+          <text
+            x="260"
+            y="106"
+            textAnchor="middle"
+            fill="#fed7aa"
+            fontSize="16"
+            fontWeight="700"
+          >
             SN
           </text>
           <text x="260" y="124" textAnchor="middle" fill="#fdba74" fontSize="9">
@@ -184,7 +225,14 @@ export function TripleNetworkSwitch() {
         )}
 
         {/* Labels */}
-        <text x="260" y="190" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontFamily="JetBrains Mono, monospace">
+        <text
+          x="260"
+          y="190"
+          textAnchor="middle"
+          fill="#cbd5e1"
+          fontSize="11"
+          fontFamily="JetBrains Mono, monospace"
+        >
           SN → directs attention
         </text>
       </svg>
