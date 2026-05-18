@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "papez",
+    "name": "Papez circuit",
+    "citation": {
+      "doi": "10.1126/science.abb4588",
+      "year": 2020,
+      "journal": "Science",
+      "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+    },
+    "edges": [
+      [
+        "hippocampus",
+        "fornix"
+      ],
+      [
+        "fornix",
+        "mammillary bodies"
+      ],
+      [
+        "mammillary bodies",
+        "mammillothalamic tract"
+      ],
+      [
+        "mammillothalamic tract",
+        "anterior thalamic nuclei"
+      ],
+      [
+        "anterior thalamic nuclei",
+        "cingulum"
+      ],
+      [
+        "cingulum",
+        "cingulate"
+      ],
+      [
+        "cingulate",
+        "entorhinal cortex"
+      ],
+      [
+        "entorhinal cortex",
+        "hippocampus"
+      ]
+    ]
+  },
+  {
+    "slug": "yakovlev",
+    "name": "Yakovlev circuit",
+    "citation": {
+      "doi": "10.1126/science.abb4588",
+      "year": 2020,
+      "journal": "Science",
+      "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+    },
+    "edges": [
+      [
+        "amygdala",
+        "MD thalamus"
+      ],
+      [
+        "MD thalamus",
+        "orbitofrontal cortex"
+      ],
+      [
+        "orbitofrontal cortex",
+        "uncinate fasciculus"
+      ],
+      [
+        "uncinate fasciculus",
+        "amygdala"
+      ]
+    ]
+  },
+  {
+    "slug": "reward",
+    "name": "Reward circuit",
+    "citation": {
+      "doi": "10.1038/npp.2009.129",
+      "year": 2010,
+      "journal": "Neuropsychopharmacology",
+      "title": "The reward circuit: Linking primate anatomy and human imaging"
+    },
+    "edges": [
+      [
+        "VTA",
+        "nucleus accumbens"
+      ],
+      [
+        "nucleus accumbens",
+        "ventral pallidum"
+      ],
+      [
+        "ventral pallidum",
+        "MD thalamus"
+      ],
+      [
+        "MD thalamus",
+        "vmPFC/OFC/ACC"
+      ],
+      [
+        "vmPFC/OFC/ACC",
+        "striatum"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+structure_id: L3_JULICH_107
+names:
+  latin: Julich-Brain cortical map 107
+  english: Julich-Brain cortical map 107
+  abbreviations:
+    - JB107
+level: 3
+microanatomy:
+  category: julich-brain v3.1 probabilistic map
+  hcp_correspondence:
+    - HCP proxy 107
+  julich_correspondence:
+    - Julich-Brain cortical map 107
+  compartments:
+    - MNI152 probabilistic map
+    - Colin27 probabilistic map
+    - parietal cortex
+    - receptor autoradiography scaffold
+atlas_links:
+  julich_brain: Julich-Brain cortical map 107
+  crosswalks: []
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: Julich-Brain v3.1 cortical probabilistic cytoarchitectonic map with receptor-architecture linkage.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - NP
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - neighboring cortical and atlas-defined association territories
+  afferent_subcortical:
+    - thalamic and subcortical projection systems
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range cortical targets
+  efferent_subcortical:
+    - atlas-specific downstream projection fields
+functions:
+  - claim: Julich-Brain cortical map 107 is represented as a Julich-Brain v3.1 probabilistic map in MNI152 and
+      Colin27 spaces.
+    tier: 1
+    tier_justification: Atlas-defined Phase 4 entry with primary references and cross-atlas backbone support.
+    citations:
+      - doi: 10.1126/science.abb4588
+        year: 2020
+        journal: Science
+        title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Julich-Brain cortical map 107 is represented through atlas labels, surface geometry, or
+    probabilistic maps rather than a standalone gross-MRI landmark.
+  fmri_tasks:
+    - resting state
+    - task localizer
+    - atlas overlay
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1126/science.abb4588
+    year: 2020
+    journal: Science
+    title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+  - doi: 10.1016/j.neuroimage.2022.119286
+    year: 2022
+    journal: NeuroImage
+    title: Combined analysis of cytoarchitectonic, molecular and transcriptomic patterns reveal differences in
+      brain organization across human functional brain systems
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex

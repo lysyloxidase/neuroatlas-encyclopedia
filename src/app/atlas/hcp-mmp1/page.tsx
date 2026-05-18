@@ -1,3 +1,4 @@
+import { HcpMmpGrid } from "@/components/atlas/HcpMmpGrid";
 import { getAtlas } from "@/lib/atlas-loader";
 import { structures } from "@/lib/structures";
 
@@ -24,6 +25,9 @@ export default function HcpMmp1Page() {
             ))}
           </ul>
         </article>
+      </div>
+      <div style={{ marginTop: "1rem" }}>
+        <HcpMmpGrid />
       </div>
     </section>
   );

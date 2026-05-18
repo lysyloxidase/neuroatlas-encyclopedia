@@ -1,0 +1,166 @@
+structure_id: L3_HCP_R_HCP090
+names:
+  latin: Area HCP-MMP1 R_HCP090
+  english: Right HCP-MMP1 area HCP090
+  abbreviations:
+    - R_HCP090
+    - HCP090
+level: 3
+microanatomy:
+  category: hcp-mmp1 area
+  hcp_correspondence:
+    - R_HCP090
+  julich_correspondence:
+    - Julich proxy HCP090
+  compartments:
+    - 83 prior microscopy-confirming or multimodal area
+atlas_links:
+  hcp_mmp1: R_HCP090
+  brodmann: 40
+  dk: angular gyrus
+  julich_brain: Julich proxy HCP090
+  crosswalks:
+    - source_atlas: HCP-MMP1
+      source_label: R_HCP090
+      target_atlas: Julich-Brain
+      target_label: Julich proxy HCP090
+      confidence: 2
+      citation:
+        doi: 10.1126/science.abb4588
+        year: 2020
+        journal: Science
+        title: "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+    - source_atlas: Julich-Brain
+      source_label: Julich proxy HCP090
+      target_atlas: HCP-MMP1
+      target_label: R_HCP090
+      confidence: 2
+      citation:
+        doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+        title: A multi-modal parcellation of human cerebral cortex
+    - source_atlas: HCP-MMP1
+      source_label: R_HCP090
+      target_atlas: Brodmann
+      target_label: BA40
+      confidence: 2
+      citation:
+        doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+        title: A multi-modal parcellation of human cerebral cortex
+    - source_atlas: Brodmann
+      source_label: BA40
+      target_atlas: HCP-MMP1
+      target_label: R_HCP090
+      confidence: 2
+      citation:
+        doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+        title: A multi-modal parcellation of human cerebral cortex
+    - source_atlas: HCP-MMP1
+      source_label: R_HCP090
+      target_atlas: Desikan-Killiany
+      target_label: angular gyrus
+      confidence: 2
+      citation:
+        doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+        title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+    - source_atlas: Desikan-Killiany
+      source_label: angular gyrus
+      target_atlas: HCP-MMP1
+      target_label: R_HCP090
+      confidence: 2
+      citation:
+        doi: 10.1016/j.neuroimage.2006.01.021
+        year: 2006
+        journal: NeuroImage
+        title: An automated labeling system for subdividing the human cerebral cortex on MRI scans
+location:
+  neighbors: []
+  parent: null
+  children: []
+cytoarchitecture:
+  layers: HCP-MMP1 multimodal cortical area, confirming prior microscopy or multimodal boundaries.
+  cell_classes:
+    excitatory:
+      - IT
+      - ET
+      - NP
+      - CT
+      - L6b
+    inhibitory:
+      - PV
+      - SST
+      - VIP
+      - LAMP5
+      - SNCG
+    glia:
+      - astrocyte
+      - oligodendrocyte
+      - microglia
+inputs:
+  afferent_cortical:
+    - neighboring cortical and atlas-defined association territories
+  afferent_subcortical:
+    - thalamic and subcortical projection systems
+  afferent_modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+outputs:
+  efferent_cortical:
+    - local and long-range cortical targets
+  efferent_subcortical:
+    - atlas-specific downstream projection fields
+functions:
+  - claim: R_HCP090 is a clickable HCP-MMP1 fsLR-32k cortical parcel with crosswalks to Julich, Brodmann, and DK
+      scaffolds.
+    tier: 1
+    tier_justification: Atlas-defined Phase 4 entry with primary references and cross-atlas backbone support.
+    citations:
+      - doi: 10.1038/nature18933
+        year: 2016
+        journal: Nature
+        title: A multi-modal parcellation of human cerebral cortex
+neurotransmitters:
+  intrinsic:
+    - glutamate
+    - GABA
+  modulatory:
+    - dopamine
+    - serotonin
+    - norepinephrine
+    - acetylcholine
+disorders: []
+imaging:
+  t1_signal: Right HCP-MMP1 area HCP090 is represented through atlas labels, surface geometry, or probabilistic
+    maps rather than a standalone gross-MRI landmark.
+  fmri_tasks:
+    - resting state
+    - task localizer
+    - atlas overlay
+development:
+  embryonic_origin: Neural tube-derived central nervous system territory.
+  peak_synaptogenesis: Region-specific prenatal and postnatal maturation.
+  myelination: Maturation follows local circuit and long-range tract development.
+primary_citations:
+  - doi: 10.1038/nature18933
+    year: 2016
+    journal: Nature
+    title: A multi-modal parcellation of human cerebral cortex
+  - doi: 10.1007/s00429-021-02421-6
+    year: 2022
+    journal: Brain Structure and Function
+    title: An extended Human Connectome Project multimodal parcellation atlas of the human cortex and subcortical
+      areas
+  - doi: 10.1073/pnas.1608282113
+    year: 2016
+    journal: PNAS
+    title: Situating the default-mode network along a principal gradient of macroscale cortical organization
+gradient_value: -0.0054

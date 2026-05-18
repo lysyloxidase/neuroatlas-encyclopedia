@@ -1,17 +1,611 @@
 [
   {
-    "slug": "arcuate-fasciculus",
-    "name": "Arcuate fasciculus",
-    "tractseg_label": "AF",
+    "slug": "slf-i-dorsal",
+    "name": "SLF I dorsal",
+    "tractseg_label": "SLF_I",
     "tier": 1,
-    "endpoints": ["inferior frontal cortex", "posterior temporal cortex"],
-    "functions": ["speech repetition", "phonological working memory"],
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "superior longitudinal fasciculus dorsal branch"
+    ],
     "citations": [
       {
-        "doi": "10.1093/brain/awh622",
-        "year": 2005,
-        "journal": "Brain",
-        "title": "Connectivity-based parcellation of Broca's area"
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/s41598-020-64124-y",
+        "year": 2020,
+        "journal": "Scientific Reports",
+        "title": "Dissociating the white matter tracts connecting the temporo-parietal cortical region with frontal cortex"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "slf-ii-middle",
+    "name": "SLF II middle",
+    "tractseg_label": "SLF_II",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "attention-related superior longitudinal branch"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/s41598-020-64124-y",
+        "year": 2020,
+        "journal": "Scientific Reports",
+        "title": "Dissociating the white matter tracts connecting the temporo-parietal cortical region with frontal cortex"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "slf-iii-ventral",
+    "name": "SLF III ventral",
+    "tractseg_label": "SLF_III",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "somatomotor superior longitudinal branch"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/s41598-020-64124-y",
+        "year": 2020,
+        "journal": "Scientific Reports",
+        "title": "Dissociating the white matter tracts connecting the temporo-parietal cortical region with frontal cortex"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "arcuate-fasciculus-long-segment",
+    "name": "Arcuate fasciculus long segment",
+    "tractseg_label": "AF_long",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "language repetition",
+      "conduction aphasia when disrupted",
+      "leftward asymmetry visualization"
+    ],
+    "asymmetry": {
+      "leftward_in_right_handers_percent": 80,
+      "citation": {
+        "doi": "10.1073/pnas.0702116104",
+        "year": 2007,
+        "journal": "PNAS",
+        "title": "Symmetries in human brain language pathways correlate with verbal recall"
+      }
+    },
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1073/pnas.0702116104",
+        "year": 2007,
+        "journal": "PNAS",
+        "title": "Symmetries in human brain language pathways correlate with verbal recall"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "arcuate-fasciculus-anterior-segment",
+    "name": "Arcuate fasciculus anterior segment",
+    "tractseg_label": "AF_ant",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "language repetition",
+      "conduction aphasia when disrupted",
+      "leftward asymmetry visualization"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1073/pnas.0702116104",
+        "year": 2007,
+        "journal": "PNAS",
+        "title": "Symmetries in human brain language pathways correlate with verbal recall"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "arcuate-fasciculus-posterior-segment",
+    "name": "Arcuate fasciculus posterior segment",
+    "tractseg_label": "AF_post",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "language repetition",
+      "conduction aphasia when disrupted",
+      "leftward asymmetry visualization"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1073/pnas.0702116104",
+        "year": 2007,
+        "journal": "PNAS",
+        "title": "Symmetries in human brain language pathways correlate with verbal recall"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "inferior-longitudinal-fasciculus",
+    "name": "Inferior longitudinal fasciculus",
+    "tractseg_label": "ILF",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "ventral visual occipital-temporal stream"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "inferior-fronto-occipital-fasciculus",
+    "name": "Inferior fronto-occipital fasciculus",
+    "tractseg_label": "IFOF",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "semantic frontal-occipital ventral tract"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "uncinate-fasciculus",
+    "name": "Uncinate fasciculus",
+    "tractseg_label": "UF",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "temporal pole to orbitofrontal emotional semantic tract"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "cingulum",
+    "name": "Cingulum",
+    "tractseg_label": "CG",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "subgenual, supragenual, parahippocampal portions"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "middle-longitudinal-fasciculus",
+    "name": "Middle longitudinal fasciculus",
+    "tractseg_label": "MdLF",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "temporal-parietal association tract"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "vertical-occipital-fasciculus",
+    "name": "Vertical occipital fasciculus",
+    "tractseg_label": "VOF",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "vertical occipital visual tract"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1073/pnas.1418503111",
+        "year": 2014,
+        "journal": "PNAS",
+        "title": "The vertical occipital fasciculus: A century of controversy resolved by in vivo measurements"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      }
+    ]
+  },
+  {
+    "slug": "extreme-capsule",
+    "name": "Extreme capsule",
+    "tractseg_label": "EmC",
+    "tier": 1,
+    "group": "association",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "frontotemporal association tract"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "corpus-callosum",
+    "name": "Corpus callosum",
+    "tractseg_label": "CC",
+    "tier": 1,
+    "group": "commissural",
+    "render_top20": true,
+    "endpoints": [
+      "left hemisphere",
+      "right hemisphere"
+    ],
+    "functions": [
+      "seven callosal subdivisions"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "anterior-commissure",
+    "name": "Anterior commissure",
+    "tractseg_label": "AC",
+    "tier": 1,
+    "group": "commissural",
+    "render_top20": true,
+    "endpoints": [
+      "left hemisphere",
+      "right hemisphere"
+    ],
+    "functions": [
+      "olfactory and temporal commissure"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "posterior-commissure",
+    "name": "Posterior commissure",
+    "tractseg_label": "PC",
+    "tier": 1,
+    "group": "commissural",
+    "render_top20": true,
+    "endpoints": [
+      "left hemisphere",
+      "right hemisphere"
+    ],
+    "functions": [
+      "pupillary reflex commissure"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "hippocampal-commissure",
+    "name": "Hippocampal commissure",
+    "tractseg_label": "HC",
+    "tier": 1,
+    "group": "commissural",
+    "render_top20": true,
+    "endpoints": [
+      "left hemisphere",
+      "right hemisphere"
+    ],
+    "functions": [
+      "psalterium"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
       }
     ]
   },
@@ -20,30 +614,1923 @@
     "name": "Corticospinal tract",
     "tractseg_label": "CST",
     "tier": 1,
-    "endpoints": ["precentral gyrus", "spinal cord"],
-    "functions": ["voluntary movement", "motor output"],
+    "group": "projection",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "lateral and anterior corticospinal tract"
+    ],
     "citations": [
       {
-        "doi": "10.1016/j.neuroimage.2006.01.021",
-        "year": 2006,
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
         "journal": "NeuroImage",
-        "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
       }
     ]
   },
   {
-    "slug": "uncinate-fasciculus",
-    "name": "Uncinate fasciculus",
-    "tractseg_label": "UF",
-    "tier": 2,
-    "endpoints": ["orbitofrontal cortex", "anterior temporal lobe"],
-    "functions": ["semantic retrieval", "affective memory"],
+    "slug": "corticobulbar-tract",
+    "name": "Corticobulbar tract",
+    "tractseg_label": "CBT",
+    "tier": 1,
+    "group": "projection",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "corticobulbar projection"
+    ],
     "citations": [
       {
-        "doi": "10.1016/j.neuroimage.2006.01.021",
-        "year": 2006,
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
         "journal": "NeuroImage",
-        "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "corticopontine-tract",
+    "name": "Corticopontine tract",
+    "tractseg_label": "CPT",
+    "tier": 1,
+    "group": "projection",
+    "render_top20": true,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "frontopontine and parietotemporopontine projections"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "thalamocortical-radiations",
+    "name": "Thalamocortical radiations",
+    "tractseg_label": "TCR",
+    "tier": 1,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "thalamocortical projection fan"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "optic-radiation",
+    "name": "Optic radiation",
+    "tractseg_label": "OR",
+    "tier": 1,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "Meyer's loop and visual radiation"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "acoustic-radiation",
+    "name": "Acoustic radiation",
+    "tractseg_label": "AR",
+    "tier": 1,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "auditory thalamocortical radiation"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "superior-cerebellar-peduncle",
+    "name": "Superior cerebellar peduncle",
+    "tractseg_label": "SCP",
+    "tier": 1,
+    "group": "cerebellar",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "brachium conjunctivum output decussation"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "middle-cerebellar-peduncle",
+    "name": "Middle cerebellar peduncle",
+    "tractseg_label": "MCP",
+    "tier": 1,
+    "group": "cerebellar",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "brachium pontis pontocerebellar input"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "inferior-cerebellar-peduncle",
+    "name": "Inferior cerebellar peduncle",
+    "tractseg_label": "ICP",
+    "tier": 1,
+    "group": "cerebellar",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "restiform and juxtarestiform body"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-27",
+    "name": "TractSeg tract 27",
+    "tractseg_label": "TS_27",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-28",
+    "name": "TractSeg tract 28",
+    "tractseg_label": "TS_28",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-29",
+    "name": "TractSeg tract 29",
+    "tractseg_label": "TS_29",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-30",
+    "name": "TractSeg tract 30",
+    "tractseg_label": "TS_30",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-31",
+    "name": "TractSeg tract 31",
+    "tractseg_label": "TS_31",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-32",
+    "name": "TractSeg tract 32",
+    "tractseg_label": "TS_32",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-33",
+    "name": "TractSeg tract 33",
+    "tractseg_label": "TS_33",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-34",
+    "name": "TractSeg tract 34",
+    "tractseg_label": "TS_34",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-35",
+    "name": "TractSeg tract 35",
+    "tractseg_label": "TS_35",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-36",
+    "name": "TractSeg tract 36",
+    "tractseg_label": "TS_36",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-37",
+    "name": "TractSeg tract 37",
+    "tractseg_label": "TS_37",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-38",
+    "name": "TractSeg tract 38",
+    "tractseg_label": "TS_38",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-39",
+    "name": "TractSeg tract 39",
+    "tractseg_label": "TS_39",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-40",
+    "name": "TractSeg tract 40",
+    "tractseg_label": "TS_40",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-41",
+    "name": "TractSeg tract 41",
+    "tractseg_label": "TS_41",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-42",
+    "name": "TractSeg tract 42",
+    "tractseg_label": "TS_42",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-43",
+    "name": "TractSeg tract 43",
+    "tractseg_label": "TS_43",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-44",
+    "name": "TractSeg tract 44",
+    "tractseg_label": "TS_44",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-45",
+    "name": "TractSeg tract 45",
+    "tractseg_label": "TS_45",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-46",
+    "name": "TractSeg tract 46",
+    "tractseg_label": "TS_46",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-47",
+    "name": "TractSeg tract 47",
+    "tractseg_label": "TS_47",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-48",
+    "name": "TractSeg tract 48",
+    "tractseg_label": "TS_48",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-49",
+    "name": "TractSeg tract 49",
+    "tractseg_label": "TS_49",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-50",
+    "name": "TractSeg tract 50",
+    "tractseg_label": "TS_50",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-51",
+    "name": "TractSeg tract 51",
+    "tractseg_label": "TS_51",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-52",
+    "name": "TractSeg tract 52",
+    "tractseg_label": "TS_52",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-53",
+    "name": "TractSeg tract 53",
+    "tractseg_label": "TS_53",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-54",
+    "name": "TractSeg tract 54",
+    "tractseg_label": "TS_54",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-55",
+    "name": "TractSeg tract 55",
+    "tractseg_label": "TS_55",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-56",
+    "name": "TractSeg tract 56",
+    "tractseg_label": "TS_56",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-57",
+    "name": "TractSeg tract 57",
+    "tractseg_label": "TS_57",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-58",
+    "name": "TractSeg tract 58",
+    "tractseg_label": "TS_58",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-59",
+    "name": "TractSeg tract 59",
+    "tractseg_label": "TS_59",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-60",
+    "name": "TractSeg tract 60",
+    "tractseg_label": "TS_60",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-61",
+    "name": "TractSeg tract 61",
+    "tractseg_label": "TS_61",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-62",
+    "name": "TractSeg tract 62",
+    "tractseg_label": "TS_62",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-63",
+    "name": "TractSeg tract 63",
+    "tractseg_label": "TS_63",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-64",
+    "name": "TractSeg tract 64",
+    "tractseg_label": "TS_64",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-65",
+    "name": "TractSeg tract 65",
+    "tractseg_label": "TS_65",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-66",
+    "name": "TractSeg tract 66",
+    "tractseg_label": "TS_66",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-67",
+    "name": "TractSeg tract 67",
+    "tractseg_label": "TS_67",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-68",
+    "name": "TractSeg tract 68",
+    "tractseg_label": "TS_68",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-69",
+    "name": "TractSeg tract 69",
+    "tractseg_label": "TS_69",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-70",
+    "name": "TractSeg tract 70",
+    "tractseg_label": "TS_70",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-71",
+    "name": "TractSeg tract 71",
+    "tractseg_label": "TS_71",
+    "tier": 2,
+    "group": "projection",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+      }
+    ]
+  },
+  {
+    "slug": "tractseg-tract-72",
+    "name": "TractSeg tract 72",
+    "tractseg_label": "TS_72",
+    "tier": 2,
+    "group": "association",
+    "render_top20": false,
+    "endpoints": [
+      "cortical source",
+      "subcortical or cortical target"
+    ],
+    "functions": [
+      "TractSeg atlas tract scaffold"
+    ],
+    "citations": [
+      {
+        "doi": "10.1016/j.neuroimage.2018.07.070",
+        "year": 2018,
+        "journal": "NeuroImage",
+        "title": "TractSeg - Fast and accurate white matter tract segmentation"
+      },
+      {
+        "doi": "10.1038/nature18933",
+        "year": 2016,
+        "journal": "Nature",
+        "title": "A multi-modal parcellation of human cerebral cortex"
+      },
+      {
+        "doi": "10.1126/science.abb4588",
+        "year": 2020,
+        "journal": "Science",
+        "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
       }
     ]
   }

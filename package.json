@@ -8,6 +8,7 @@
     "build": "next build",
     "generate:level1": "node scripts/generate-level1.mjs",
     "generate:level2": "node scripts/generate-level2.mjs",
+    "generate:phase4": "node scripts/generate-phase4.mjs",
     "verify:dois": "node scripts/verify-dois.mjs",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",

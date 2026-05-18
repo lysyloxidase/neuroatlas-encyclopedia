@@ -336,6 +336,16 @@ select {
   padding: 0 0.65rem;
 }
 
+.filter-bar input {
+  min-height: 2.35rem;
+  min-width: min(18rem, 100%);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #020617;
+  color: white;
+  padding: 0 0.65rem;
+}
+
 .mono,
 .doi {
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;

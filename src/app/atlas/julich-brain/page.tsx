@@ -1,3 +1,4 @@
+import { JulichTable } from "@/components/atlas/JulichTable";
 import { getAtlas } from "@/lib/atlas-loader";
 import { structures } from "@/lib/structures";
 
@@ -24,6 +25,9 @@ export default function JulichBrainPage() {
             ))}
           </ul>
         </article>
+      </div>
+      <div style={{ marginTop: "1rem" }}>
+        <JulichTable />
       </div>
     </section>
   );

@@ -1,12 +1,3122 @@
 [
   {
-    "human_cluster": "PFC_IT_019",
-    "mouse_cluster": "FRP_IT_2",
-    "confidence": "plausible"
+    "mouse_cluster_id": "YAO_CL_0001",
+    "marmoset_cluster_id": "MAR_CL_0001",
+    "human_subcluster_id": "SIL_SC0001",
+    "conserved_identity": "IT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
   },
   {
-    "human_cluster": "HIP_DG_GRANULE_001",
-    "mouse_cluster": "DG_GC_1",
-    "confidence": "robust"
+    "mouse_cluster_id": "YAO_CL_0008",
+    "marmoset_cluster_id": "MAR_CL_0002",
+    "human_subcluster_id": "SIL_SC0012",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0015",
+    "marmoset_cluster_id": "MAR_CL_0003",
+    "human_subcluster_id": "SIL_SC0023",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0022",
+    "marmoset_cluster_id": "MAR_CL_0004",
+    "human_subcluster_id": "SIL_SC0034",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0029",
+    "marmoset_cluster_id": "MAR_CL_0005",
+    "human_subcluster_id": "SIL_SC0045",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0036",
+    "marmoset_cluster_id": "MAR_CL_0006",
+    "human_subcluster_id": "SIL_SC0056",
+    "conserved_identity": "LAMP5",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0043",
+    "marmoset_cluster_id": "MAR_CL_0007",
+    "human_subcluster_id": "SIL_SC0067",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0050",
+    "marmoset_cluster_id": "MAR_CL_0008",
+    "human_subcluster_id": "SIL_SC0078",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0057",
+    "marmoset_cluster_id": "MAR_CL_0009",
+    "human_subcluster_id": "SIL_SC0089",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0064",
+    "marmoset_cluster_id": "MAR_CL_0010",
+    "human_subcluster_id": "SIL_SC0100",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0071",
+    "marmoset_cluster_id": "MAR_CL_0011",
+    "human_subcluster_id": "SIL_SC0111",
+    "conserved_identity": "PV",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0078",
+    "marmoset_cluster_id": "MAR_CL_0012",
+    "human_subcluster_id": "SIL_SC0122",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0085",
+    "marmoset_cluster_id": "MAR_CL_0013",
+    "human_subcluster_id": "SIL_SC0133",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0092",
+    "marmoset_cluster_id": "MAR_CL_0014",
+    "human_subcluster_id": "SIL_SC0144",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0099",
+    "marmoset_cluster_id": "MAR_CL_0015",
+    "human_subcluster_id": "SIL_SC0155",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0106",
+    "marmoset_cluster_id": "MAR_CL_0016",
+    "human_subcluster_id": "SIL_SC0166",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0113",
+    "marmoset_cluster_id": "MAR_CL_0017",
+    "human_subcluster_id": "SIL_SC0177",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0120",
+    "marmoset_cluster_id": "MAR_CL_0018",
+    "human_subcluster_id": "SIL_SC0188",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0127",
+    "marmoset_cluster_id": "MAR_CL_0019",
+    "human_subcluster_id": "SIL_SC0199",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0134",
+    "marmoset_cluster_id": "MAR_CL_0020",
+    "human_subcluster_id": "SIL_SC0210",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0141",
+    "marmoset_cluster_id": "MAR_CL_0021",
+    "human_subcluster_id": "SIL_SC0221",
+    "conserved_identity": "VIP",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0148",
+    "marmoset_cluster_id": "MAR_CL_0022",
+    "human_subcluster_id": "SIL_SC0232",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0155",
+    "marmoset_cluster_id": "MAR_CL_0023",
+    "human_subcluster_id": "SIL_SC0243",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0162",
+    "marmoset_cluster_id": "MAR_CL_0024",
+    "human_subcluster_id": "SIL_SC0254",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0169",
+    "marmoset_cluster_id": "MAR_CL_0025",
+    "human_subcluster_id": "SIL_SC0265",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0176",
+    "marmoset_cluster_id": "MAR_CL_0026",
+    "human_subcluster_id": "SIL_SC0276",
+    "conserved_identity": "ET/PT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0183",
+    "marmoset_cluster_id": "MAR_CL_0027",
+    "human_subcluster_id": "SIL_SC0287",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0190",
+    "marmoset_cluster_id": "MAR_CL_0028",
+    "human_subcluster_id": "SIL_SC0298",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0197",
+    "marmoset_cluster_id": "MAR_CL_0029",
+    "human_subcluster_id": "SIL_SC0309",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0204",
+    "marmoset_cluster_id": "MAR_CL_0030",
+    "human_subcluster_id": "SIL_SC0320",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0211",
+    "marmoset_cluster_id": "MAR_CL_0031",
+    "human_subcluster_id": "SIL_SC0331",
+    "conserved_identity": "astrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0218",
+    "marmoset_cluster_id": "MAR_CL_0032",
+    "human_subcluster_id": "SIL_SC0342",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0225",
+    "marmoset_cluster_id": "MAR_CL_0033",
+    "human_subcluster_id": "SIL_SC0353",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0232",
+    "marmoset_cluster_id": "MAR_CL_0034",
+    "human_subcluster_id": "SIL_SC0364",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0239",
+    "marmoset_cluster_id": "MAR_CL_0035",
+    "human_subcluster_id": "SIL_SC0375",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0246",
+    "marmoset_cluster_id": "MAR_CL_0036",
+    "human_subcluster_id": "SIL_SC0386",
+    "conserved_identity": "SST",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0253",
+    "marmoset_cluster_id": "MAR_CL_0037",
+    "human_subcluster_id": "SIL_SC0397",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0260",
+    "marmoset_cluster_id": "MAR_CL_0038",
+    "human_subcluster_id": "SIL_SC0408",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0267",
+    "marmoset_cluster_id": "MAR_CL_0039",
+    "human_subcluster_id": "SIL_SC0419",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0274",
+    "marmoset_cluster_id": "MAR_CL_0040",
+    "human_subcluster_id": "SIL_SC0430",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0281",
+    "marmoset_cluster_id": "MAR_CL_0041",
+    "human_subcluster_id": "SIL_SC0441",
+    "conserved_identity": "IT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0288",
+    "marmoset_cluster_id": "MAR_CL_0042",
+    "human_subcluster_id": "SIL_SC0452",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0295",
+    "marmoset_cluster_id": "MAR_CL_0043",
+    "human_subcluster_id": "SIL_SC0463",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0302",
+    "marmoset_cluster_id": "MAR_CL_0044",
+    "human_subcluster_id": "SIL_SC0474",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0309",
+    "marmoset_cluster_id": "MAR_CL_0045",
+    "human_subcluster_id": "SIL_SC0485",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0316",
+    "marmoset_cluster_id": "MAR_CL_0046",
+    "human_subcluster_id": "SIL_SC0496",
+    "conserved_identity": "LAMP5",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0323",
+    "marmoset_cluster_id": "MAR_CL_0047",
+    "human_subcluster_id": "SIL_SC0507",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0330",
+    "marmoset_cluster_id": "MAR_CL_0048",
+    "human_subcluster_id": "SIL_SC0518",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0337",
+    "marmoset_cluster_id": "MAR_CL_0049",
+    "human_subcluster_id": "SIL_SC0529",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0344",
+    "marmoset_cluster_id": "MAR_CL_0050",
+    "human_subcluster_id": "SIL_SC0540",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0351",
+    "marmoset_cluster_id": "MAR_CL_0051",
+    "human_subcluster_id": "SIL_SC0551",
+    "conserved_identity": "PV",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0358",
+    "marmoset_cluster_id": "MAR_CL_0052",
+    "human_subcluster_id": "SIL_SC0562",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0365",
+    "marmoset_cluster_id": "MAR_CL_0053",
+    "human_subcluster_id": "SIL_SC0573",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0372",
+    "marmoset_cluster_id": "MAR_CL_0054",
+    "human_subcluster_id": "SIL_SC0584",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0379",
+    "marmoset_cluster_id": "MAR_CL_0055",
+    "human_subcluster_id": "SIL_SC0595",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0386",
+    "marmoset_cluster_id": "MAR_CL_0056",
+    "human_subcluster_id": "SIL_SC0606",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0393",
+    "marmoset_cluster_id": "MAR_CL_0057",
+    "human_subcluster_id": "SIL_SC0617",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0400",
+    "marmoset_cluster_id": "MAR_CL_0058",
+    "human_subcluster_id": "SIL_SC0628",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0407",
+    "marmoset_cluster_id": "MAR_CL_0059",
+    "human_subcluster_id": "SIL_SC0639",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0414",
+    "marmoset_cluster_id": "MAR_CL_0060",
+    "human_subcluster_id": "SIL_SC0650",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0421",
+    "marmoset_cluster_id": "MAR_CL_0061",
+    "human_subcluster_id": "SIL_SC0661",
+    "conserved_identity": "VIP",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0428",
+    "marmoset_cluster_id": "MAR_CL_0062",
+    "human_subcluster_id": "SIL_SC0672",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0435",
+    "marmoset_cluster_id": "MAR_CL_0063",
+    "human_subcluster_id": "SIL_SC0683",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0442",
+    "marmoset_cluster_id": "MAR_CL_0064",
+    "human_subcluster_id": "SIL_SC0694",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0449",
+    "marmoset_cluster_id": "MAR_CL_0065",
+    "human_subcluster_id": "SIL_SC0705",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0456",
+    "marmoset_cluster_id": "MAR_CL_0066",
+    "human_subcluster_id": "SIL_SC0716",
+    "conserved_identity": "ET/PT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0463",
+    "marmoset_cluster_id": "MAR_CL_0067",
+    "human_subcluster_id": "SIL_SC0727",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0470",
+    "marmoset_cluster_id": "MAR_CL_0068",
+    "human_subcluster_id": "SIL_SC0738",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0477",
+    "marmoset_cluster_id": "MAR_CL_0069",
+    "human_subcluster_id": "SIL_SC0749",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0484",
+    "marmoset_cluster_id": "MAR_CL_0070",
+    "human_subcluster_id": "SIL_SC0760",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0491",
+    "marmoset_cluster_id": "MAR_CL_0071",
+    "human_subcluster_id": "SIL_SC0771",
+    "conserved_identity": "astrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0498",
+    "marmoset_cluster_id": "MAR_CL_0072",
+    "human_subcluster_id": "SIL_SC0782",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0505",
+    "marmoset_cluster_id": "MAR_CL_0073",
+    "human_subcluster_id": "SIL_SC0793",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0512",
+    "marmoset_cluster_id": "MAR_CL_0074",
+    "human_subcluster_id": "SIL_SC0804",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0519",
+    "marmoset_cluster_id": "MAR_CL_0075",
+    "human_subcluster_id": "SIL_SC0815",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0526",
+    "marmoset_cluster_id": "MAR_CL_0076",
+    "human_subcluster_id": "SIL_SC0826",
+    "conserved_identity": "SST",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0533",
+    "marmoset_cluster_id": "MAR_CL_0077",
+    "human_subcluster_id": "SIL_SC0837",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0540",
+    "marmoset_cluster_id": "MAR_CL_0078",
+    "human_subcluster_id": "SIL_SC0848",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0547",
+    "marmoset_cluster_id": "MAR_CL_0079",
+    "human_subcluster_id": "SIL_SC0859",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0554",
+    "marmoset_cluster_id": "MAR_CL_0080",
+    "human_subcluster_id": "SIL_SC0870",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0561",
+    "marmoset_cluster_id": "MAR_CL_0081",
+    "human_subcluster_id": "SIL_SC0881",
+    "conserved_identity": "IT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0568",
+    "marmoset_cluster_id": "MAR_CL_0082",
+    "human_subcluster_id": "SIL_SC0892",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0575",
+    "marmoset_cluster_id": "MAR_CL_0083",
+    "human_subcluster_id": "SIL_SC0903",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0582",
+    "marmoset_cluster_id": "MAR_CL_0084",
+    "human_subcluster_id": "SIL_SC0914",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0589",
+    "marmoset_cluster_id": "MAR_CL_0085",
+    "human_subcluster_id": "SIL_SC0925",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0596",
+    "marmoset_cluster_id": "MAR_CL_0086",
+    "human_subcluster_id": "SIL_SC0936",
+    "conserved_identity": "LAMP5",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0603",
+    "marmoset_cluster_id": "MAR_CL_0087",
+    "human_subcluster_id": "SIL_SC0947",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0610",
+    "marmoset_cluster_id": "MAR_CL_0088",
+    "human_subcluster_id": "SIL_SC0958",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0617",
+    "marmoset_cluster_id": "MAR_CL_0089",
+    "human_subcluster_id": "SIL_SC0969",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0624",
+    "marmoset_cluster_id": "MAR_CL_0090",
+    "human_subcluster_id": "SIL_SC0980",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0631",
+    "marmoset_cluster_id": "MAR_CL_0091",
+    "human_subcluster_id": "SIL_SC0991",
+    "conserved_identity": "PV",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0638",
+    "marmoset_cluster_id": "MAR_CL_0092",
+    "human_subcluster_id": "SIL_SC1002",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0645",
+    "marmoset_cluster_id": "MAR_CL_0093",
+    "human_subcluster_id": "SIL_SC1013",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0652",
+    "marmoset_cluster_id": "MAR_CL_0094",
+    "human_subcluster_id": "SIL_SC1024",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0659",
+    "marmoset_cluster_id": "MAR_CL_0095",
+    "human_subcluster_id": "SIL_SC1035",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0666",
+    "marmoset_cluster_id": "MAR_CL_0096",
+    "human_subcluster_id": "SIL_SC1046",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0673",
+    "marmoset_cluster_id": "MAR_CL_0097",
+    "human_subcluster_id": "SIL_SC1057",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0680",
+    "marmoset_cluster_id": "MAR_CL_0098",
+    "human_subcluster_id": "SIL_SC1068",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0687",
+    "marmoset_cluster_id": "MAR_CL_0099",
+    "human_subcluster_id": "SIL_SC1079",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0694",
+    "marmoset_cluster_id": "MAR_CL_0100",
+    "human_subcluster_id": "SIL_SC1090",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0701",
+    "marmoset_cluster_id": "MAR_CL_0101",
+    "human_subcluster_id": "SIL_SC1101",
+    "conserved_identity": "VIP",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0708",
+    "marmoset_cluster_id": "MAR_CL_0102",
+    "human_subcluster_id": "SIL_SC1112",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0715",
+    "marmoset_cluster_id": "MAR_CL_0103",
+    "human_subcluster_id": "SIL_SC1123",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0722",
+    "marmoset_cluster_id": "MAR_CL_0104",
+    "human_subcluster_id": "SIL_SC1134",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0729",
+    "marmoset_cluster_id": "MAR_CL_0105",
+    "human_subcluster_id": "SIL_SC1145",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0736",
+    "marmoset_cluster_id": "MAR_CL_0106",
+    "human_subcluster_id": "SIL_SC1156",
+    "conserved_identity": "ET/PT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0743",
+    "marmoset_cluster_id": "MAR_CL_0107",
+    "human_subcluster_id": "SIL_SC1167",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0750",
+    "marmoset_cluster_id": "MAR_CL_0108",
+    "human_subcluster_id": "SIL_SC1178",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0757",
+    "marmoset_cluster_id": "MAR_CL_0109",
+    "human_subcluster_id": "SIL_SC1189",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0764",
+    "marmoset_cluster_id": "MAR_CL_0110",
+    "human_subcluster_id": "SIL_SC1200",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0771",
+    "marmoset_cluster_id": "MAR_CL_0111",
+    "human_subcluster_id": "SIL_SC1211",
+    "conserved_identity": "astrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0778",
+    "marmoset_cluster_id": "MAR_CL_0112",
+    "human_subcluster_id": "SIL_SC1222",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0785",
+    "marmoset_cluster_id": "MAR_CL_0113",
+    "human_subcluster_id": "SIL_SC1233",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0792",
+    "marmoset_cluster_id": "MAR_CL_0114",
+    "human_subcluster_id": "SIL_SC1244",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0799",
+    "marmoset_cluster_id": "MAR_CL_0115",
+    "human_subcluster_id": "SIL_SC1255",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0806",
+    "marmoset_cluster_id": "MAR_CL_0116",
+    "human_subcluster_id": "SIL_SC1266",
+    "conserved_identity": "SST",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0813",
+    "marmoset_cluster_id": "MAR_CL_0117",
+    "human_subcluster_id": "SIL_SC1277",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0820",
+    "marmoset_cluster_id": "MAR_CL_0118",
+    "human_subcluster_id": "SIL_SC1288",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0827",
+    "marmoset_cluster_id": "MAR_CL_0119",
+    "human_subcluster_id": "SIL_SC1299",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0834",
+    "marmoset_cluster_id": "MAR_CL_0120",
+    "human_subcluster_id": "SIL_SC1310",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0841",
+    "marmoset_cluster_id": "MAR_CL_0121",
+    "human_subcluster_id": "SIL_SC1321",
+    "conserved_identity": "IT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0848",
+    "marmoset_cluster_id": "MAR_CL_0122",
+    "human_subcluster_id": "SIL_SC1332",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0855",
+    "marmoset_cluster_id": "MAR_CL_0123",
+    "human_subcluster_id": "SIL_SC1343",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0862",
+    "marmoset_cluster_id": "MAR_CL_0124",
+    "human_subcluster_id": "SIL_SC1354",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0869",
+    "marmoset_cluster_id": "MAR_CL_0125",
+    "human_subcluster_id": "SIL_SC1365",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0876",
+    "marmoset_cluster_id": "MAR_CL_0126",
+    "human_subcluster_id": "SIL_SC1376",
+    "conserved_identity": "LAMP5",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0883",
+    "marmoset_cluster_id": "MAR_CL_0127",
+    "human_subcluster_id": "SIL_SC1387",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0890",
+    "marmoset_cluster_id": "MAR_CL_0128",
+    "human_subcluster_id": "SIL_SC1398",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0897",
+    "marmoset_cluster_id": "MAR_CL_0129",
+    "human_subcluster_id": "SIL_SC1409",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0904",
+    "marmoset_cluster_id": "MAR_CL_0130",
+    "human_subcluster_id": "SIL_SC1420",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0911",
+    "marmoset_cluster_id": "MAR_CL_0131",
+    "human_subcluster_id": "SIL_SC1431",
+    "conserved_identity": "PV",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0918",
+    "marmoset_cluster_id": "MAR_CL_0132",
+    "human_subcluster_id": "SIL_SC1442",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0925",
+    "marmoset_cluster_id": "MAR_CL_0133",
+    "human_subcluster_id": "SIL_SC1453",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0932",
+    "marmoset_cluster_id": "MAR_CL_0134",
+    "human_subcluster_id": "SIL_SC1464",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0939",
+    "marmoset_cluster_id": "MAR_CL_0135",
+    "human_subcluster_id": "SIL_SC1475",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0946",
+    "marmoset_cluster_id": "MAR_CL_0136",
+    "human_subcluster_id": "SIL_SC1486",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0953",
+    "marmoset_cluster_id": "MAR_CL_0137",
+    "human_subcluster_id": "SIL_SC1497",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0960",
+    "marmoset_cluster_id": "MAR_CL_0138",
+    "human_subcluster_id": "SIL_SC1508",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0967",
+    "marmoset_cluster_id": "MAR_CL_0139",
+    "human_subcluster_id": "SIL_SC1519",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0974",
+    "marmoset_cluster_id": "MAR_CL_0140",
+    "human_subcluster_id": "SIL_SC1530",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0981",
+    "marmoset_cluster_id": "MAR_CL_0141",
+    "human_subcluster_id": "SIL_SC1541",
+    "conserved_identity": "VIP",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0988",
+    "marmoset_cluster_id": "MAR_CL_0142",
+    "human_subcluster_id": "SIL_SC1552",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_0995",
+    "marmoset_cluster_id": "MAR_CL_0143",
+    "human_subcluster_id": "SIL_SC1563",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1002",
+    "marmoset_cluster_id": "MAR_CL_0144",
+    "human_subcluster_id": "SIL_SC1574",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1009",
+    "marmoset_cluster_id": "MAR_CL_0145",
+    "human_subcluster_id": "SIL_SC1585",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1016",
+    "marmoset_cluster_id": "MAR_CL_0146",
+    "human_subcluster_id": "SIL_SC1596",
+    "conserved_identity": "ET/PT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1023",
+    "marmoset_cluster_id": "MAR_CL_0147",
+    "human_subcluster_id": "SIL_SC1607",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1030",
+    "marmoset_cluster_id": "MAR_CL_0148",
+    "human_subcluster_id": "SIL_SC1618",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1037",
+    "marmoset_cluster_id": "MAR_CL_0149",
+    "human_subcluster_id": "SIL_SC1629",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1044",
+    "marmoset_cluster_id": "MAR_CL_0150",
+    "human_subcluster_id": "SIL_SC1640",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1051",
+    "marmoset_cluster_id": "MAR_CL_0151",
+    "human_subcluster_id": "SIL_SC1651",
+    "conserved_identity": "astrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1058",
+    "marmoset_cluster_id": "MAR_CL_0152",
+    "human_subcluster_id": "SIL_SC1662",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1065",
+    "marmoset_cluster_id": "MAR_CL_0153",
+    "human_subcluster_id": "SIL_SC1673",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1072",
+    "marmoset_cluster_id": "MAR_CL_0154",
+    "human_subcluster_id": "SIL_SC1684",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1079",
+    "marmoset_cluster_id": "MAR_CL_0155",
+    "human_subcluster_id": "SIL_SC1695",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1086",
+    "marmoset_cluster_id": "MAR_CL_0156",
+    "human_subcluster_id": "SIL_SC1706",
+    "conserved_identity": "SST",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1093",
+    "marmoset_cluster_id": "MAR_CL_0157",
+    "human_subcluster_id": "SIL_SC1717",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1100",
+    "marmoset_cluster_id": "MAR_CL_0158",
+    "human_subcluster_id": "SIL_SC1728",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1107",
+    "marmoset_cluster_id": "MAR_CL_0159",
+    "human_subcluster_id": "SIL_SC1739",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1114",
+    "marmoset_cluster_id": "MAR_CL_0160",
+    "human_subcluster_id": "SIL_SC1750",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1121",
+    "marmoset_cluster_id": "MAR_CL_0161",
+    "human_subcluster_id": "SIL_SC1761",
+    "conserved_identity": "IT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1128",
+    "marmoset_cluster_id": "MAR_CL_0162",
+    "human_subcluster_id": "SIL_SC1772",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1135",
+    "marmoset_cluster_id": "MAR_CL_0163",
+    "human_subcluster_id": "SIL_SC1783",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1142",
+    "marmoset_cluster_id": "MAR_CL_0164",
+    "human_subcluster_id": "SIL_SC1794",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1149",
+    "marmoset_cluster_id": "MAR_CL_0165",
+    "human_subcluster_id": "SIL_SC1805",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1156",
+    "marmoset_cluster_id": "MAR_CL_0166",
+    "human_subcluster_id": "SIL_SC1816",
+    "conserved_identity": "LAMP5",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1163",
+    "marmoset_cluster_id": "MAR_CL_0167",
+    "human_subcluster_id": "SIL_SC1827",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1170",
+    "marmoset_cluster_id": "MAR_CL_0168",
+    "human_subcluster_id": "SIL_SC1838",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1177",
+    "marmoset_cluster_id": "MAR_CL_0169",
+    "human_subcluster_id": "SIL_SC1849",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1184",
+    "marmoset_cluster_id": "MAR_CL_0170",
+    "human_subcluster_id": "SIL_SC1860",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1191",
+    "marmoset_cluster_id": "MAR_CL_0171",
+    "human_subcluster_id": "SIL_SC1871",
+    "conserved_identity": "PV",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1198",
+    "marmoset_cluster_id": "MAR_CL_0172",
+    "human_subcluster_id": "SIL_SC1882",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1205",
+    "marmoset_cluster_id": "MAR_CL_0173",
+    "human_subcluster_id": "SIL_SC1893",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1212",
+    "marmoset_cluster_id": "MAR_CL_0174",
+    "human_subcluster_id": "SIL_SC1904",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1219",
+    "marmoset_cluster_id": "MAR_CL_0175",
+    "human_subcluster_id": "SIL_SC1915",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1226",
+    "marmoset_cluster_id": "MAR_CL_0176",
+    "human_subcluster_id": "SIL_SC1926",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1233",
+    "marmoset_cluster_id": "MAR_CL_0177",
+    "human_subcluster_id": "SIL_SC1937",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1240",
+    "marmoset_cluster_id": "MAR_CL_0178",
+    "human_subcluster_id": "SIL_SC1948",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1247",
+    "marmoset_cluster_id": "MAR_CL_0179",
+    "human_subcluster_id": "SIL_SC1959",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1254",
+    "marmoset_cluster_id": "MAR_CL_0180",
+    "human_subcluster_id": "SIL_SC1970",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1261",
+    "marmoset_cluster_id": "MAR_CL_0181",
+    "human_subcluster_id": "SIL_SC1981",
+    "conserved_identity": "VIP",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1268",
+    "marmoset_cluster_id": "MAR_CL_0182",
+    "human_subcluster_id": "SIL_SC1992",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1275",
+    "marmoset_cluster_id": "MAR_CL_0183",
+    "human_subcluster_id": "SIL_SC2003",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1282",
+    "marmoset_cluster_id": "MAR_CL_0184",
+    "human_subcluster_id": "SIL_SC2014",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1289",
+    "marmoset_cluster_id": "MAR_CL_0185",
+    "human_subcluster_id": "SIL_SC2025",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1296",
+    "marmoset_cluster_id": "MAR_CL_0186",
+    "human_subcluster_id": "SIL_SC2036",
+    "conserved_identity": "ET/PT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1303",
+    "marmoset_cluster_id": "MAR_CL_0187",
+    "human_subcluster_id": "SIL_SC2047",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1310",
+    "marmoset_cluster_id": "MAR_CL_0188",
+    "human_subcluster_id": "SIL_SC2058",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1317",
+    "marmoset_cluster_id": "MAR_CL_0189",
+    "human_subcluster_id": "SIL_SC2069",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1324",
+    "marmoset_cluster_id": "MAR_CL_0190",
+    "human_subcluster_id": "SIL_SC2080",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1331",
+    "marmoset_cluster_id": "MAR_CL_0191",
+    "human_subcluster_id": "SIL_SC2091",
+    "conserved_identity": "astrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1338",
+    "marmoset_cluster_id": "MAR_CL_0192",
+    "human_subcluster_id": "SIL_SC2102",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1345",
+    "marmoset_cluster_id": "MAR_CL_0193",
+    "human_subcluster_id": "SIL_SC2113",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1352",
+    "marmoset_cluster_id": "MAR_CL_0194",
+    "human_subcluster_id": "SIL_SC2124",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1359",
+    "marmoset_cluster_id": "MAR_CL_0195",
+    "human_subcluster_id": "SIL_SC2135",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1366",
+    "marmoset_cluster_id": "MAR_CL_0196",
+    "human_subcluster_id": "SIL_SC2146",
+    "conserved_identity": "SST",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1373",
+    "marmoset_cluster_id": "MAR_CL_0197",
+    "human_subcluster_id": "SIL_SC2157",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1380",
+    "marmoset_cluster_id": "MAR_CL_0198",
+    "human_subcluster_id": "SIL_SC2168",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1387",
+    "marmoset_cluster_id": "MAR_CL_0199",
+    "human_subcluster_id": "SIL_SC2179",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1394",
+    "marmoset_cluster_id": "MAR_CL_0200",
+    "human_subcluster_id": "SIL_SC2190",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1401",
+    "marmoset_cluster_id": "MAR_CL_0201",
+    "human_subcluster_id": "SIL_SC2201",
+    "conserved_identity": "IT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1408",
+    "marmoset_cluster_id": "MAR_CL_0202",
+    "human_subcluster_id": "SIL_SC2212",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1415",
+    "marmoset_cluster_id": "MAR_CL_0203",
+    "human_subcluster_id": "SIL_SC2223",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1422",
+    "marmoset_cluster_id": "MAR_CL_0204",
+    "human_subcluster_id": "SIL_SC2234",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1429",
+    "marmoset_cluster_id": "MAR_CL_0205",
+    "human_subcluster_id": "SIL_SC2245",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1436",
+    "marmoset_cluster_id": "MAR_CL_0206",
+    "human_subcluster_id": "SIL_SC2256",
+    "conserved_identity": "LAMP5",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1443",
+    "marmoset_cluster_id": "MAR_CL_0207",
+    "human_subcluster_id": "SIL_SC2267",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1450",
+    "marmoset_cluster_id": "MAR_CL_0208",
+    "human_subcluster_id": "SIL_SC2278",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1457",
+    "marmoset_cluster_id": "MAR_CL_0209",
+    "human_subcluster_id": "SIL_SC2289",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1464",
+    "marmoset_cluster_id": "MAR_CL_0210",
+    "human_subcluster_id": "SIL_SC2300",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1471",
+    "marmoset_cluster_id": "MAR_CL_0211",
+    "human_subcluster_id": "SIL_SC2311",
+    "conserved_identity": "PV",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1478",
+    "marmoset_cluster_id": "MAR_CL_0212",
+    "human_subcluster_id": "SIL_SC2322",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1485",
+    "marmoset_cluster_id": "MAR_CL_0213",
+    "human_subcluster_id": "SIL_SC2333",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1492",
+    "marmoset_cluster_id": "MAR_CL_0214",
+    "human_subcluster_id": "SIL_SC2344",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1499",
+    "marmoset_cluster_id": "MAR_CL_0215",
+    "human_subcluster_id": "SIL_SC2355",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1506",
+    "marmoset_cluster_id": "MAR_CL_0216",
+    "human_subcluster_id": "SIL_SC2366",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1513",
+    "marmoset_cluster_id": "MAR_CL_0217",
+    "human_subcluster_id": "SIL_SC2377",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1520",
+    "marmoset_cluster_id": "MAR_CL_0218",
+    "human_subcluster_id": "SIL_SC2388",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1527",
+    "marmoset_cluster_id": "MAR_CL_0219",
+    "human_subcluster_id": "SIL_SC2399",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1534",
+    "marmoset_cluster_id": "MAR_CL_0220",
+    "human_subcluster_id": "SIL_SC2410",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1541",
+    "marmoset_cluster_id": "MAR_CL_0221",
+    "human_subcluster_id": "SIL_SC2421",
+    "conserved_identity": "VIP",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1548",
+    "marmoset_cluster_id": "MAR_CL_0222",
+    "human_subcluster_id": "SIL_SC2432",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1555",
+    "marmoset_cluster_id": "MAR_CL_0223",
+    "human_subcluster_id": "SIL_SC2443",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1562",
+    "marmoset_cluster_id": "MAR_CL_0224",
+    "human_subcluster_id": "SIL_SC2454",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1569",
+    "marmoset_cluster_id": "MAR_CL_0225",
+    "human_subcluster_id": "SIL_SC2465",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1576",
+    "marmoset_cluster_id": "MAR_CL_0226",
+    "human_subcluster_id": "SIL_SC2476",
+    "conserved_identity": "ET/PT",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1583",
+    "marmoset_cluster_id": "MAR_CL_0227",
+    "human_subcluster_id": "SIL_SC2487",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1590",
+    "marmoset_cluster_id": "MAR_CL_0228",
+    "human_subcluster_id": "SIL_SC2498",
+    "conserved_identity": "SST",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1597",
+    "marmoset_cluster_id": "MAR_CL_0229",
+    "human_subcluster_id": "SIL_SC2509",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1604",
+    "marmoset_cluster_id": "MAR_CL_0230",
+    "human_subcluster_id": "SIL_SC2520",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1611",
+    "marmoset_cluster_id": "MAR_CL_0231",
+    "human_subcluster_id": "SIL_SC2531",
+    "conserved_identity": "astrocyte",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1618",
+    "marmoset_cluster_id": "MAR_CL_0232",
+    "human_subcluster_id": "SIL_SC2542",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1625",
+    "marmoset_cluster_id": "MAR_CL_0233",
+    "human_subcluster_id": "SIL_SC2553",
+    "conserved_identity": "IT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1632",
+    "marmoset_cluster_id": "MAR_CL_0234",
+    "human_subcluster_id": "SIL_SC2564",
+    "conserved_identity": "ET/PT",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1639",
+    "marmoset_cluster_id": "MAR_CL_0235",
+    "human_subcluster_id": "SIL_SC2575",
+    "conserved_identity": "PV",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1646",
+    "marmoset_cluster_id": "MAR_CL_0236",
+    "human_subcluster_id": "SIL_SC2586",
+    "conserved_identity": "SST",
+    "confidence": "species-specialized",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1653",
+    "marmoset_cluster_id": "MAR_CL_0237",
+    "human_subcluster_id": "SIL_SC2597",
+    "conserved_identity": "VIP",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1660",
+    "marmoset_cluster_id": "MAR_CL_0238",
+    "human_subcluster_id": "SIL_SC2608",
+    "conserved_identity": "LAMP5",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1667",
+    "marmoset_cluster_id": "MAR_CL_0239",
+    "human_subcluster_id": "SIL_SC2619",
+    "conserved_identity": "astrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
+  },
+  {
+    "mouse_cluster_id": "YAO_CL_1674",
+    "marmoset_cluster_id": "MAR_CL_0240",
+    "human_subcluster_id": "SIL_SC2630",
+    "conserved_identity": "oligodendrocyte",
+    "confidence": "conserved-core",
+    "citation": {
+      "doi": "10.1038/s41586-021-03465-8",
+      "year": 2021,
+      "journal": "Nature",
+      "title": "Comparative cellular analysis of motor cortex in human, marmoset and mouse"
+    }
   }
 ]

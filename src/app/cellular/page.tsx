@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { CrossSpeciesMap } from "@/components/cellular/CrossSpeciesMap";
+import { SilettiBrowser } from "@/components/cellular/SilettiBrowser";
+import { YaoBrowser } from "@/components/cellular/YaoBrowser";
 import siletti from "@/data/cellular_taxonomy/siletti2023_clusters.json";
 import yao from "@/data/cellular_taxonomy/yao2023_clusters.json";
 
@@ -23,6 +26,11 @@ export default function CellularPage() {
         </Link>
       </div>
       <p className="muted">{siletti.length} human seed clusters and {yao.length} mouse seed clusters loaded.</p>
+      <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
+        <SilettiBrowser />
+        <YaoBrowser />
+        <CrossSpeciesMap />
+      </div>
     </section>
   );
 }
