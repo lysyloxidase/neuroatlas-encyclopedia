@@ -27,24 +27,36 @@ function walkYaml(dir: string): string[] {
 }
 
 const files = walkYaml(LEVEL2_ROOT);
-const parsedStructures = files.map((file) => structureSchema.parse(parse(readFileSync(file, "utf8"))));
+const parsedStructures = files.map((file) =>
+  structureSchema.parse(parse(readFileSync(file, "utf8"))),
+);
 
 function byCategory(category: string) {
-  return parsedStructures.filter((structure) => structure.microanatomy?.category === category);
+  return parsedStructures.filter(
+    (structure) => structure.microanatomy?.category === category,
+  );
 }
 
 describe("Phase 3 Level 2 microanatomy corpus", () => {
   it("validates the generated Level 2 YAML corpus and syncs it to route data", () => {
     expect(parsedStructures.length).toBeGreaterThanOrEqual(250);
-    expect(parsedStructures.every((structure) => structure.level === 2)).toBe(true);
-    expect(structures.filter((structure) => structure.level === 2)).toHaveLength(parsedStructures.length);
+    expect(parsedStructures.every((structure) => structure.level === 2)).toBe(
+      true,
+    );
+    expect(
+      structures.filter((structure) => structure.level === 2),
+    ).toHaveLength(parsedStructures.length);
   });
 
   it("covers the requested Level 2 domains", () => {
     expect(byCategory("cortical layer")).toHaveLength(6);
     expect(byCategory("inhibitory interneuron")).toHaveLength(7);
     expect(byCategory("brodmann area")).toHaveLength(52);
-    expect(byCategory("von economo area").filter((item) => item.structure_id !== "L2_VEK_OVERVIEW")).toHaveLength(104);
+    expect(
+      byCategory("von economo area").filter(
+        (item) => item.structure_id !== "L2_VEK_OVERVIEW",
+      ),
+    ).toHaveLength(104);
     expect(byCategory("hippocampal subfield")).toHaveLength(12);
     expect(byCategory("amygdaloid nucleus")).toHaveLength(13);
     expect(byCategory("thalamic nucleus")).toHaveLength(60);
@@ -55,14 +67,26 @@ describe("Phase 3 Level 2 microanatomy corpus", () => {
   it("gives every Level 2 entry DOI-backed citations and tiered claims", () => {
     for (const structure of parsedStructures) {
       expect(structure.primary_citations.length).toBeGreaterThanOrEqual(3);
-      expect(structure.primary_citations.every((citation) => /^10\.\S+\/\S+$/.test(citation.doi))).toBe(true);
+      expect(
+        structure.primary_citations.every((citation) =>
+          /^10\.\S+\/\S+$/.test(citation.doi),
+        ),
+      ).toBe(true);
       expect(structure.functions.length).toBeGreaterThan(0);
-      expect(structure.functions.every((functionalClaim) => [Tier.ROBUST, Tier.PLAUSIBLE, Tier.SPECULATIVE].includes(functionalClaim.tier))).toBe(true);
+      expect(
+        structure.functions.every((functionalClaim) =>
+          [Tier.ROBUST, Tier.PLAUSIBLE, Tier.SPECULATIVE].includes(
+            functionalClaim.tier,
+          ),
+        ),
+      ).toBe(true);
     }
   });
 
   it("maps Brodmann area 4 to HCP-MMP1 area 4 and Julich area 4a/4p", () => {
-    const ba4 = structures.find((structure) => structure.structure_id === "L2_BA_4");
+    const ba4 = structures.find(
+      (structure) => structure.structure_id === "L2_BA_4",
+    );
     expect(ba4).toBeDefined();
 
     render(<AtlasCrosswalk structure={ba4!} />);
@@ -72,7 +96,9 @@ describe("Phase 3 Level 2 microanatomy corpus", () => {
   });
 
   it("flags adult hippocampal neurogenesis as plausible with Sorrells and Boldrini citations", () => {
-    const dg = parsedStructures.find((structure) => structure.structure_id === "L2_HIP_DG_GCL");
+    const dg = parsedStructures.find(
+      (structure) => structure.structure_id === "L2_HIP_DG_GCL",
+    );
     expect(dg?.development.adult_neurogenesis?.tier).toBe(Tier.PLAUSIBLE);
     const dois = dg?.functions[0]?.citations.map((citation) => citation.doi);
     expect(dois).toContain("10.1038/nature25975");
@@ -81,16 +107,29 @@ describe("Phase 3 Level 2 microanatomy corpus", () => {
   });
 
   it("uses the verified Lazaridis 2024 striosomal pathway DOI and marks mouse robust human plausible", () => {
-    const pathway = parsedStructures.find((structure) => structure.structure_id === "L2_BG_STRIOSOMAL_GPE_PATHWAY");
-    expect(pathway?.primary_citations[0]?.doi).toBe("10.1016/j.cub.2024.09.070");
-    expect(pathway?.primary_citations.map((citation) => citation.doi)).not.toContain("10.1016/j.cub.2024.10.014");
-    expect(pathway?.functions.map((claim) => claim.tier)).toEqual([Tier.ROBUST, Tier.PLAUSIBLE]);
+    const pathway = parsedStructures.find(
+      (structure) => structure.structure_id === "L2_BG_STRIOSOMAL_GPE_PATHWAY",
+    );
+    expect(pathway?.primary_citations[0]?.doi).toBe(
+      "10.1016/j.cub.2024.09.070",
+    );
+    expect(
+      pathway?.primary_citations.map((citation) => citation.doi),
+    ).not.toContain("10.1016/j.cub.2024.10.014");
+    expect(pathway?.functions.map((claim) => claim.tier)).toEqual([
+      Tier.ROBUST,
+      Tier.PLAUSIBLE,
+    ]);
     expect(pathway?.microanatomy?.phase3_tags).toContain("NEW");
   });
 
   it("cites the locus coeruleus stereological count correctly", () => {
-    const lc = parsedStructures.find((structure) => structure.names.english === "Locus coeruleus");
-    expect(lc?.functions.map((claim) => claim.claim).join(" ")).toContain("22,000-51,000");
+    const lc = parsedStructures.find(
+      (structure) => structure.names.english === "Locus coeruleus",
+    );
+    expect(lc?.functions.map((claim) => claim.claim).join(" ")).toContain(
+      "22,000-51,000",
+    );
     expect(lc?.primary_citations[0]?.doi).toBe("10.1111/ejn.70111");
   });
 });
@@ -113,7 +152,9 @@ describe("Phase 3 microanatomy browser components", () => {
   it("supports Brodmann click-to-crosswalk exploration", () => {
     render(<BrodmannMappingExplorer />);
     fireEvent.click(screen.getByRole("button", { name: "BA4" }));
-    expect(screen.getByText(/BA4 -> HCP-MMP1 4 -> Julich-Brain Area 4a\/4p/)).toBeInTheDocument();
+    expect(
+      screen.getByText(/BA4 -> HCP-MMP1 4 -> Julich-Brain Area 4a\/4p/),
+    ).toBeInTheDocument();
   });
 
   it("renders hippocampal, amygdaloid, thalamic, PAG, LC, and striosome affordances", () => {
@@ -130,10 +171,16 @@ describe("Phase 3 microanatomy browser components", () => {
 
     expect(screen.getAllByTestId("hippocampal-subfield")).toHaveLength(12);
     expect(screen.getByTestId("amygdala-explorer")).toHaveTextContent("BNST");
-    expect(screen.getByTestId("thalamic-nuclei-overlay")).toHaveTextContent("60 thalamic nuclei labels loaded");
+    expect(screen.getByTestId("thalamic-nuclei-overlay")).toHaveTextContent(
+      "60 thalamic nuclei labels loaded",
+    );
     expect(screen.getByTestId("pag-columns")).toHaveTextContent("dmPAG");
     expect(screen.getByTestId("pag-columns")).toHaveTextContent("escape");
-    expect(screen.getByTestId("locus-coeruleus-card")).toHaveTextContent("22,000-51,000");
-    expect(screen.getByTestId("striosome-pathway-card")).toHaveTextContent("10.1016/j.cub.2024.09.070");
+    expect(screen.getByTestId("locus-coeruleus-card")).toHaveTextContent(
+      "22,000-51,000",
+    );
+    expect(screen.getByTestId("striosome-pathway-card")).toHaveTextContent(
+      "10.1016/j.cub.2024.09.070",
+    );
   });
 });

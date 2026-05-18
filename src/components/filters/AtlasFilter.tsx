@@ -1,7 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { createAtlasRenderLayer, listAtlases, type AtlasKey } from "@/lib/atlas-loader";
+import {
+  createAtlasRenderLayer,
+  listAtlases,
+  type AtlasKey,
+} from "@/lib/atlas-loader";
 
 interface AtlasFilterProps {
   onAtlasChange?: (atlas: AtlasKey) => void;
@@ -25,7 +29,9 @@ export function AtlasFilter({ onAtlasChange }: AtlasFilterProps) {
             className="filter-button"
             key={atlas.key}
             onClick={() => choose(atlas.key)}
-            style={{ borderColor: selected === atlas.key ? atlas.color : undefined }}
+            style={{
+              borderColor: selected === atlas.key ? atlas.color : undefined,
+            }}
             type="button"
           >
             {atlas.shortLabel}

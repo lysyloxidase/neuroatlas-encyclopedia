@@ -50,7 +50,8 @@ export function tierFromString(value: string): Tier | null {
   const normalized = value.toLowerCase();
   if (normalized === "robust" || normalized === "1") return Tier.ROBUST;
   if (normalized === "plausible" || normalized === "2") return Tier.PLAUSIBLE;
-  if (normalized === "speculative" || normalized === "3") return Tier.SPECULATIVE;
+  if (normalized === "speculative" || normalized === "3")
+    return Tier.SPECULATIVE;
   return null;
 }
 

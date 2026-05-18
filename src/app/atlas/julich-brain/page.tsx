@@ -4,13 +4,18 @@ import { structures } from "@/lib/structures";
 
 export default function JulichBrainPage() {
   const atlas = getAtlas("julich_brain_v31");
-  const linked = structures.filter((structure) => structure.atlas_links.julich_brain);
+  const linked = structures.filter(
+    (structure) => structure.atlas_links.julich_brain,
+  );
 
   return (
     <section className="container section">
       <p className="eyebrow">Atlas</p>
       <h1>{atlas.label}</h1>
-      <p className="lead">{atlas.n_areas} cortical and {atlas.n_structures} subcortical cytoarchitectonic labels.</p>
+      <p className="lead">
+        {atlas.n_areas} cortical and {atlas.n_structures} subcortical
+        cytoarchitectonic labels.
+      </p>
       <div className="grid">
         <article className="card">
           <h3>Source</h3>

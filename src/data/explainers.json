@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "principal-gradient",
+    "title": "The Principal Gradient",
+    "bluf": "Cortex is not just a set of parcels; it is organized along a continuous sensorimotor-to-transmodal axis.",
+    "changes": "You will read network maps as positions on a gradient, not just as named islands.",
+    "widget": "gradient",
+    "glosses": ["unimodal", "transmodal", "geodesic distance"],
+    "equation": "G_1 = \\arg\\max_v v^T K v",
+    "citations": [{ "doi": "10.1073/pnas.1608282113", "year": 2016, "journal": "PNAS", "title": "Situating the default-mode network along a principal gradient" }]
+  },
+  {
+    "slug": "brodmann-to-hcp",
+    "title": "Brodmann to HCP-MMP1: 100 Years of Cortical Mapping",
+    "bluf": "Brodmann remains essential pedagogy, while HCP-MMP1 gives a modern multimodal surface atlas.",
+    "changes": "You will stop treating BA numbers as ground truth and start using them as historical crosswalks.",
+    "widget": "atlas",
+    "glosses": ["cytoarchitecture", "multimodal parcellation", "crosswalk"],
+    "equation": "P(label | atlas, modality)",
+    "citations": [{ "doi": "10.1038/nature18933", "year": 2016, "journal": "Nature", "title": "A multi-modal parcellation of human cerebral cortex" }]
+  },
+  {
+    "slug": "biccn-ground-truth",
+    "title": "BICCN: When Cells Became the Ground Truth",
+    "bluf": "Cell identity now constrains anatomy from below rather than decorating it from above.",
+    "changes": "You will ask what cell classes occupy a parcel before assigning a single function to it.",
+    "widget": "cell-taxonomy",
+    "glosses": ["supercluster", "subcluster", "transcriptomic marker"],
+    "equation": "cell\\ type = f(transcriptome, region, projection)",
+    "citations": [{ "doi": "10.1126/science.add7046", "year": 2023, "journal": "Science", "title": "Transcriptomic diversity of cell types across the adult human brain" }]
+  },
+  {
+    "slug": "tau-braak-hypothesis",
+    "title": "How Tau Spreads in Alzheimer's: The Braak Hypothesis",
+    "bluf": "Tau staging is a spatial story: transentorhinal cortex first, primary cortex late.",
+    "changes": "You will distinguish amyloid burden from tau topography when interpreting AD maps.",
+    "widget": "braak",
+    "glosses": ["transentorhinal", "tau-PET", "Braak stage"],
+    "equation": "stage(t) = spread(seed, network, vulnerability)",
+    "citations": [{ "doi": "10.1038/s43587-022-00204-0", "year": 2022, "journal": "Nature Aging", "title": "Biomarker modeling of Alzheimer disease stages" }]
+  },
+  {
+    "slug": "cerebellum-schmahmann",
+    "title": "The Cerebellum Is Not Just for Movement",
+    "bluf": "Cerebellar damage can produce cognitive and affective deficits, not only ataxia.",
+    "changes": "You will read Crus I/II and dentate projections as cognitive circuitry.",
+    "widget": "cerebellum",
+    "glosses": ["CCAS", "Crus I", "dentate-thalamo-cortical"],
+    "equation": "prediction\\ error \\rightarrow cerebellar\\ update",
+    "citations": [{ "doi": "10.1093/brain/awx317", "year": 2018, "journal": "Brain", "title": "The cerebellar cognitive affective/Schmahmann syndrome scale" }]
+  },
+  {
+    "slug": "dual-stream-language",
+    "title": "Dual-Stream Language: A 50-Year Synthesis",
+    "bluf": "Dorsal stream maps sound to articulation; ventral stream maps sound to meaning.",
+    "changes": "You will separate conduction aphasia from semantic comprehension failures by pathway.",
+    "widget": "language",
+    "glosses": ["arcuate fasciculus", "dorsal stream", "ventral stream"],
+    "equation": "speech = dorsal(sound, action) + ventral(sound, meaning)",
+    "citations": [{ "doi": "10.1038/nrn2113", "year": 2007, "journal": "Nature Reviews Neuroscience", "title": "The cortical organization of speech processing" }]
+  },
+  {
+    "slug": "default-mode-network",
+    "title": "The Default Mode Network",
+    "bluf": "The DMN began as a task-negative observation and became a core organizing principle.",
+    "changes": "You will treat mind-wandering, memory, and ToM as overlapping transmodal computations.",
+    "widget": "network",
+    "glosses": ["task-negative", "PCC", "mPFC"],
+    "equation": "DMN \\approx apex(G_1)",
+    "citations": [{ "doi": "10.1152/jn.00338.2011", "year": 2011, "journal": "Journal of Neurophysiology", "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity" }]
+  },
+  {
+    "slug": "place-grid-cognitive-map",
+    "title": "Place Cells, Grid Cells, and the Cognitive Map",
+    "bluf": "Hippocampal place cells and entorhinal grid cells form complementary spatial codes.",
+    "changes": "You will see the medial temporal lobe as a representational map engine.",
+    "widget": "hippocampus",
+    "glosses": ["place cell", "grid cell", "entorhinal cortex"],
+    "equation": "position \\approx place(grid, context)",
+    "citations": [{ "doi": "10.1038/nature03721", "year": 2005, "journal": "Nature", "title": "Microstructure of a spatial map in the entorhinal cortex" }]
+  },
+  {
+    "slug": "locus-coeruleus-alzheimers",
+    "title": "Why Is the Locus Coeruleus First to Fall in Alzheimer's?",
+    "bluf": "LC vulnerability links neuromodulatory reach, tau susceptibility, and early arousal/cognition symptoms.",
+    "changes": "You will inspect the brainstem before calling AD a purely cortical disease.",
+    "widget": "neuromodulator",
+    "glosses": ["A6", "neuromelanin", "noradrenergic"],
+    "equation": "risk \\propto projection\\ reach \\times cellular\\ vulnerability",
+    "citations": [{ "doi": "10.1111/ejn.70111", "year": 2025, "journal": "European Journal of Neuroscience", "title": "Human locus coeruleus stereology and vulnerability" }]
+  },
+  {
+    "slug": "pearl-brain-identifiability",
+    "title": "Pearl + the Brain: Identifiability in Neural Circuits",
+    "bluf": "A directed graph is not a causal model until interventions and assumptions are explicit.",
+    "changes": "You will mark many circuit claims plausible until the causal estimand is identified.",
+    "widget": "causal",
+    "glosses": ["DAG", "backdoor path", "intervention"],
+    "equation": "P(y | do(x)) \\ne P(y | x)",
+    "citations": [{ "doi": "10.1214/09-SS057", "year": 2009, "journal": "Statistics Surveys", "title": "Causal inference in statistics: An overview" }]
+  },
+  {
+    "slug": "cardinal-interneuron-classes",
+    "title": "The 5 Cardinal Interneuron Classes",
+    "bluf": "PV, SST, VIP, LAMP5, and SNCG give a usable Rosetta Stone for cortical inhibition.",
+    "changes": "You will read inhibition by target compartment and transcriptomic class.",
+    "widget": "interneurons",
+    "glosses": ["perisomatic", "dendritic", "disinhibition"],
+    "equation": "inhibition = class \\times target \\times state",
+    "citations": [{ "doi": "10.1038/s41586-018-0654-5", "year": 2018, "journal": "Nature", "title": "Shared and distinct transcriptomic cell types across neocortical areas" }]
+  },
+  {
+    "slug": "striosomes-matrix",
+    "title": "Striosomes and Matrix",
+    "bluf": "The striatum hides compartmental structure that changes how direct and indirect pathways are read.",
+    "changes": "You will stop flattening all medium spiny neurons into one diagram.",
+    "widget": "striatum",
+    "glosses": ["striosome", "matrix", "central-zone GPe"],
+    "equation": "striatal\\ output = pathway \\times compartment",
+    "citations": [{ "doi": "10.1016/j.cub.2024.10.014", "year": 2024, "journal": "Current Biology", "title": "Striosomal indirect pathway through central-zone GPe" }]
+  }
+]

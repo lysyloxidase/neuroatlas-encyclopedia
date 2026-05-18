@@ -13,7 +13,11 @@ describe("TierBadge", () => {
     );
 
     expect(screen.getByLabelText("Robust: consensus")).toHaveTextContent("🟢");
-    expect(screen.getByLabelText("Plausible: mechanism debated")).toHaveTextContent("🟡");
-    expect(screen.getByLabelText("Speculative: single study")).toHaveTextContent("🔴");
+    expect(
+      screen.getByLabelText("Plausible: mechanism debated"),
+    ).toHaveTextContent("🟡");
+    expect(
+      screen.getByLabelText("Speculative: single study"),
+    ).toHaveTextContent("🔴");
   });
 });

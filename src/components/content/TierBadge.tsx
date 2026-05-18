@@ -6,9 +6,15 @@ interface TierBadgeProps {
   showLabel?: boolean;
 }
 
-export function TierBadge({ tier, justification, showLabel = true }: TierBadgeProps) {
+export function TierBadge({
+  tier,
+  justification,
+  showLabel = true,
+}: TierBadgeProps) {
   const meta = getTierMeta(tier);
-  const title = justification ? `${meta.label}: ${justification}` : `${meta.label}: ${meta.description}`;
+  const title = justification
+    ? `${meta.label}: ${justification}`
+    : `${meta.label}: ${meta.description}`;
 
   return (
     <span className={meta.className} title={title} aria-label={title}>

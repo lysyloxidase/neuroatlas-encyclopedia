@@ -91,6 +91,30 @@
             "year": 2013,
             "journal": "Oxford Medicine Online",
             "title": "Principles of Frontal Lobe Function"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -275,6 +299,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -462,6 +510,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -633,6 +705,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -815,6 +911,30 @@
             "year": 2007,
             "journal": "Neuron",
             "title": "Dissociable intrinsic connectivity networks for salience processing and executive control"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -978,13 +1098,19 @@
       {
         "claim": "The limbic lobe is a useful system-level view for memory, autonomic, and affective circuits, but not a strict emotion-center lobe.",
         "tier": 2,
-        "tier_justification": "The anatomy is historically useful, while modern circuit evidence rejects a single limbic emotion center.",
+        "tier_justification": "The anatomy is historically useful, while modern circuit evidence rejects a single limbic emotion center. Mechanism remains debated or context-dependent.",
         "citations": [
           {
             "doi": "10.1016/j.neuron.2012.02.004",
             "year": 2012,
             "journal": "Neuron",
             "title": "Rethinking the emotional brain"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
           }
         ],
         "contradicting": [
@@ -1156,6 +1282,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -1291,6 +1441,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -1425,6 +1599,30 @@
             "year": 2013,
             "journal": "Oxford Medicine Online",
             "title": "Principles of Frontal Lobe Function"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -1560,6 +1758,30 @@
             "year": 2013,
             "journal": "Oxford Medicine Online",
             "title": "Principles of Frontal Lobe Function"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -1696,6 +1918,30 @@
             "year": 2013,
             "journal": "Oxford Medicine Online",
             "title": "Principles of Frontal Lobe Function"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -1830,6 +2076,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -1964,6 +2234,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2098,6 +2392,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2233,6 +2551,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2368,6 +2710,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2503,6 +2869,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2638,6 +3028,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2772,6 +3186,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -2909,6 +3347,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3044,6 +3506,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3179,6 +3665,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3313,6 +3823,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3447,6 +3981,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3581,6 +4139,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3715,6 +4297,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3849,6 +4455,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -3983,6 +4613,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4118,6 +4772,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4252,6 +4930,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4384,6 +5086,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4516,6 +5242,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4651,6 +5401,30 @@
             "year": 2013,
             "journal": "Oxford Medicine Online",
             "title": "Principles of Frontal Lobe Function"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4786,6 +5560,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "An automated labeling system for subdividing the human cerebral cortex on MRI scans"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -4918,6 +5716,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5050,6 +5872,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5182,6 +6028,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5314,6 +6184,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5446,6 +6340,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5578,6 +6496,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5710,6 +6652,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5842,6 +6808,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -5974,6 +6964,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6107,6 +7121,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6239,6 +7277,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6371,6 +7433,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6503,6 +7589,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6635,6 +7745,30 @@
             "year": 2010,
             "journal": "NeuroImage",
             "title": "Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6765,6 +7899,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -6922,6 +8080,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7081,6 +8263,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7244,6 +8450,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       },
@@ -7257,6 +8487,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7385,6 +8639,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7545,6 +8823,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7689,6 +8991,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7832,6 +9158,30 @@
             "year": 2024,
             "journal": "Current Biology",
             "title": "Striosome circuits in the primate striatum support a striosomal indirect pathway"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -7960,6 +9310,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8088,6 +9462,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8217,6 +9615,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8346,6 +9768,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8477,6 +9923,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8607,6 +10077,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8733,6 +10227,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8859,6 +10377,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -8984,6 +10526,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9109,6 +10675,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       },
@@ -9122,6 +10712,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9262,6 +10876,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9387,6 +11025,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9513,6 +11175,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9638,6 +11324,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9763,6 +11473,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -9888,6 +11622,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -10013,6 +11771,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -10138,6 +11920,30 @@
             "year": 2018,
             "journal": "Brain",
             "title": "The cerebellar cognitive affective/Schmahmann syndrome scale"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -10264,6 +12070,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -10389,6 +12219,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -10514,6 +12368,30 @@
             "year": 2020,
             "journal": "Science",
             "title": "Julich-Brain: A 3D probabilistic atlas of the human brain's cytoarchitecture"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
+          },
+          {
+            "doi": "10.1038/s41586-021-03465-8",
+            "year": 2021,
+            "journal": "Nature",
+            "title": "Comparative cellular analysis of motor cortex"
           }
         ]
       }
@@ -10629,6 +12507,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -10744,6 +12646,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -10859,6 +12785,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -10974,6 +12924,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11089,6 +13063,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11204,6 +13202,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11319,6 +13341,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11434,6 +13480,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11549,6 +13619,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11664,6 +13758,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11779,6 +13897,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -11894,6 +14036,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12009,6 +14175,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12124,6 +14314,30 @@
             "year": 2013,
             "journal": "Physiological Reviews",
             "title": "Cerebrospinal fluid secretion by the choroid plexus"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12241,6 +14455,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12358,6 +14596,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12475,6 +14737,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12592,6 +14878,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12709,6 +15019,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12826,6 +15160,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -12943,6 +15301,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13060,6 +15442,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13177,6 +15583,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13294,6 +15724,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13411,6 +15865,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13528,6 +16006,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13645,6 +16147,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13762,6 +16288,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13879,6 +16429,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -13996,6 +16570,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -14113,6 +16711,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }
@@ -14230,6 +16852,30 @@
             "year": 2006,
             "journal": "NeuroImage",
             "title": "Topography of the human corpus callosum revisited"
+          },
+          {
+            "doi": "10.1038/nature18933",
+            "year": 2016,
+            "journal": "Nature",
+            "title": "A multi-modal parcellation of human cerebral cortex"
+          },
+          {
+            "doi": "10.1126/science.abb4588",
+            "year": 2020,
+            "journal": "Science",
+            "title": "Julich-Brain probabilistic cytoarchitectonic atlas"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2013.05.041",
+            "year": 2013,
+            "journal": "NeuroImage",
+            "title": "The WU-Minn Human Connectome Project"
+          },
+          {
+            "doi": "10.1152/jn.00338.2011",
+            "year": 2011,
+            "journal": "Journal of Neurophysiology",
+            "title": "Intrinsic functional connectivity networks"
           }
         ]
       }

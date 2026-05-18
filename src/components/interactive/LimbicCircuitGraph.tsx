@@ -21,7 +21,10 @@ export function LimbicCircuitGraph() {
             <strong>{circuit.name}</strong>
             <ul className="list">
               {circuit.edges.map(([source, target]) => (
-                <li data-testid="circuit-edge" key={`${circuit.slug}-${source}-${target}`}>
+                <li
+                  data-testid="circuit-edge"
+                  key={`${circuit.slug}-${source}-${target}`}
+                >
                   <span>{source}</span>
                   {" -> "}
                   <span>{target}</span>

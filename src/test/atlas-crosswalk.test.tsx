@@ -19,7 +19,9 @@ describe("AtlasCrosswalk", () => {
   });
 
   it("maps the precentral gyrus to BA4 and HCP-MMP1 area 4", () => {
-    const structure = structures.find((item) => item.structure_id === "L1_GYRUS_PRECENTRAL");
+    const structure = structures.find(
+      (item) => item.structure_id === "L1_GYRUS_PRECENTRAL",
+    );
     expect(structure).toBeDefined();
 
     render(<AtlasCrosswalk structure={structure!} />);

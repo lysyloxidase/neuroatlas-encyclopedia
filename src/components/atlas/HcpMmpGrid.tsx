@@ -2,15 +2,18 @@ import Link from "next/link";
 import { getStructureSlug, structuresByLevel } from "@/lib/structures";
 import { levelPath } from "@/lib/slug";
 
-const hcpAreas = structuresByLevel(3).filter((structure) => structure.microanatomy?.category === "hcp-mmp1 area");
+const hcpAreas = structuresByLevel(3).filter(
+  (structure) => structure.microanatomy?.category === "hcp-mmp1 area",
+);
 
 export function HcpMmpGrid() {
   return (
     <section className="card" data-testid="hcp-mmp-grid">
       <h3>HCP-MMP1 360 Clickable Areas</h3>
       <p className="muted">
-        180 areas per hemisphere, including 97 newly described Glasser parcels and 83 prior microscopy-confirming
-        territories. Each tile routes to its YAML-backed structure page.
+        180 areas per hemisphere, including 97 newly described Glasser parcels
+        and 83 prior microscopy-confirming territories. Each tile routes to its
+        YAML-backed structure page.
       </p>
       <div className="grid">
         {hcpAreas.map((structure) => (

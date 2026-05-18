@@ -27,8 +27,13 @@ export function getStructureRoutes(): StructureRoute[] {
   }));
 }
 
-export function findStructure(level: string, slug: string): Structure | undefined {
-  return getStructureRoutes().find((route) => route.level === level && route.slug === slug)?.structure;
+export function findStructure(
+  level: string,
+  slug: string,
+): Structure | undefined {
+  return getStructureRoutes().find(
+    (route) => route.level === level && route.slug === slug,
+  )?.structure;
 }
 
 export function structuresByLevel(level: 1 | 2 | 3): Structure[] {

@@ -9,7 +9,9 @@ export default function DesikanKillianyPage() {
     <section className="container section">
       <p className="eyebrow">Atlas</p>
       <h1>{atlas.label}</h1>
-      <p className="lead">{atlas.n_areas} gyral parcels for robust MRI-readable macroanatomy.</p>
+      <p className="lead">
+        {atlas.n_areas} gyral parcels for robust MRI-readable macroanatomy.
+      </p>
       <div className="grid">
         <article className="card">
           <h3>Source</h3>

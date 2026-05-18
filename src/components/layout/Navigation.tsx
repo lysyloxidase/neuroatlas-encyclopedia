@@ -10,9 +10,10 @@ const links = [
   ["NeuroNT", "/neuromodulators"],
   ["Disorders", "/disorders"],
   ["Micro", "/microanatomy"],
-  ["Cerebellum", "/cerebellum"],
+  ["Explain", "/explainers/principal-gradient"],
+  ["Quiz", "/quiz/cortical-anatomy"],
   ["Connectome", "/connectome"],
-  ["Gradient", "/gradient"],
+  ["Caveats", "/caveats"],
   ["Glossary", "/glossary"],
 ] as const;
 

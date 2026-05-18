@@ -20,7 +20,9 @@ const ccasCitations = [
 ] as const;
 
 export default function CerebellumPage() {
-  const cerebellarStructures = structures.filter((structure) => structure.macroanatomy?.category === "cerebellum");
+  const cerebellarStructures = structures.filter(
+    (structure) => structure.macroanatomy?.category === "cerebellum",
+  );
 
   return (
     <section className="container section">
@@ -29,12 +31,16 @@ export default function CerebellumPage() {
       <article className="card" style={{ marginTop: "1rem" }}>
         <div className="button-row">
           <span className="new-badge">PROMINENT</span>
-          <TierBadge tier={Tier.ROBUST} justification="Validated syndrome scale and recent clinical review evidence." />
+          <TierBadge
+            tier={Tier.ROBUST}
+            justification="Validated syndrome scale and recent clinical review evidence."
+          />
         </div>
         <h2>Cerebellar Cognitive Affective/Schmahmann Syndrome</h2>
         <p className="lead">
-          CCAS is surfaced as a first-class cerebellar finding: posterior cerebellar injury can produce executive,
-          linguistic, spatial, and affective symptoms in addition to motor signs.
+          CCAS is surfaced as a first-class cerebellar finding: posterior
+          cerebellar injury can produce executive, linguistic, spatial, and
+          affective symptoms in addition to motor signs.
         </p>
         <ul className="list">
           {ccasCitations.map((citation) => (
@@ -46,7 +52,11 @@ export default function CerebellumPage() {
       </article>
       <div className="grid" style={{ marginTop: "1rem" }}>
         {cerebellarStructures.map((structure) => (
-          <Link className="card" href={`/structures/level-1/${structure.names.english.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`} key={structure.structure_id}>
+          <Link
+            className="card"
+            href={`/structures/level-1/${structure.names.english.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+            key={structure.structure_id}
+          >
             <h3>{structure.names.english}</h3>
             <p className="muted">{structure.functions[0]?.claim}</p>
           </Link>

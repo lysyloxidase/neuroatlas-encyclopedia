@@ -4,13 +4,18 @@ import { structures } from "@/lib/structures";
 
 export default function HcpMmp1Page() {
   const atlas = getAtlas("hcp_mmp1");
-  const linked = structures.filter((structure) => structure.atlas_links.hcp_mmp1);
+  const linked = structures.filter(
+    (structure) => structure.atlas_links.hcp_mmp1,
+  );
 
   return (
     <section className="container section">
       <p className="eyebrow">Atlas</p>
       <h1>{atlas.label}</h1>
-      <p className="lead">{atlas.n_areas} cortical areas anchored to the Glasser multi-modal parcellation.</p>
+      <p className="lead">
+        {atlas.n_areas} cortical areas anchored to the Glasser multi-modal
+        parcellation.
+      </p>
       <div className="grid">
         <article className="card">
           <h3>Source</h3>

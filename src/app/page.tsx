@@ -21,7 +21,8 @@ export default function Home() {
           <p className="eyebrow">Four-atlas reference backbone</p>
           <h1>NeuroAtlas Encyclopedia</h1>
           <p className="lead">
-            A tiered encyclopedia for cortical, subcortical, cellular, network, tract, disorder, and development views.
+            A tiered encyclopedia for cortical, subcortical, cellular, network,
+            tract, disorder, and development views.
           </p>
           <div className="hero-actions">
             <Link className="button" href="/viewer">
@@ -42,7 +43,9 @@ export default function Home() {
             <article className="card" key={atlas.key}>
               <h3>{atlas.label}</h3>
               <p className="muted">{atlas.modality}</p>
-              <p className="mono">{atlas.n_areas ?? atlas.n_structures} labels</p>
+              <p className="mono">
+                {atlas.n_areas ?? atlas.n_structures} labels
+              </p>
             </article>
           ))}
         </div>

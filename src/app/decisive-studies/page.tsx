@@ -2,7 +2,13 @@ import { Citation } from "@/components/content/Citation";
 import { structures } from "@/lib/structures";
 
 export default function DecisiveStudiesPage() {
-  const citations = Array.from(new Map(structures.flatMap((structure) => structure.primary_citations).map((citation) => [citation.doi, citation])).values());
+  const citations = Array.from(
+    new Map(
+      structures
+        .flatMap((structure) => structure.primary_citations)
+        .map((citation) => [citation.doi, citation]),
+    ).values(),
+  );
 
   return (
     <section className="container section">

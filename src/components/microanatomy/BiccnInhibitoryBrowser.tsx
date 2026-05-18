@@ -3,15 +3,37 @@
 import { useState } from "react";
 
 export const INHIBITORY_CLASSES = [
-  { family: "PV", morphology: ["basket", "chandelier"], role: "perisomatic and axo-axonic fast inhibition" },
-  { family: "SST", morphology: ["Martinotti", "non-Martinotti long-range"], role: "dendritic inhibition and long-range inhibitory output" },
-  { family: "VIP", morphology: ["bipolar", "multipolar"], role: "disinhibitory targeting of SST interneurons" },
-  { family: "LAMP5", morphology: ["neurogliaform", "canopy", "alpha7"], role: "slow volume GABA in superficial layers" },
-  { family: "SNCG", morphology: ["CCK basket", "CB1-positive basket"], role: "state-sensitive basket inhibition" },
+  {
+    family: "PV",
+    morphology: ["basket", "chandelier"],
+    role: "perisomatic and axo-axonic fast inhibition",
+  },
+  {
+    family: "SST",
+    morphology: ["Martinotti", "non-Martinotti long-range"],
+    role: "dendritic inhibition and long-range inhibitory output",
+  },
+  {
+    family: "VIP",
+    morphology: ["bipolar", "multipolar"],
+    role: "disinhibitory targeting of SST interneurons",
+  },
+  {
+    family: "LAMP5",
+    morphology: ["neurogliaform", "canopy", "alpha7"],
+    role: "slow volume GABA in superficial layers",
+  },
+  {
+    family: "SNCG",
+    morphology: ["CCK basket", "CB1-positive basket"],
+    role: "state-sensitive basket inhibition",
+  },
 ] as const;
 
 export function BiccnInhibitoryBrowser() {
-  const [selected, setSelected] = useState<(typeof INHIBITORY_CLASSES)[number]>(INHIBITORY_CLASSES[0]);
+  const [selected, setSelected] = useState<(typeof INHIBITORY_CLASSES)[number]>(
+    INHIBITORY_CLASSES[0],
+  );
 
   return (
     <section className="card" data-testid="biccn-inhibitory-browser">

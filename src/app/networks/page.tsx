@@ -16,7 +16,10 @@ export default function NetworksPage() {
     <section className="container section">
       <p className="eyebrow">Level 4</p>
       <h1>Functional Networks</h1>
-      <p className="lead">Yeo intrinsic networks, the triple-network model, and task-defined language, vision, motor, social, and mirror systems.</p>
+      <p className="lead">
+        Yeo intrinsic networks, the triple-network model, and task-defined
+        language, vision, motor, social, and mirror systems.
+      </p>
       <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
         <YeoNetworkOverlays />
         <TripleNetworkSwitch />
@@ -27,7 +30,11 @@ export default function NetworksPage() {
       </div>
       <div className="grid" style={{ marginTop: "1rem" }}>
         {networkList.map((network) => (
-          <Link className="card" href={`/networks/${network.slug}`} key={network.slug}>
+          <Link
+            className="card"
+            href={`/networks/${network.slug}`}
+            key={network.slug}
+          >
             <h3>{network.name}</h3>
             <TierBadge tier={network.tier} />
             <p className="muted">{network.system}</p>

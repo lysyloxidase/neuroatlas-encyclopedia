@@ -10,8 +10,16 @@ describe("filters", () => {
       <TierFilter
         items={[
           { id: "green", title: "replicated motor claim", tier: Tier.ROBUST },
-          { id: "yellow", title: "debated sequencing claim", tier: Tier.PLAUSIBLE },
-          { id: "red", title: "computational-only claim", tier: Tier.SPECULATIVE },
+          {
+            id: "yellow",
+            title: "debated sequencing claim",
+            tier: Tier.PLAUSIBLE,
+          },
+          {
+            id: "red",
+            title: "computational-only claim",
+            tier: Tier.SPECULATIVE,
+          },
         ]}
       />,
     );
@@ -20,9 +28,15 @@ describe("filters", () => {
     fireEvent.click(screen.getByRole("button", { name: /speculative/i }));
 
     const results = screen.getByTestId("tier-filter-results");
-    expect(within(results).getByText("replicated motor claim")).toBeInTheDocument();
-    expect(within(results).queryByText("debated sequencing claim")).not.toBeInTheDocument();
-    expect(within(results).queryByText("computational-only claim")).not.toBeInTheDocument();
+    expect(
+      within(results).getByText("replicated motor claim"),
+    ).toBeInTheDocument();
+    expect(
+      within(results).queryByText("debated sequencing claim"),
+    ).not.toBeInTheDocument();
+    expect(
+      within(results).queryByText("computational-only claim"),
+    ).not.toBeInTheDocument();
   });
 
   it("shows only Level 1 structures when Level 1 is selected", () => {
@@ -41,7 +55,9 @@ describe("filters", () => {
     const results = screen.getByTestId("level-filter-results");
     expect(within(results).getByText("Precentral gyrus")).toBeInTheDocument();
     expect(within(results).queryByText("Area 44")).not.toBeInTheDocument();
-    expect(within(results).queryByText("Dentate gyrus")).not.toBeInTheDocument();
+    expect(
+      within(results).queryByText("Dentate gyrus"),
+    ).not.toBeInTheDocument();
   });
 
   it("switches atlas render layers when a different atlas is selected", () => {
@@ -51,6 +67,8 @@ describe("filters", () => {
     fireEvent.click(screen.getByRole("button", { name: "Julich" }));
 
     expect(onAtlasChange).toHaveBeenCalledWith("julich_brain_v31");
-    expect(screen.getByTestId("atlas-render-layer")).toHaveTextContent("u_julich_brain_v31_labels");
+    expect(screen.getByTestId("atlas-render-layer")).toHaveTextContent(
+      "u_julich_brain_v31_labels",
+    );
   });
 });

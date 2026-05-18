@@ -10,7 +10,10 @@ export default function CellularPage() {
     <section className="container section">
       <p className="eyebrow">BICCN taxonomy</p>
       <h1>Cellular Taxonomy</h1>
-      <p className="lead">Human and mouse cluster scaffolds for excitatory, inhibitory, and glial views.</p>
+      <p className="lead">
+        Human and mouse cluster scaffolds for excitatory, inhibitory, and glial
+        views.
+      </p>
       <div className="grid">
         <Link className="card" href="/cellular/excitatory">
           <h3>Excitatory</h3>
@@ -22,10 +25,15 @@ export default function CellularPage() {
         </Link>
         <Link className="card" href="/cellular/glia">
           <h3>Glia</h3>
-          <p className="muted">Astrocyte, oligodendrocyte, and microglia scaffold.</p>
+          <p className="muted">
+            Astrocyte, oligodendrocyte, and microglia scaffold.
+          </p>
         </Link>
       </div>
-      <p className="muted">{siletti.length} human seed clusters and {yao.length} mouse seed clusters loaded.</p>
+      <p className="muted">
+        {siletti.length} human seed clusters and {yao.length} mouse seed
+        clusters loaded.
+      </p>
       <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
         <SilettiBrowser />
         <YaoBrowser />

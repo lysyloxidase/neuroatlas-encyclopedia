@@ -8,9 +8,14 @@ export function TripleNetworkSwitch() {
   return (
     <section className="card" data-testid="triple-network-switch">
       <h3>Triple-Network Switch</h3>
-      <p className="muted">Salience network toggles between internally oriented DMN and externally oriented CEN states.</p>
+      <p className="muted">
+        Salience network toggles between internally oriented DMN and externally
+        oriented CEN states.
+      </p>
       <div className="network-switch-stage">
-        <div className={mode === "dmn" ? "switch-node active" : "switch-node"}>DMN</div>
+        <div className={mode === "dmn" ? "switch-node active" : "switch-node"}>
+          DMN
+        </div>
         <button
           aria-label="Toggle salience switch"
           className="switch-lever"
@@ -20,9 +25,14 @@ export function TripleNetworkSwitch() {
         >
           SN
         </button>
-        <div className={mode === "cen" ? "switch-node active" : "switch-node"}>CEN</div>
+        <div className={mode === "cen" ? "switch-node active" : "switch-node"}>
+          CEN
+        </div>
       </div>
-      <p className="mono">Current control target: {mode === "dmn" ? "default mode network" : "central executive network"}</p>
+      <p className="mono">
+        Current control target:{" "}
+        {mode === "dmn" ? "default mode network" : "central executive network"}
+      </p>
     </section>
   );
 }

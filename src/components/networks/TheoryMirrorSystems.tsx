@@ -10,7 +10,10 @@ interface SocialNetwork {
   note?: string;
 }
 
-const socialNetworks = (networks as unknown as SocialNetwork[]).filter((network) => ["theory-of-mind", "mirror-neuron-system"].includes(network.slug));
+const socialNetworks = (networks as unknown as SocialNetwork[]).filter(
+  (network) =>
+    ["theory-of-mind", "mirror-neuron-system"].includes(network.slug),
+);
 
 export function TheoryMirrorSystems() {
   return (

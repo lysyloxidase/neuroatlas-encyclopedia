@@ -1,0 +1,8 @@
+.next
+coverage
+node_modules
+public/meshes
+public/volumes
+src/content
+src/data/**/*.json
+tier_audit_report.json

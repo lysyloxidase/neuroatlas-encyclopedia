@@ -8,13 +8,19 @@ export interface DoiVerification {
 
 type Fetcher = typeof fetch;
 
-export async function verifyDoi(doi: string, fetcher: Fetcher = fetch): Promise<DoiVerification> {
+export async function verifyDoi(
+  doi: string,
+  fetcher: Fetcher = fetch,
+): Promise<DoiVerification> {
   const normalized = doi.trim().replace(/^https?:\/\/doi.org\//i, "");
-  const response = await fetcher(`https://api.crossref.org/works/${encodeURIComponent(normalized)}`, {
-    headers: {
-      Accept: "application/json",
+  const response = await fetcher(
+    `https://api.crossref.org/works/${encodeURIComponent(normalized)}`,
+    {
+      headers: {
+        Accept: "application/json",
+      },
     },
-  });
+  );
 
   if (!response.ok) {
     return { doi: normalized, valid: false, status: response.status };

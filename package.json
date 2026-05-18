@@ -1,6 +1,6 @@
 {
   "name": "neuroatlas-encyclopedia",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,7 +12,9 @@
     "generate:phase5": "node scripts/generate-phase5.mjs",
     "generate:phase6": "node scripts/generate-phase6.mjs",
     "verify:dois": "node scripts/verify-dois.mjs",
+    "tier:audit": "node scripts/tier_audit.mjs",
     "typecheck": "tsc --noEmit",
+    "lint": "eslint . && prettier --check .",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -37,6 +39,7 @@
     "eslint": "9.39.4",
     "eslint-config-next": "15.5.18",
     "jsdom": "29.1.1",
+    "prettier": "3.7.4",
     "typescript": "5.9.3",
     "vitest": "4.1.6"
   }

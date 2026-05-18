@@ -6,7 +6,9 @@ export function DisorderLink({ disorder }: { disorder: DisorderAssociation }) {
   return (
     <li className="association-row">
       <div className="button-row">
-        <Link href={`/disorders/${disorder.disorder.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}>
+        <Link
+          href={`/disorders/${disorder.disorder.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+        >
           {disorder.disorder}
         </Link>
         <TierBadge tier={disorder.tier} showLabel={false} />

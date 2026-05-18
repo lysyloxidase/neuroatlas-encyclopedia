@@ -22,8 +22,12 @@ export function AtlasCrosswalk({ structure }: AtlasCrosswalkProps) {
         </thead>
         <tbody>
           {structure.atlas_links.crosswalks.map((crosswalk) => (
-            <tr key={`${crosswalk.source_atlas}-${crosswalk.target_atlas}-${crosswalk.target_label}`}>
-              <td>{crosswalk.source_atlas} {crosswalk.source_label}</td>
+            <tr
+              key={`${crosswalk.source_atlas}-${crosswalk.target_atlas}-${crosswalk.target_label}`}
+            >
+              <td>
+                {crosswalk.source_atlas} {crosswalk.source_label}
+              </td>
               <td>{crosswalk.target_atlas}</td>
               <td>{crosswalk.target_label}</td>
             </tr>

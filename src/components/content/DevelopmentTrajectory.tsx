@@ -25,7 +25,9 @@ export function DevelopmentTrajectory({ structure }: { structure: Structure }) {
               <td>
                 <TierBadge
                   tier={structure.development.adult_neurogenesis.tier}
-                  justification={structure.development.adult_neurogenesis.tier_justification}
+                  justification={
+                    structure.development.adult_neurogenesis.tier_justification
+                  }
                 />
               </td>
             </tr>

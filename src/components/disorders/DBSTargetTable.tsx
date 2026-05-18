@@ -28,7 +28,9 @@ export function DBSTargetTable() {
               <td>{row.indication}</td>
               <td>{row.target}</td>
               <td>{row.fda_approval}</td>
-              <td><TierBadge tier={row.evidence_tier} /></td>
+              <td>
+                <TierBadge tier={row.evidence_tier} />
+              </td>
             </tr>
           ))}
         </tbody>

@@ -31,21 +31,39 @@ function walkYaml(dir: string): string[] {
 }
 
 const level3Yaml = walkYaml(LEVEL3_ROOT);
-const parsedLevel3 = level3Yaml.map((file) => structureSchema.parse(parse(readFileSync(file, "utf8"))));
+const parsedLevel3 = level3Yaml.map((file) =>
+  structureSchema.parse(parse(readFileSync(file, "utf8"))),
+);
 
 describe("Phase 4 Level 3 atlas and cellular corpus", () => {
   it("validates Level 3 YAML entries and keeps HCP/Julich counts synced to route data", () => {
     expect(parsedLevel3).toHaveLength(672);
-    expect(parsedLevel3.filter((structure) => structure.microanatomy?.category === "hcp-mmp1 area")).toHaveLength(360);
-    expect(parsedLevel3.filter((structure) => structure.microanatomy?.category === "julich-brain v3.1 probabilistic map")).toHaveLength(312);
+    expect(
+      parsedLevel3.filter(
+        (structure) => structure.microanatomy?.category === "hcp-mmp1 area",
+      ),
+    ).toHaveLength(360);
+    expect(
+      parsedLevel3.filter(
+        (structure) =>
+          structure.microanatomy?.category ===
+          "julich-brain v3.1 probabilistic map",
+      ),
+    ).toHaveLength(312);
     expect(level3).toHaveLength(parsedLevel3.length);
-    expect(structures.filter((structure) => structure.level === 3)).toHaveLength(parsedLevel3.length);
+    expect(
+      structures.filter((structure) => structure.level === 3),
+    ).toHaveLength(parsedLevel3.length);
   });
 
   it("loads the requested BICCN cellular taxonomy scales", () => {
     expect(siletti).toHaveLength(3313);
-    expect(new Set(siletti.map((cluster) => cluster.supercluster_id))).toHaveLength(31);
-    expect(new Set(siletti.map((cluster) => cluster.cluster_id))).toHaveLength(461);
+    expect(
+      new Set(siletti.map((cluster) => cluster.supercluster_id)),
+    ).toHaveLength(31);
+    expect(new Set(siletti.map((cluster) => cluster.cluster_id))).toHaveLength(
+      461,
+    );
     expect(yao).toHaveLength(5322);
     expect(yao[0].ccfv3_coordinates).toHaveLength(3);
     expect(mappings[0]).toMatchObject({
@@ -56,9 +74,17 @@ describe("Phase 4 Level 3 atlas and cellular corpus", () => {
   });
 
   it("keeps all HCP-MMP1 areas clickable with full YAML-backed crosswalks", () => {
-    const area55b = parsedLevel3.find((structure) => structure.atlas_links.hcp_mmp1 === "L_55b");
-    expect(area55b?.primary_citations.map((citation) => citation.doi)).toContain("10.1038/nature18933");
-    expect(area55b?.atlas_links.crosswalks.every((crosswalk) => crosswalk.citation?.doi)).toBe(true);
+    const area55b = parsedLevel3.find(
+      (structure) => structure.atlas_links.hcp_mmp1 === "L_55b",
+    );
+    expect(
+      area55b?.primary_citations.map((citation) => citation.doi),
+    ).toContain("10.1038/nature18933");
+    expect(
+      area55b?.atlas_links.crosswalks.every(
+        (crosswalk) => crosswalk.citation?.doi,
+      ),
+    ).toBe(true);
 
     render(<HcpMmpGrid />);
 
@@ -70,7 +96,9 @@ describe("Phase 4 Level 3 atlas and cellular corpus", () => {
     render(<JulichTable />);
 
     expect(screen.getAllByTestId("julich-row")).toHaveLength(312);
-    expect(screen.getAllByText(/MNI152 .* Colin27 .* receptor autoradiography/)[0]).toBeInTheDocument();
+    expect(
+      screen.getAllByText(/MNI152 .* Colin27 .* receptor autoradiography/)[0],
+    ).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Sort by region" }));
     expect(screen.getAllByTestId("julich-row")).toHaveLength(312);
   });
@@ -84,15 +112,25 @@ describe("Phase 4 Level 3 atlas and cellular corpus", () => {
       </div>,
     );
 
-    fireEvent.change(screen.getByLabelText("Siletti region"), { target: { value: "frontal cortex" } });
-    expect(within(screen.getByTestId("siletti-browser")).getByText(/matching human subclusters/)).toBeInTheDocument();
+    fireEvent.change(screen.getByLabelText("Siletti region"), {
+      target: { value: "frontal cortex" },
+    });
+    expect(
+      within(screen.getByTestId("siletti-browser")).getByText(
+        /matching human subclusters/,
+      ),
+    ).toBeInTheDocument();
     expect(screen.getAllByTestId("siletti-cluster").length).toBeGreaterThan(0);
 
-    fireEvent.change(screen.getByLabelText("Yao cluster search"), { target: { value: "YAO_CL_0001" } });
+    fireEvent.change(screen.getByLabelText("Yao cluster search"), {
+      target: { value: "YAO_CL_0001" },
+    });
     expect(screen.getAllByTestId("yao-cluster")).toHaveLength(1);
     expect(screen.getByText(/CCFv3 coordinates/i)).toBeInTheDocument();
 
-    expect(screen.getAllByTestId("cross-species-row").length).toBeGreaterThan(0);
+    expect(screen.getAllByTestId("cross-species-row").length).toBeGreaterThan(
+      0,
+    );
   });
 
   it("renders TractSeg top-20 tube geometry and arcuate leftward asymmetry", () => {
@@ -106,7 +144,9 @@ describe("Phase 4 Level 3 atlas and cellular corpus", () => {
 
   it("renders Margulies G1 cortical coloring across all 360 HCP parcels", () => {
     expect(gradient).toHaveLength(360);
-    expect(new Set(gradient.map((item) => item.pole))).toEqual(new Set(["unimodal", "intermediate", "transmodal"]));
+    expect(new Set(gradient.map((item) => item.pole))).toEqual(
+      new Set(["unimodal", "intermediate", "transmodal"]),
+    );
 
     render(<PrincipalGradientExplorer />);
 
@@ -122,7 +162,9 @@ describe("Phase 4 Level 3 atlas and cellular corpus", () => {
     expect(screen.getByText("Papez circuit")).toBeInTheDocument();
     expect(screen.getByText("Yakovlev circuit")).toBeInTheDocument();
     expect(screen.getByText("Reward circuit")).toBeInTheDocument();
-    expect(screen.getAllByTestId("circuit-edge").length).toBeGreaterThanOrEqual(17);
+    expect(screen.getAllByTestId("circuit-edge").length).toBeGreaterThanOrEqual(
+      17,
+    );
   });
 
   it("keeps atlas crosswalks bidirectional and citation-backed", () => {
@@ -140,7 +182,9 @@ describe("Phase 4 Level 3 atlas and cellular corpus", () => {
   });
 
   it("keeps at least 95% of encyclopedia entries at three or more primary citations", () => {
-    const cited = structures.filter((structure) => structure.primary_citations.length >= 3);
+    const cited = structures.filter(
+      (structure) => structure.primary_citations.length >= 3,
+    );
     expect(cited.length / structures.length).toBeGreaterThanOrEqual(0.95);
   });
 });

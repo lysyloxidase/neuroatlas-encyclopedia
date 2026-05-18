@@ -3,7 +3,10 @@ import { join } from "node:path";
 import YAML from "yaml";
 
 const ROOT = process.cwd();
-const SCAN_ROOTS = [join(ROOT, "src/content/structures"), join(ROOT, "src/data")];
+const SCAN_ROOTS = [
+  join(ROOT, "src/content/structures"),
+  join(ROOT, "src/data"),
+];
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -40,7 +43,9 @@ const files = (await Promise.all(SCAN_ROOTS.map((root) => walk(root)))).flat();
 const dois = new Set();
 for (const file of files) {
   const content = await readFile(file, "utf8");
-  const parsed = file.endsWith(".json") ? JSON.parse(content) : YAML.parse(content);
+  const parsed = file.endsWith(".json")
+    ? JSON.parse(content)
+    : YAML.parse(content);
   for (const doi of collectDoiValues(parsed)) {
     dois.add(doi);
   }
@@ -48,9 +53,12 @@ for (const file of files) {
 
 const failures = [];
 for (const doi of [...dois].sort()) {
-  const response = await fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}`, {
-    headers: { Accept: "application/json" },
-  });
+  const response = await fetch(
+    `https://api.crossref.org/works/${encodeURIComponent(doi)}`,
+    {
+      headers: { Accept: "application/json" },
+    },
+  );
   if (!response.ok) {
     failures.push(`${doi} -> ${response.status}`);
   }

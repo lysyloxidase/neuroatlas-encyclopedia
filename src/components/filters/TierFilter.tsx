@@ -26,7 +26,9 @@ export function TierFilter({ items = [], compact = false }: TierFilterProps) {
 
   function toggle(tier: Tier) {
     setSelected((current) =>
-      current.includes(tier) ? current.filter((value) => value !== tier) : [...current, tier].sort(),
+      current.includes(tier)
+        ? current.filter((value) => value !== tier)
+        : [...current, tier].sort(),
     );
   }
 
@@ -44,7 +46,8 @@ export function TierFilter({ items = [], compact = false }: TierFilterProps) {
               title={meta.description}
               type="button"
             >
-              <span aria-hidden="true">{meta.icon}</span> {compact ? meta.label[0] : meta.label}
+              <span aria-hidden="true">{meta.icon}</span>{" "}
+              {compact ? meta.label[0] : meta.label}
             </button>
           );
         })}

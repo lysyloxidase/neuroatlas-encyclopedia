@@ -1,0 +1,143 @@
+[
+  {
+    "age": "8 PCW",
+    "brain_volume_cm3": 6,
+    "surface_area_cm2": 8,
+    "gene_expression": "Neuroepithelial and radial glial programs dominate early cortical patterning.",
+    "myelination": "Premyelinating oligodendrocyte lineage is sparse.",
+    "synaptic_density": "Low; neurogenesis is the main event.",
+    "cortical_thickness": "Expanding ventricular and subventricular zones.",
+    "white_matter": "Pioneer axons are establishing early scaffold tracts.",
+    "processes": ["neurogenesis peaks begin", "regional patterning"],
+    "citations": [
+      { "doi": "10.1038/nature13185", "year": 2014, "journal": "Nature", "title": "Transcriptional landscape of the prenatal human brain" },
+      { "doi": "10.1126/science.aat7615", "year": 2018, "journal": "Science", "title": "Integrative functional genomic analysis of human brain development and neuropsychiatric risks" }
+    ]
+  },
+  {
+    "age": "12 PCW",
+    "brain_volume_cm3": 18,
+    "surface_area_cm2": 19,
+    "gene_expression": "Deep-layer corticofugal programs and areal gradients become prominent.",
+    "myelination": "No mature cortical myelin; early brainstem tracts lead.",
+    "synaptic_density": "Early synaptogenesis starts in subplate and sensory pathways.",
+    "cortical_thickness": "Cortical plate thickens as projection neurons settle.",
+    "white_matter": "Internal capsule and commissural scaffolds become more organized.",
+    "processes": ["neurogenesis high", "subplate expansion"],
+    "citations": [
+      { "doi": "10.1038/nature13185", "year": 2014, "journal": "Nature", "title": "Transcriptional landscape of the prenatal human brain" }
+    ]
+  },
+  {
+    "age": "16 PCW",
+    "brain_volume_cm3": 45,
+    "surface_area_cm2": 42,
+    "gene_expression": "Upper-layer neurogenesis and interneuron migration signatures rise.",
+    "myelination": "Brainstem and spinal systems remain ahead of cortex.",
+    "synaptic_density": "Thalamocortical and local cortical synapses accumulate.",
+    "cortical_thickness": "Rapid cortical plate expansion.",
+    "white_matter": "Long association scaffolds are still immature.",
+    "processes": ["neurogenesis peak", "interneuron migration"],
+    "citations": [
+      { "doi": "10.1038/nature13185", "year": 2014, "journal": "Nature", "title": "Transcriptional landscape of the prenatal human brain" }
+    ]
+  },
+  {
+    "age": "24 PCW",
+    "brain_volume_cm3": 155,
+    "surface_area_cm2": 120,
+    "gene_expression": "Synaptic, gliogenic, and early activity-dependent modules increase.",
+    "myelination": "Primary sensory and motor pathways begin the long myelination sequence.",
+    "synaptic_density": "Acceleration toward infant peak begins.",
+    "cortical_thickness": "Sulcation expands cortical surface area quickly.",
+    "white_matter": "Callosal and projection pathways are visible but immature.",
+    "processes": ["gliogenesis", "sulcation", "early myelination"],
+    "citations": [
+      { "doi": "10.1126/science.aat7615", "year": 2018, "journal": "Science", "title": "Integrative functional genomic analysis of human brain development and neuropsychiatric risks" }
+    ]
+  },
+  {
+    "age": "Birth (40 PCW)",
+    "brain_volume_cm3": 370,
+    "surface_area_cm2": 680,
+    "gene_expression": "Postnatal activity, sensory, and gliogenic programs accelerate.",
+    "myelination": "Sensorimotor tracts are myelinating; association cortex remains sparse.",
+    "synaptic_density": "Rapid postnatal rise.",
+    "cortical_thickness": "High growth rate continues into early childhood.",
+    "white_matter": "Projection tracts mature before long association tracts.",
+    "processes": ["sensory system tuning", "rapid synaptogenesis"],
+    "citations": [
+      { "doi": "10.1038/nature13185", "year": 2014, "journal": "Nature", "title": "Transcriptional landscape of the prenatal human brain" }
+    ]
+  },
+  {
+    "age": "1 year",
+    "brain_volume_cm3": 930,
+    "surface_area_cm2": 1250,
+    "gene_expression": "Synapse, metabolism, and oligodendrocyte maturation modules dominate.",
+    "myelination": "Primary sensory-motor systems advance; prefrontal association remains immature.",
+    "synaptic_density": "Near peak in primary sensory cortex.",
+    "cortical_thickness": "Regional thickening is still underway.",
+    "white_matter": "Rapid fractional anisotropy increase in major tracts.",
+    "processes": ["synaptogenesis peak window", "myelination surge"],
+    "citations": [
+      { "doi": "10.1126/science.aat7615", "year": 2018, "journal": "Science", "title": "Integrative functional genomic analysis of human brain development and neuropsychiatric risks" }
+    ]
+  },
+  {
+    "age": "5 years",
+    "brain_volume_cm3": 1180,
+    "surface_area_cm2": 1650,
+    "gene_expression": "Childhood plasticity and circuit refinement modules remain high.",
+    "myelination": "Association tract myelination becomes more visible.",
+    "synaptic_density": "Pruning has begun in sensory cortex while association cortex stays dense.",
+    "cortical_thickness": "Peak cortical thickness timing differs by region.",
+    "white_matter": "Long-range tracts continue strengthening.",
+    "processes": ["synaptic pruning begins", "language network refinement"],
+    "citations": [
+      { "doi": "10.1073/pnas.0707741104", "year": 2007, "journal": "PNAS", "title": "Neurodevelopmental trajectories of the human cerebral cortex" }
+    ]
+  },
+  {
+    "age": "10 years",
+    "brain_volume_cm3": 1260,
+    "surface_area_cm2": 1850,
+    "gene_expression": "Experience-dependent synaptic and myelin programs continue to reorganize.",
+    "myelination": "Association pathways are active maturational targets.",
+    "synaptic_density": "Pruning is evident across much of cortex.",
+    "cortical_thickness": "Many regions enter thinning trajectories after childhood peaks.",
+    "white_matter": "Frontoparietal and temporal tracts continue developing.",
+    "processes": ["pruning", "executive network maturation"],
+    "citations": [
+      { "doi": "10.1016/j.neuroimage.2008.07.058", "year": 2008, "journal": "NeuroImage", "title": "Microstructural maturation of the human brain from childhood to adulthood" }
+    ]
+  },
+  {
+    "age": "20 years",
+    "brain_volume_cm3": 1350,
+    "surface_area_cm2": 1950,
+    "gene_expression": "Adult-like regional modules are established with continuing myelin regulation.",
+    "myelination": "Prefrontal and association tracts remain in late maturation.",
+    "synaptic_density": "Pruning has largely stabilized but remains circuit-specific.",
+    "cortical_thickness": "Young-adult plateau for many regions.",
+    "white_matter": "Long association tracts approach adult microstructure.",
+    "processes": ["late myelination", "network stabilization"],
+    "citations": [
+      { "doi": "10.1016/j.neuroimage.2008.07.058", "year": 2008, "journal": "NeuroImage", "title": "Microstructural maturation of the human brain from childhood to adulthood" }
+    ]
+  },
+  {
+    "age": "40 years",
+    "brain_volume_cm3": 1320,
+    "surface_area_cm2": 1930,
+    "gene_expression": "Adult maintenance, glial, immune, and metabolic signatures dominate.",
+    "myelination": "Most major systems are mature; repair and turnover continue.",
+    "synaptic_density": "Stable adult density with region-specific plasticity.",
+    "cortical_thickness": "Slow adult thinning begins in many regions.",
+    "white_matter": "Adult tract organization is established.",
+    "processes": ["adult maintenance", "DG adult neurogenesis contested"],
+    "citations": [
+      { "doi": "10.1016/j.neuron.2023.03.010", "year": 2023, "journal": "Neuron", "title": "Reconciliation of adult human hippocampal neurogenesis evidence" }
+    ]
+  }
+]

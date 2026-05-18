@@ -3,13 +3,18 @@ import { structures } from "@/lib/structures";
 
 export default function AllenCcfPage() {
   const atlas = getAtlas("allen_ccf_v3");
-  const linked = structures.filter((structure) => structure.atlas_links.allen_ccf);
+  const linked = structures.filter(
+    (structure) => structure.atlas_links.allen_ccf,
+  );
 
   return (
     <section className="container section">
       <p className="eyebrow">Atlas</p>
       <h1>{atlas.label}</h1>
-      <p className="lead">{atlas.n_structures} mouse ontology structures for cross-species anchoring.</p>
+      <p className="lead">
+        {atlas.n_structures} mouse ontology structures for cross-species
+        anchoring.
+      </p>
       <div className="grid">
         <article className="card">
           <h3>Source</h3>

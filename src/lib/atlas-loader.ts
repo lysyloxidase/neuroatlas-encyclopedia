@@ -1,4 +1,8 @@
-export type AtlasKey = "hcp_mmp1" | "julich_brain_v31" | "allen_ccf_v3" | "desikan_killiany";
+export type AtlasKey =
+  | "hcp_mmp1"
+  | "julich_brain_v31"
+  | "allen_ccf_v3"
+  | "desikan_killiany";
 
 export interface AtlasFile {
   key: AtlasKey;
@@ -58,7 +62,8 @@ export const CIFTI_FILES: Record<AtlasKey, AtlasFile> = {
     shortLabel: "DK",
     file: "aparc.DKTatlas.annot",
     publicPath: "/volumes/aparc.DKTatlas.annot",
-    citation: "Desikan 2006 NeuroImage 31:968 DOI:10.1016/j.neuroimage.2006.01.021",
+    citation:
+      "Desikan 2006 NeuroImage 31:968 DOI:10.1016/j.neuroimage.2006.01.021",
     license: "free",
     n_areas: 68,
     modality: "FreeSurfer annotation",

@@ -17,7 +17,9 @@ export function DisorderFilter({ disorders }: { disorders: Disorder[] }) {
       />
       <ul className="list">
         {disorders
-          .filter((disorder) => disorder.name.toLowerCase().includes(normalized))
+          .filter((disorder) =>
+            disorder.name.toLowerCase().includes(normalized),
+          )
           .map((disorder) => (
             <li className="card" key={disorder.slug}>
               {disorder.name}

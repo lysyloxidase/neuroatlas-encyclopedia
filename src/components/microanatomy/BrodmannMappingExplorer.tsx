@@ -9,14 +9,21 @@ export const BRODMANN_MAPPINGS = [
 ] as const;
 
 export function BrodmannMappingExplorer() {
-  const [selected, setSelected] = useState<(typeof BRODMANN_MAPPINGS)[number]>(BRODMANN_MAPPINGS[0]);
+  const [selected, setSelected] = useState<(typeof BRODMANN_MAPPINGS)[number]>(
+    BRODMANN_MAPPINGS[0],
+  );
 
   return (
     <section className="card" data-testid="brodmann-mapping-explorer">
       <h3>Brodmann Crosswalk</h3>
       <div className="filter-bar" aria-label="Brodmann areas">
         {BRODMANN_MAPPINGS.map((item) => (
-          <button className="filter-button" key={item.ba} onClick={() => setSelected(item)} type="button">
+          <button
+            className="filter-button"
+            key={item.ba}
+            onClick={() => setSelected(item)}
+            type="button"
+          >
             {item.ba}
           </button>
         ))}

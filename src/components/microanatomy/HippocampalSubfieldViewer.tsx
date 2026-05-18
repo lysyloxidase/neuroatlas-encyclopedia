@@ -1,7 +1,18 @@
 "use client";
 
 export const HIPPOCAMPAL_SUBFIELDS = [
-  "DG-GCL", "DG molecular layer", "DG hilus/CA4", "CA3", "CA2", "CA1", "Subiculum", "Presubiculum", "Parasubiculum", "MEC", "LEC", "Braak I/II EC tau zone",
+  "DG-GCL",
+  "DG molecular layer",
+  "DG hilus/CA4",
+  "CA3",
+  "CA2",
+  "CA1",
+  "Subiculum",
+  "Presubiculum",
+  "Parasubiculum",
+  "MEC",
+  "LEC",
+  "Braak I/II EC tau zone",
 ] as const;
 
 export function HippocampalSubfieldViewer() {

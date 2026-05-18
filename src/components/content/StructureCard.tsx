@@ -34,7 +34,9 @@ export function StructureCard({ structure }: { structure: Structure }) {
             ) : null}
           </div>
           <p className="muted">{structure.macroanatomy.category}</p>
-          {structure.macroanatomy.boundaries ? <p>{structure.macroanatomy.boundaries}</p> : null}
+          {structure.macroanatomy.boundaries ? (
+            <p>{structure.macroanatomy.boundaries}</p>
+          ) : null}
           {structure.macroanatomy.subdivisions ? (
             <ul className="pill-list">
               {structure.macroanatomy.subdivisions.map((subdivision) => (
@@ -42,7 +44,9 @@ export function StructureCard({ structure }: { structure: Structure }) {
               ))}
             </ul>
           ) : null}
-          {structure.macroanatomy.note ? <p className="muted">{structure.macroanatomy.note}</p> : null}
+          {structure.macroanatomy.note ? (
+            <p className="muted">{structure.macroanatomy.note}</p>
+          ) : null}
         </section>
       ) : null}
 
@@ -50,15 +54,19 @@ export function StructureCard({ structure }: { structure: Structure }) {
         <section className="card" id="microanatomy">
           <h3>Microanatomy</h3>
           <p className="muted">{structure.microanatomy.category}</p>
-          {structure.microanatomy.laminar_profile ? <p>{structure.microanatomy.laminar_profile}</p> : null}
+          {structure.microanatomy.laminar_profile ? (
+            <p>{structure.microanatomy.laminar_profile}</p>
+          ) : null}
           {structure.microanatomy.hcp_correspondence ? (
             <p>
-              <strong>HCP-MMP1:</strong> {structure.microanatomy.hcp_correspondence.join(", ")}
+              <strong>HCP-MMP1:</strong>{" "}
+              {structure.microanatomy.hcp_correspondence.join(", ")}
             </p>
           ) : null}
           {structure.microanatomy.julich_correspondence ? (
             <p>
-              <strong>Julich-Brain:</strong> {structure.microanatomy.julich_correspondence.join(", ")}
+              <strong>Julich-Brain:</strong>{" "}
+              {structure.microanatomy.julich_correspondence.join(", ")}
             </p>
           ) : null}
           {structure.microanatomy.compartments ? (
@@ -68,7 +76,9 @@ export function StructureCard({ structure }: { structure: Structure }) {
               ))}
             </ul>
           ) : null}
-          {structure.microanatomy.phase3_tags?.includes("NEW") ? <span className="new-badge">NEW</span> : null}
+          {structure.microanatomy.phase3_tags?.includes("NEW") ? (
+            <span className="new-badge">NEW</span>
+          ) : null}
         </section>
       ) : null}
 
@@ -82,8 +92,13 @@ export function StructureCard({ structure }: { structure: Structure }) {
           {structure.functions.map((claim) => (
             <li key={claim.claim}>
               <div className="button-row">
-                {claim.claim.startsWith("NEW:") ? <span className="new-badge">NEW</span> : null}
-                <TierBadge tier={claim.tier} justification={claim.tier_justification} />
+                {claim.claim.startsWith("NEW:") ? (
+                  <span className="new-badge">NEW</span>
+                ) : null}
+                <TierBadge
+                  tier={claim.tier}
+                  justification={claim.tier_justification}
+                />
                 <strong>{claim.claim}</strong>
               </div>
               <p className="muted">{claim.tier_justification}</p>
@@ -95,10 +110,12 @@ export function StructureCard({ structure }: { structure: Structure }) {
       <section className="card" id="neurotransmitters">
         <h3>Neurotransmitters</h3>
         <p>
-          <strong>Intrinsic:</strong> {structure.neurotransmitters.intrinsic.join(", ")}
+          <strong>Intrinsic:</strong>{" "}
+          {structure.neurotransmitters.intrinsic.join(", ")}
         </p>
         <p>
-          <strong>Modulatory:</strong> {structure.neurotransmitters.modulatory.join(", ")}
+          <strong>Modulatory:</strong>{" "}
+          {structure.neurotransmitters.modulatory.join(", ")}
         </p>
       </section>
 

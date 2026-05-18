@@ -36,7 +36,11 @@ export function generateStaticParams() {
   return networkList.map((network) => ({ slug: network.slug }));
 }
 
-export default async function NetworkPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function NetworkPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const network = networkList.find((item) => item.slug === slug);
   if (!network) notFound();
@@ -105,9 +109,18 @@ export default async function NetworkPage({ params }: { params: Promise<{ slug: 
         {network.lateralization ? (
           <article className="card">
             <h3>Language Lateralization</h3>
-            <p className="mono">{network.lateralization.rightHandersLeftPercent}% right-handers left hemisphere</p>
-            <p className="mono">{network.lateralization.leftHandersLeftPercent}% left-handers left hemisphere</p>
-            <p className="mono">{network.lateralization.bilateralPercent}% bilateral · {network.lateralization.rightHemispherePercent}% right-hemispheric</p>
+            <p className="mono">
+              {network.lateralization.rightHandersLeftPercent}% right-handers
+              left hemisphere
+            </p>
+            <p className="mono">
+              {network.lateralization.leftHandersLeftPercent}% left-handers left
+              hemisphere
+            </p>
+            <p className="mono">
+              {network.lateralization.bilateralPercent}% bilateral ·{" "}
+              {network.lateralization.rightHemispherePercent}% right-hemispheric
+            </p>
           </article>
         ) : null}
         {network.homunculus?.length ? (

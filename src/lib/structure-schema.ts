@@ -28,10 +28,14 @@ const functionalClaimSchema = z
     contradicting: z.array(citationSchema).optional(),
   })
   .superRefine((claim, context) => {
-    if (claim.tier !== Tier.ROBUST && (!claim.contradicting || claim.contradicting.length === 0)) {
+    if (
+      claim.tier !== Tier.ROBUST &&
+      (!claim.contradicting || claim.contradicting.length === 0)
+    ) {
       context.addIssue({
         code: "custom",
-        message: "Plausible and speculative claims require contradicting citations.",
+        message:
+          "Plausible and speculative claims require contradicting citations.",
         path: ["contradicting"],
       });
     }
@@ -83,7 +87,9 @@ export const structureSchema = z.object({
   }),
   location: z.object({
     mni_centroid_left: z.tuple([z.number(), z.number(), z.number()]).optional(),
-    mni_centroid_right: z.tuple([z.number(), z.number(), z.number()]).optional(),
+    mni_centroid_right: z
+      .tuple([z.number(), z.number(), z.number()])
+      .optional(),
     ccf_centroid: z.tuple([z.number(), z.number(), z.number()]).optional(),
     neighbors: z.array(z.string()),
     parent: z.string().nullable(),

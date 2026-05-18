@@ -16,7 +16,9 @@ interface LanguageNetwork {
   };
 }
 
-const language = (networks as unknown as Array<LanguageNetwork & { slug: string }>).find((network) => network.slug === "language")!;
+const language = (
+  networks as unknown as Array<LanguageNetwork & { slug: string }>
+).find((network) => network.slug === "language")!;
 
 export function LanguageDualStream() {
   return (
@@ -32,12 +34,16 @@ export function LanguageDualStream() {
         ))}
       </div>
       <p className="muted">
-        Arcuate fasciculus disruption in the dorsal stream is the classic tract-level scaffold for conduction aphasia.
+        Arcuate fasciculus disruption in the dorsal stream is the classic
+        tract-level scaffold for conduction aphasia.
       </p>
       <p className="mono">
-        Language lateralization: {language.lateralization.rightHandersLeftPercent}% right-handers left hemisphere;
-        {" "}{language.lateralization.leftHandersLeftPercent}% left-handers left hemisphere;
-        {" "}{language.lateralization.bilateralPercent}% bilateral; {language.lateralization.rightHemispherePercent}% right-hemispheric.
+        Language lateralization:{" "}
+        {language.lateralization.rightHandersLeftPercent}% right-handers left
+        hemisphere; {language.lateralization.leftHandersLeftPercent}%
+        left-handers left hemisphere; {language.lateralization.bilateralPercent}
+        % bilateral; {language.lateralization.rightHemispherePercent}%
+        right-hemispheric.
       </p>
     </section>
   );

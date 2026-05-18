@@ -23,7 +23,11 @@ export function generateStaticParams() {
   return neuromodulators.map((system) => ({ slug: system.slug }));
 }
 
-export default async function NeuromodulatorPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function NeuromodulatorPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const system = neuromodulators.find((item) => item.slug === slug);
   if (!system) notFound();

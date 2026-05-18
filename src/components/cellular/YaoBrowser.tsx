@@ -25,8 +25,10 @@ export function YaoBrowser() {
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
     return clusters.filter((cluster) => {
-      const superclassMatch = superclass === "all" || cluster.superclass === superclass;
-      const text = `${cluster.cluster_id} ${cluster.region} ${cluster.marker_genes.join(" ")} ${cluster.class_id}`.toLowerCase();
+      const superclassMatch =
+        superclass === "all" || cluster.superclass === superclass;
+      const text =
+        `${cluster.cluster_id} ${cluster.region} ${cluster.marker_genes.join(" ")} ${cluster.class_id}`.toLowerCase();
       return superclassMatch && (!needle || text.includes(needle));
     });
   }, [query, superclass]);
@@ -35,19 +37,30 @@ export function YaoBrowser() {
     <section className="card" data-testid="yao-browser">
       <h3>Yao 2023 Mouse Whole-Brain Taxonomy</h3>
       <p className="muted">
-        {clusters.length.toLocaleString()} clusters registered to Allen CCFv3, spanning 34 classes, 338 subclasses,
-        and 1,201 supertypes.
+        {clusters.length.toLocaleString()} clusters registered to Allen CCFv3,
+        spanning 34 classes, 338 subclasses, and 1,201 supertypes.
       </p>
       <div className="filter-bar" aria-label="Yao filters">
-        <input aria-label="Yao cluster search" placeholder="Search cluster, region, or marker" value={query} onChange={(event) => setQuery(event.target.value)} />
-        <select aria-label="Yao superclass" value={superclass} onChange={(event) => setSuperclass(event.target.value)}>
+        <input
+          aria-label="Yao cluster search"
+          placeholder="Search cluster, region, or marker"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+        />
+        <select
+          aria-label="Yao superclass"
+          value={superclass}
+          onChange={(event) => setSuperclass(event.target.value)}
+        >
           <option value="all">All superclasses</option>
           <option value="excitatory">Excitatory</option>
           <option value="inhibitory">Inhibitory</option>
           <option value="non-neuronal">Non-neuronal</option>
         </select>
       </div>
-      <p className="mono">{filtered.length.toLocaleString()} matching mouse clusters</p>
+      <p className="mono">
+        {filtered.length.toLocaleString()} matching mouse clusters
+      </p>
       <table className="meta-table">
         <thead>
           <tr>

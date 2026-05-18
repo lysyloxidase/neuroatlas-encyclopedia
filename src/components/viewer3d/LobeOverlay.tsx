@@ -15,7 +15,11 @@ export function LobeOverlay({ visible = false }: { visible?: boolean }) {
   return (
     <group userData={{ layer: "lobes" }}>
       {lobes.map((lobe) => (
-        <mesh key={lobe.name} position={lobe.position} scale={[0.75, 0.25, 0.42]}>
+        <mesh
+          key={lobe.name}
+          position={lobe.position}
+          scale={[0.75, 0.25, 0.42]}
+        >
           <sphereGeometry args={[1, 24, 12]} />
           <meshBasicMaterial color={lobe.color} transparent opacity={0.34} />
         </mesh>

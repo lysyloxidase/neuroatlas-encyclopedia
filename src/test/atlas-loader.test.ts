@@ -1,4 +1,9 @@
-import { assertFourAtlasBackbone, createAtlasRenderLayer, listAtlases, type AtlasKey } from "@/lib/atlas-loader";
+import {
+  assertFourAtlasBackbone,
+  createAtlasRenderLayer,
+  listAtlases,
+  type AtlasKey,
+} from "@/lib/atlas-loader";
 
 describe("atlas loader", () => {
   it("defines exactly four atlas backbones with renderable layers", () => {

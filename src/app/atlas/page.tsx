@@ -13,7 +13,10 @@ export default function AtlasOverviewPage() {
     <section className="container section">
       <p className="eyebrow">Backbone</p>
       <h1>Four-atlas overview</h1>
-      <p className="lead">HCP-MMP1, Julich-Brain v3.1, Allen CCFv3, and Desikan-Killiany form the Phase 1 reference spine.</p>
+      <p className="lead">
+        HCP-MMP1, Julich-Brain v3.1, Allen CCFv3, and Desikan-Killiany form the
+        Phase 1 reference spine.
+      </p>
       <div className="grid" style={{ marginTop: "1rem" }}>
         {listAtlases().map((atlas) => (
           <Link className="card" href={atlasLinks[atlas.key]} key={atlas.key}>

@@ -10,7 +10,9 @@ interface CitationProps {
 }
 
 export function Citation({ citation }: CitationProps) {
-  const [verification, setVerification] = useState<DoiVerification | null>(null);
+  const [verification, setVerification] = useState<DoiVerification | null>(
+    null,
+  );
   const [loading, setLoading] = useState(false);
 
   async function handleVerify() {
@@ -36,7 +38,13 @@ export function Citation({ citation }: CitationProps) {
       <span className="doi">{citation.doi}</span>
       <ExternalLink aria-hidden="true" size={14} />
       <span className="citation-status" aria-live="polite">
-        {loading ? "checking CrossRef" : verification?.valid ? "verified" : verification ? "unverified" : citation.year}
+        {loading
+          ? "checking CrossRef"
+          : verification?.valid
+            ? "verified"
+            : verification
+              ? "unverified"
+              : citation.year}
       </span>
     </a>
   );

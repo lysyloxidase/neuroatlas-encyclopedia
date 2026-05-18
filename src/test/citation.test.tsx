@@ -28,10 +28,15 @@ describe("Citation", () => {
 
     fireEvent.mouseEnter(screen.getByRole("link"));
 
-    await waitFor(() => expect(screen.getByText("verified")).toBeInTheDocument());
-    expect(fetchMock).toHaveBeenCalledWith("https://api.crossref.org/works/10.1038%2Fnature18933", {
-      headers: { Accept: "application/json" },
-    });
+    await waitFor(() =>
+      expect(screen.getByText("verified")).toBeInTheDocument(),
+    );
+    expect(fetchMock).toHaveBeenCalledWith(
+      "https://api.crossref.org/works/10.1038%2Fnature18933",
+      {
+        headers: { Accept: "application/json" },
+      },
+    );
 
     vi.unstubAllGlobals();
   });

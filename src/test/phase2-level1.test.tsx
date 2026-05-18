@@ -19,13 +19,19 @@ function walkYaml(dir: string): string[] {
 }
 
 const files = walkYaml(LEVEL1_ROOT);
-const parsedStructures = files.map((file) => structureSchema.parse(parse(readFileSync(file, "utf8"))));
+const parsedStructures = files.map((file) =>
+  structureSchema.parse(parse(readFileSync(file, "utf8"))),
+);
 
 describe("Phase 2 Level 1 macroanatomy corpus", () => {
   it("validates at least 80 Level 1 YAML entries", () => {
     expect(parsedStructures.length).toBeGreaterThanOrEqual(80);
-    expect(parsedStructures.every((structure) => structure.level === 1)).toBe(true);
-    expect(structures.filter((structure) => structure.level === 1)).toHaveLength(parsedStructures.length);
+    expect(parsedStructures.every((structure) => structure.level === 1)).toBe(
+      true,
+    );
+    expect(
+      structures.filter((structure) => structure.level === 1),
+    ).toHaveLength(parsedStructures.length);
   });
 
   it("gives each entry at least three DOI-backed primary citations and tier-classified functions", () => {
@@ -36,38 +42,74 @@ describe("Phase 2 Level 1 macroanatomy corpus", () => {
       }
       expect(structure.functions.length).toBeGreaterThan(0);
       for (const functionalClaim of structure.functions) {
-        expect([Tier.ROBUST, Tier.PLAUSIBLE, Tier.SPECULATIVE]).toContain(functionalClaim.tier);
+        expect([Tier.ROBUST, Tier.PLAUSIBLE, Tier.SPECULATIVE]).toContain(
+          functionalClaim.tier,
+        );
       }
     }
   });
 
   it("includes the six lobes with colored toggle metadata and a plausible limbic system view", () => {
-    const lobes = parsedStructures.filter((structure) => structure.macroanatomy?.category === "lobe");
+    const lobes = parsedStructures.filter(
+      (structure) => structure.macroanatomy?.category === "lobe",
+    );
     expect(lobes).toHaveLength(6);
     expect(lobes.every((lobe) => lobe.macroanatomy?.color)).toBe(true);
 
     const limbic = lobes.find((lobe) => lobe.structure_id === "L1_LOBE_LIMBIC");
     expect(limbic?.macroanatomy?.system_view_tier).toBe(Tier.PLAUSIBLE);
-    expect(limbic?.functions[0]?.contradicting?.[0]?.doi).toBe("10.1016/j.neuron.2012.02.004");
+    expect(limbic?.functions[0]?.contradicting?.[0]?.doi).toBe(
+      "10.1016/j.neuron.2012.02.004",
+    );
   });
 
   it("shows Lazaridis 2024 GPe czGPe/pzGPe subdivision with a NEW claim", () => {
-    const gpe = parsedStructures.find((structure) => structure.structure_id === "L1_BG_GPE");
-    expect(gpe?.macroanatomy?.subdivisions).toEqual(["central zone czGPe", "peripheral zone pzGPe"]);
+    const gpe = parsedStructures.find(
+      (structure) => structure.structure_id === "L1_BG_GPE",
+    );
+    expect(gpe?.macroanatomy?.subdivisions).toEqual([
+      "central zone czGPe",
+      "peripheral zone pzGPe",
+    ]);
     expect(gpe?.macroanatomy?.phase2_tags).toContain("NEW");
-    expect(gpe?.functions.some((functionalClaim) => functionalClaim.claim.startsWith("NEW:"))).toBe(true);
+    expect(
+      gpe?.functions.some((functionalClaim) =>
+        functionalClaim.claim.startsWith("NEW:"),
+      ),
+    ).toBe(true);
   });
 
   it("prominently includes Schmahmann CCAS in cerebellar data", () => {
-    const posteriorLobe = parsedStructures.find((structure) => structure.structure_id === "L1_CEREBELLUM_POSTERIOR_LOBE");
-    expect(posteriorLobe?.functions.map((functionalClaim) => functionalClaim.claim).join(" ")).toMatch(/Schmahmann Syndrome/);
-    expect(posteriorLobe?.disorders[0]?.disorder).toBe("Cerebellar Cognitive Affective/Schmahmann Syndrome");
+    const posteriorLobe = parsedStructures.find(
+      (structure) => structure.structure_id === "L1_CEREBELLUM_POSTERIOR_LOBE",
+    );
+    expect(
+      posteriorLobe?.functions
+        .map((functionalClaim) => functionalClaim.claim)
+        .join(" "),
+    ).toMatch(/Schmahmann Syndrome/);
+    expect(posteriorLobe?.disorders[0]?.disorder).toBe(
+      "Cerebellar Cognitive Affective/Schmahmann Syndrome",
+    );
   });
 
   it("includes 14 ventricular entries and white matter macrostructures", () => {
-    expect(parsedStructures.filter((structure) => structure.macroanatomy?.category === "ventricle")).toHaveLength(14);
-    expect(parsedStructures.some((structure) => structure.names.english === "Corpus callosum splenium")).toBe(true);
-    expect(parsedStructures.some((structure) => structure.names.english === "Internal capsule posterior limb")).toBe(true);
+    expect(
+      parsedStructures.filter(
+        (structure) => structure.macroanatomy?.category === "ventricle",
+      ),
+    ).toHaveLength(14);
+    expect(
+      parsedStructures.some(
+        (structure) => structure.names.english === "Corpus callosum splenium",
+      ),
+    ).toBe(true);
+    expect(
+      parsedStructures.some(
+        (structure) =>
+          structure.names.english === "Internal capsule posterior limb",
+      ),
+    ).toBe(true);
   });
 });
 
@@ -76,7 +118,9 @@ describe("Phase 2 viewer affordances", () => {
     const onSelect = vi.fn();
     render(<GyrusHoverControls selectedGyrus={null} onSelect={onSelect} />);
 
-    fireEvent.mouseEnter(screen.getByRole("button", { name: "Precentral gyrus" }));
+    fireEvent.mouseEnter(
+      screen.getByRole("button", { name: "Precentral gyrus" }),
+    );
     expect(onSelect).toHaveBeenCalledWith("Precentral gyrus");
   });
 
@@ -90,7 +134,14 @@ describe("Phase 2 viewer affordances", () => {
       onToggleCyto: vi.fn(),
     };
 
-    render(<ViewerControls showCortex showLobes={false} showVentricles {...handlers} />);
+    render(
+      <ViewerControls
+        showCortex
+        showLobes={false}
+        showVentricles
+        {...handlers}
+      />,
+    );
 
     fireEvent.click(screen.getByRole("button", { name: "Peel BG" }));
     fireEvent.click(screen.getByRole("button", { name: "Lobes" }));

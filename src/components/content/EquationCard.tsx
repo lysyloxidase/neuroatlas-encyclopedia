@@ -4,7 +4,11 @@ interface EquationCardProps {
   description: string;
 }
 
-export function EquationCard({ title, equation, description }: EquationCardProps) {
+export function EquationCard({
+  title,
+  equation,
+  description,
+}: EquationCardProps) {
   return (
     <section className="card">
       <h3>{title}</h3>

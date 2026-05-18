@@ -17,7 +17,13 @@ export function PathwaySpreadAnimation({ type }: PathwaySpreadAnimationProps) {
 
   return (
     <section className="card" data-testid={`pathway-spread-${type}`}>
-      <h3>{type === "pd_lewy" ? "Lewy Body Braak PD Stages" : type === "ad_tau" ? "Tau Braak Staging" : "Pathway Spread"}</h3>
+      <h3>
+        {type === "pd_lewy"
+          ? "Lewy Body Braak PD Stages"
+          : type === "ad_tau"
+            ? "Tau Braak Staging"
+            : "Pathway Spread"}
+      </h3>
       <input
         aria-label={`${type} stage`}
         max={stages.length - 1}
@@ -26,10 +32,16 @@ export function PathwaySpreadAnimation({ type }: PathwaySpreadAnimationProps) {
         type="range"
         value={index}
       />
-      <p className="mono">Stage {label}: {description}</p>
+      <p className="mono">
+        Stage {label}: {description}
+      </p>
       <div className="grid">
         {regions.map((region) => (
-          <article className="micro-tile" data-testid="spread-region" key={region}>
+          <article
+            className="micro-tile"
+            data-testid="spread-region"
+            key={region}
+          >
             {region}
           </article>
         ))}

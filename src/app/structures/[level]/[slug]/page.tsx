@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { AudienceTabs } from "@/components/content/AudienceTabs";
 import { StructureCard } from "@/components/content/StructureCard";
 import { TOC } from "@/components/layout/TOC";
 import { findStructure, getStructureRoutes } from "@/lib/structures";
@@ -7,7 +8,11 @@ export function generateStaticParams() {
   return getStructureRoutes().map(({ level, slug }) => ({ level, slug }));
 }
 
-export default async function StructurePage({ params }: { params: Promise<{ level: string; slug: string }> }) {
+export default async function StructurePage({
+  params,
+}: {
+  params: Promise<{ level: string; slug: string }>;
+}) {
   const { level, slug } = await params;
   const structure = findStructure(level, slug);
 
@@ -17,7 +22,10 @@ export default async function StructurePage({ params }: { params: Promise<{ leve
 
   return (
     <section className="container section split">
-      <StructureCard structure={structure} />
+      <div style={{ display: "grid", gap: "1rem" }}>
+        <AudienceTabs context="structure" />
+        <StructureCard structure={structure} />
+      </div>
       <TOC
         items={[
           { href: "#macroanatomy", label: "Macroanatomy" },

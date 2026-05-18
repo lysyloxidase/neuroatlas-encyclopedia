@@ -8,7 +8,9 @@ interface TractSegEntry {
   render_top20: boolean;
 }
 
-const topTracts = (tracts as TractSegEntry[]).filter((tract) => tract.render_top20);
+const topTracts = (tracts as TractSegEntry[]).filter(
+  (tract) => tract.render_top20,
+);
 const groupColors: Record<string, string> = {
   association: "#06b6d4",
   commissural: "#8b5cf6",
@@ -27,12 +29,20 @@ export function TractographyLayer({ visible = true }: { visible?: boolean }) {
         return (
           <mesh
             key={tract.slug}
-            position={[(column - 2) * 0.22, -0.38 + row * 0.12, 0.56 - row * 0.08]}
+            position={[
+              (column - 2) * 0.22,
+              -0.38 + row * 0.12,
+              0.56 - row * 0.08,
+            ]}
             rotation={[0.1 * row, 0.3, 0.72 + column * 0.18]}
             scale={[0.6 + row * 0.08, 0.025, 0.025]}
           >
             <capsuleGeometry args={[1, 1.2, 8, 24]} />
-            <meshStandardMaterial color={groupColors[tract.group] ?? "#fb923c"} emissive="#7c2d12" emissiveIntensity={0.18} />
+            <meshStandardMaterial
+              color={groupColors[tract.group] ?? "#fb923c"}
+              emissive="#7c2d12"
+              emissiveIntensity={0.18}
+            />
           </mesh>
         );
       })}

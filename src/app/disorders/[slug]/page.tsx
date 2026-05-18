@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import disorders from "@/data/disorders.json";
+import { AudienceTabs } from "@/components/content/AudienceTabs";
 import { Citation } from "@/components/content/Citation";
 import { DisorderStructuralMap } from "@/components/disorders/DisorderStructuralMap";
 import { PathwaySpreadAnimation } from "@/components/disorders/PathwaySpreadAnimation";
@@ -24,7 +25,11 @@ export function generateStaticParams() {
   return disorderList.map((disorder) => ({ slug: disorder.slug }));
 }
 
-export default async function DisorderPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function DisorderPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const disorder = disorderList.find((item) => item.slug === slug);
   if (!disorder) notFound();
@@ -35,11 +40,18 @@ export default async function DisorderPage({ params }: { params: Promise<{ slug:
       <h1>{disorder.name}</h1>
       <TierBadge tier={disorder.tier} />
       <p className="lead">{disorder.summary}</p>
+      <AudienceTabs context="disorder" />
       <p className="mono">{disorder.enigma_overlay}</p>
       <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
-        <DisorderStructuralMap name={disorder.name} regions={disorder.structural_map_regions} mapType={disorder.map_type} />
+        <DisorderStructuralMap
+          name={disorder.name}
+          regions={disorder.structural_map_regions}
+          mapType={disorder.map_type}
+        />
         <ENIGMAOverlay disorder={disorder.slug} />
-        {disorder.braak_type ? <PathwaySpreadAnimation type={disorder.braak_type} /> : null}
+        {disorder.braak_type ? (
+          <PathwaySpreadAnimation type={disorder.braak_type} />
+        ) : null}
         <div className="grid">
           <article className="card">
             <h3>Biomarkers</h3>
@@ -52,7 +64,12 @@ export default async function DisorderPage({ params }: { params: Promise<{ slug:
           <article className="card">
             <h3>Treatments / Targets</h3>
             <ul className="list">
-              {[...disorder.treatments, ...disorder.dbs_targets.map((target) => `DBS target: ${target}`)].map((item) => (
+              {[
+                ...disorder.treatments,
+                ...disorder.dbs_targets.map(
+                  (target) => `DBS target: ${target}`,
+                ),
+              ].map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -79,7 +96,8 @@ export default async function DisorderPage({ params }: { params: Promise<{ slug:
         <DisorderToggle />
       </div>
       <p className="muted" style={{ marginTop: "1rem" }}>
-        Educational resource. NOT medical advice or diagnosis. Always consult licensed clinicians for individual cases.
+        Educational resource. NOT medical advice or diagnosis. Always consult
+        licensed clinicians for individual cases.
       </p>
     </section>
   );

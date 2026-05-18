@@ -5,7 +5,10 @@ export default function GradientPage() {
     <section className="container section">
       <p className="eyebrow">Margulies G1</p>
       <h1>Principal Gradient</h1>
-      <p className="lead">Sensorimotor to transmodal organization scaffolded at the structure level.</p>
+      <p className="lead">
+        Sensorimotor to transmodal organization scaffolded at the structure
+        level.
+      </p>
       <PrincipalGradientExplorer />
     </section>
   );
