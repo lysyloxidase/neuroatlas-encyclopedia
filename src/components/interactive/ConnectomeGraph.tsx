@@ -161,7 +161,7 @@ export function ConnectomeGraph() {
               type="button"
             >
               {m === "communities"
-                ? "Yeo networks"
+                ? "Yeo communities"
                 : m === "lobes"
                   ? "Lobes"
                   : "Hemispheres"}

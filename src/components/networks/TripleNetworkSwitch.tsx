@@ -37,6 +37,7 @@ export function TripleNetworkSwitch() {
       <div className="section-heading-row">
         <h3>Triple-Network Switch</h3>
         <button
+          aria-label="Toggle salience switch"
           aria-pressed={mode === "cen"}
           className="filter-button"
           onClick={() => setMode(other)}
@@ -254,6 +255,10 @@ export function TripleNetworkSwitch() {
           <p className="muted">{NETWORKS[other].state}</p>
         </div>
       </div>
+      <p className="mono triple-switch-target">
+        Current control target:{" "}
+        {mode === "dmn" ? "default mode network" : "central executive network"}
+      </p>
     </section>
   );
 }

@@ -94,8 +94,9 @@ export function ENIGMAOverlay({
         </select>
       </div>
       <p className="muted">
-        Blue = cortical thinning / atrophy · red = relative enlargement.
-        Saturation scales with |Cohen&apos;s d|, radius scales with effect size.
+        Blue encodes thinning/atrophy · red encodes hypertrophy or relative
+        enlargement. Saturation scales with |Cohen&apos;s d|, radius scales with
+        effect size.
       </p>
 
       <div className="enigma-stage">
