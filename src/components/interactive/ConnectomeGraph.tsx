@@ -152,21 +152,34 @@ export function ConnectomeGraph() {
       <div className="section-heading-row">
         <h3>HCP 360-Node Structural Connectome</h3>
         <div className="filter-bar">
-          {(["communities", "lobes", "hemispheres"] as ColorMode[]).map((m) => (
-            <button
-              aria-pressed={mode === m}
-              className="filter-button"
-              key={m}
-              onClick={() => setMode(m)}
-              type="button"
-            >
-              {m === "communities"
-                ? "Yeo communities"
-                : m === "lobes"
-                  ? "Lobes"
-                  : "Hemispheres"}
-            </button>
-          ))}
+          <button
+            aria-pressed={mode === "communities"}
+            className="filter-button"
+            onClick={() =>
+              setMode((current) =>
+                current === "communities" ? "hemispheres" : "communities",
+              )
+            }
+            type="button"
+          >
+            Yeo communities
+          </button>
+          <button
+            aria-pressed={mode === "lobes"}
+            className="filter-button"
+            onClick={() => setMode("lobes")}
+            type="button"
+          >
+            Lobes
+          </button>
+          <button
+            aria-pressed={mode === "hemispheres"}
+            className="filter-button"
+            onClick={() => setMode("hemispheres")}
+            type="button"
+          >
+            Hemispheres
+          </button>
         </div>
       </div>
 
